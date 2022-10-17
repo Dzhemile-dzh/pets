@@ -1,0 +1,33 @@
+{
+  "data": {
+    "going_changes": {
+      "11": {
+        "course_uid": 11,
+        "course_name": "Cheltenham",
+        "course_region": "GB & IRE",
+        "country_code": "GB",
+        "meeting_going_desc": null,
+        "weather_conditions": "Rain",
+        "races": {
+          "740997": {
+            "race_instance_uid": 740997,
+            "race_datetime": "2019-10-25T15:45:00+01:00",
+            "race_instance_title": "Matchbook Most Trusted Betting Exchange Novices' Chase",
+            "distance_yard": 5360,
+            "going_type_code": "G",
+            "going_type_desc": "Good",
+            "previous_goings": [
+              {
+                "race_going_history_uid": 68566,
+                "going_type_code": "G",
+                "going_type_desc": "Good",
+                "going_change_date_time": "2019-10-18T09:08:26+01:00"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "status": 200
+}

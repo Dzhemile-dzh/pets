@@ -1,0 +1,15 @@
+{
+    "data": {
+        "splash": {
+            "8": {
+                "owner_group_lookup_uid": 2,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 8,
+                "to_follow_uid": 19,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah2_6.png"
+            }
+        }
+    },
+    "status": 200
+}

@@ -1,0 +1,33 @@
+{
+  "data": {
+    "daily_stats": {
+      "12345": {
+        "date": "Mar 14 2020",
+        "course": "KENSINGTON",
+        "cntry": "AUS",
+        "m": 1,
+        "f": 9,
+        "y": 0,
+        "going": "G",
+        "horse_name": "BIRTH OF VENUS",
+        "age": 5,
+        "sex": "M",
+        "wght_lbs": 129,
+        "headgear": null,
+        "title": "Bowermans Office Furniture Handicap (3yo+) (Turf)",
+        "Code": "Flat Turf",
+        "Type": "Handicap",
+        "fin_pos": "2nd",
+        "EUROS": null,
+        "STERLING": 5608.47,
+        "time": 109.13,
+        "diff": null,
+        "jockey": "OISIN ORR",
+        "trainer": "CHRIS WALLER",
+        "RPR": 0,
+        "rp_close_up_comment": "some long ass comment"
+      }
+    }
+  },
+  "status": 200
+}

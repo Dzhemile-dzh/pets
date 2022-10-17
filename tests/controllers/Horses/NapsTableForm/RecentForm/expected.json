@@ -1,0 +1,55 @@
+{
+  "data": {
+    "naps_table_form": [
+      {
+        "horse_uid": 2701456,
+        "horse_style_name": "Ventura Flame",
+        "newspaper": "The Sun",
+        "tipster": "Templegate",
+        "level_stake": 41.883,
+        "recent_form": []
+      },
+      {
+        "horse_uid": 3406860,
+        "horse_style_name": "Marsden Cross",
+        "newspaper": "The Irish Field",
+        "tipster": "Rory Delargy",
+        "level_stake": 18,
+        "recent_form": []
+      },
+      {
+        "horse_uid": 2644676,
+        "horse_style_name": "Imperial Command",
+        "newspaper": "Sunday Telegraph",
+        "tipster": "Whistler",
+        "level_stake": 9.5,
+        "recent_form": []
+      },
+      {
+        "horse_uid": 2219563,
+        "horse_style_name": "Aplomb",
+        "newspaper": "The Scotsman",
+        "tipster": "Glendale",
+        "level_stake": 9.075,
+        "recent_form": []
+      },
+      {
+        "horse_uid": 2901151,
+        "horse_style_name": "Seventeen O Four",
+        "newspaper": "Daily Record",
+        "tipster": "Garry Owen",
+        "level_stake": 5.5,
+        "recent_form": []
+      },
+      {
+        "horse_uid": 2838228,
+        "horse_style_name": "Grey Fox",
+        "newspaper": "Racing TV",
+        "tipster": "The Score",
+        "level_stake": 4.833,
+        "recent_form": []
+      }
+    ]
+  },
+  "status": 200
+}

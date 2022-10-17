@@ -1,0 +1,63 @@
+{
+    "data": {
+        "progeny_results": [
+            {
+                "race_datetime": "2018-01-27T12:55:00+00:00",
+                "race_instance_uid": 691733,
+                "actual_race_class": "4",
+                "course_uid": 15,
+                "course_name": "Doncaster",
+                "horse_uid": 1273384,
+                "horse_name": "Sommervieu",
+                "country_code": "GB",
+                "prize_money": 4093.74,
+                "prize_money_euro": 4625.93,
+                "race_description": "4HcH",
+                "distance_furlong": 19.5,
+                "no_of_runners": 14,
+                "race_outcome_position": 13,
+                "race_outcome_code": "13",
+                "official_rating_ran_off": 120,
+                "rp_topspeed": null,
+                "rp_postmark": 18,
+                "going_type_code": "S",
+                "course_rp_abbrev_3": "DON",
+                "course_region": "GB & IRE"
+            },
+            {
+                "race_datetime": "2018-01-03T13:20:00+00:00",
+                "race_instance_uid": 690603,
+                "actual_race_class": "4",
+                "course_uid": 34,
+                "course_name": "Ludlow",
+                "horse_uid": 1273384,
+                "horse_name": "Sommervieu",
+                "country_code": "GB",
+                "prize_money": 4938.48,
+                "prize_money_euro": 5580.48,
+                "race_description": "44yH",
+                "distance_furlong": 16,
+                "no_of_runners": 6,
+                "race_outcome_position": 4,
+                "race_outcome_code": "4",
+                "official_rating_ran_off": 0,
+                "rp_topspeed": 16,
+                "rp_postmark": 92,
+                "going_type_code": "S",
+                "course_rp_abbrev_3": "LUD",
+                "course_region": "GB & IRE"
+            }
+        ],
+        "season_info": {
+            "season_year_begin": 2017,
+            "season_year_end": 2018,
+            "season_date_begin": "2017-04-30T00:00:00+01:00",
+            "season_date_end": "2018-04-29T23:59:00+01:00",
+            "race_type": "jumps",
+            "country_code": "GB",
+            "surface": null,
+            "month": 1
+        }
+    },
+    "status": 200
+}

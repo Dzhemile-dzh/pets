@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<root>
+    <data>
+        <rp_search max="250" search="jack%">
+            <category name="Horses" is_link="true" id="2" popup="true" width="695" height="800"
+                      urlBase="http://www.racingpost.com/horses/horse_home.sd?horse_id=[ID]" total_count="2"
+                      returned_count="2">
+                <item>
+                    <DETAIL>IRE</DETAIL>
+                    <START_DATE>1997</START_DATE>
+                    <ID>596419</ID>
+                    <MISC/>
+                    <NAME>Jack Be Quick</NAME>
+                    <STYLE_NAME>Jack Be Quick (IRE) - 1997</STYLE_NAME>
+                </item>
+                <item>
+                    <DETAIL>MEM</DETAIL>
+                    <START_DATE/>
+                    <ID>488490</ID>
+                    <MISC/>
+                    <NAME>Jack</NAME>
+                    <STYLE_NAME>Jack (MEM)</STYLE_NAME>
+                </item>
+            </category>
+        </rp_search>
+    </data>
+    <status>200</status>
+</root>

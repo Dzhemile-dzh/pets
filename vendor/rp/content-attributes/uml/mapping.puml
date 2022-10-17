@@ -1,0 +1,41 @@
+@startuml
+
+!include skinparam.iuml
+
+EMS -> ContentAttributes: \nPOST:\n  Event name\n  Object id\n  and etc
+activate EMS
+    database Storage
+    activate ContentAttributes
+        'group My own label
+        ContentAttributes -> Storage : Request:\n  Event name
+
+            activate Storage
+            ContentAttributes <-- Storage : \nResponse:\n pairs <<EVENT_NAME>> = <<CONTENTATTRIBUTES_METHOD>>&#32;&#32;
+            deactivate Storage
+
+            ContentAttributes -> ContentAttributes : \n\nBuild surrogate key(s) / group(s):\n execute scenario build in on pairs
+            activate ContentAttributes
+            deactivate ContentAttributes
+        'end
+        EMS <-- ContentAttributes : \nResponse:\n  List of surrogate key(s) / group(s)
+    deactivate ContentAttributes
+deactivate EMS
+
+box "ContentAttributes API" #LightBlue
+participant ContentAttributes
+database Storage
+end box
+
+note left Storage #FFFFFF
+Example of Storage information
+|= Event name |= ContentAttributes method |
+| Horse | addHorse(%s) |
+| Jockey | addHorse(%s) |
+| EventA | addHorseGroup() |
+| EventA | addHorse(%s) |
+| EventA | addJokey(%s) |
+end note
+
+hide footbox
+
+@enduml

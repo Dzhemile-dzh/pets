@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<root>
+    <data>
+        <actionType>result</actionType>
+        <dates>
+            <date available="1">2018-12-03</date>
+            <date available="1">2018-12-02</date>
+            <date available="">2018-12-01</date>
+            <date available="">2018-11-30</date>
+            <date available="1">2018-11-29</date>
+            <date available="1">2018-11-28</date>
+        </dates>
+    </data>
+    <status>200</status>
+</root>

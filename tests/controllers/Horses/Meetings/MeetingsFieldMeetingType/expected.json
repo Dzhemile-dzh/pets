@@ -1,0 +1,268 @@
+{
+    "data": {
+        "meetings": [
+            {
+                "meetingId": null,
+                "rpMeetingOrder": 1,
+                "venueName": "Ascot",
+                "diffusionVenueName": "ASCOT",
+                "courseKey" : "ascot",
+                "venueCountryCode": "GB",
+                "venueUid": 2,
+                "mixedVenueUid": null,
+                "meetingStartDateTime": {
+                    "utc": "2021-03-28T13:00:00+01:00",
+                    "local": "2021-03-28T13:00:00+01:00"
+                },
+                "numberOfRaces": 2,
+                "meetingType": "jumps",
+                "numberNonRunners": 0,
+                "races": [
+                    {
+                        "currentRaceStatus": "calendar",
+                        "raceId": "778611",
+                        "fastRaceId": null,
+                        "raceTitle": "Iron Stand Conditional Jockeys' Handicap Hurdle",
+                        "raceType": "Hurdle",
+                        "isHandicap": true,
+                        "going": null,
+                        "surfaceType": null,
+                        "category": [
+                            "Handicap"
+                        ],
+                        "raceClass": 3,
+                        "ageRestriction": "4yo+",
+                        "numberOfRunners": null,
+                        "ratingBand": "0-140",
+                        "startScheduledDatetime": {
+                            "utc": "2021-03-28T13:00:00+01:00",
+                            "local": "2021-03-28T13:00:00+01:00"
+                        },
+                        "distance": {
+                            "miles": null,
+                            "yards": 4761,
+                            "meters": null,
+                            "furlongs": null
+                        },
+                        "bettingReturns": null,
+                        "replayDetails": null,
+                        "tvDetails": [
+                            "SKY"
+                        ],
+                        "performRaceUidATR": null,
+                        "performRaceUidRUK": null
+                    },
+                    {
+                        "currentRaceStatus": "calendar",
+                        "raceId": "778612",
+                        "fastRaceId": null,
+                        "raceTitle": "Ascot Maiden Hurdle (Gbb Race)",
+                        "raceType": "Hurdle",
+                        "isHandicap": false,
+                        "going": null,
+                        "surfaceType": null,
+                        "category": [],
+                        "raceClass": 4,
+                        "ageRestriction": "4yo+",
+                        "numberOfRunners": null,
+                        "ratingBand": null,
+                        "startScheduledDatetime": {
+                            "utc": "2021-03-28T13:35:00+01:00",
+                            "local": "2021-03-28T13:35:00+01:00"
+                        },
+                        "distance": {
+                            "miles": null,
+                            "yards": 4238,
+                            "meters": null,
+                            "furlongs": null
+                        },
+                        "bettingReturns": null,
+                        "replayDetails": null,
+                        "tvDetails": [
+                            "SKY"
+                        ],
+                        "performRaceUidATR": null,
+                        "performRaceUidRUK": null
+                    }
+                ],
+                "weather": null,
+                "going": "Good"
+            },
+            {
+                "meetingId": null,
+                "rpMeetingOrder": 2,
+                "venueName": "Ascot",
+                "diffusionVenueName": "ASCOT",
+                "courseKey" : "ascot",
+                "venueCountryCode": "GB",
+                "venueUid": 3,
+                "mixedVenueUid": null,
+                "meetingStartDateTime": {
+                    "utc": "2021-03-28T13:00:00+01:00",
+                    "local": "2021-03-28T13:00:00+01:00"
+                },
+                "numberOfRaces": 2,
+                "meetingType": "flat",
+                "numberNonRunners": 0,
+                "races": [
+                    {
+                        "currentRaceStatus": "calendar",
+                        "raceId": "778612",
+                        "fastRaceId": null,
+                        "raceTitle": "Iron Stand Conditional Jockeys' Handicap Hurdle",
+                        "raceType": "Flat",
+                        "isHandicap": true,
+                        "going": null,
+                        "surfaceType": null,
+                        "category": [
+                            "Handicap"
+                        ],
+                        "raceClass": 3,
+                        "ageRestriction": "4yo+",
+                        "numberOfRunners": null,
+                        "ratingBand": "0-140",
+                        "startScheduledDatetime": {
+                            "utc": "2021-03-28T13:00:00+01:00",
+                            "local": "2021-03-28T13:00:00+01:00"
+                        },
+                        "distance": {
+                            "miles": null,
+                            "yards": 4761,
+                            "meters": null,
+                            "furlongs": null
+                        },
+                        "bettingReturns": null,
+                        "replayDetails": null,
+                        "tvDetails": [
+                            "SKY"
+                        ],
+                        "performRaceUidATR": null,
+                        "performRaceUidRUK": null
+                    },
+                    {
+                        "currentRaceStatus": "calendar",
+                        "raceId": "778613",
+                        "fastRaceId": null,
+                        "raceTitle": "Ascot Maiden Hurdle (Gbb Race)",
+                        "raceType": "Flat",
+                        "isHandicap": false,
+                        "going": null,
+                        "surfaceType": null,
+                        "category": [],
+                        "raceClass": 4,
+                        "ageRestriction": "4yo+",
+                        "numberOfRunners": null,
+                        "ratingBand": null,
+                        "startScheduledDatetime": {
+                            "utc": "2021-03-28T13:35:00+01:00",
+                            "local": "2021-03-28T13:35:00+01:00"
+                        },
+                        "distance": {
+                            "miles": null,
+                            "yards": 4238,
+                            "meters": null,
+                            "furlongs": null
+                        },
+                        "bettingReturns": null,
+                        "replayDetails": null,
+                        "tvDetails": [
+                            "SKY"
+                        ],
+                        "performRaceUidATR": null,
+                        "performRaceUidRUK": null
+                    }
+                ],
+                "weather": null,
+                "going": "Good"
+            },
+            {
+                "meetingId": null,
+                "rpMeetingOrder": 3,
+                "venueName": "Ascot",
+                "diffusionVenueName": "ASCOT",
+                "courseKey": "ascot",
+                "venueCountryCode": "GB",
+                "venueUid": 4,
+                "mixedVenueUid": null,
+                "meetingStartDateTime": {
+                    "utc": "2021-03-28T13:00:00+01:00",
+                    "local": "2021-03-28T13:00:00+01:00"
+                },
+                "numberOfRaces": 2,
+                "meetingType": "mixed",
+                "numberNonRunners": 0,
+                "races": [
+                    {
+                        "currentRaceStatus": "calendar",
+                        "raceId": "778614",
+                        "fastRaceId": null,
+                        "raceTitle": "Iron Stand Conditional Jockeys' Handicap Hurdle",
+                        "raceType": "Flat",
+                        "isHandicap": true,
+                        "going": null,
+                        "surfaceType": null,
+                        "category": [
+                            "Handicap"
+                        ],
+                        "raceClass": 3,
+                        "ageRestriction": "4yo+",
+                        "numberOfRunners": null,
+                        "ratingBand": "0-140",
+                        "startScheduledDatetime": {
+                            "utc": "2021-03-28T13:00:00+01:00",
+                            "local": "2021-03-28T13:00:00+01:00"
+                        },
+                        "distance": {
+                            "miles": null,
+                            "yards": 4761,
+                            "meters": null,
+                            "furlongs": null
+                        },
+                        "bettingReturns": null,
+                        "replayDetails": null,
+                        "tvDetails": [
+                            "SKY"
+                        ],
+                        "performRaceUidATR": null,
+                        "performRaceUidRUK": null
+                    },
+                    {
+                        "currentRaceStatus": "calendar",
+                        "raceId": "778615",
+                        "fastRaceId": null,
+                        "raceTitle": "Ascot Maiden Hurdle (Gbb Race)",
+                        "raceType": "Hurdle",
+                        "isHandicap": false,
+                        "going": null,
+                        "surfaceType": null,
+                        "category": [],
+                        "raceClass": 4,
+                        "ageRestriction": "4yo+",
+                        "numberOfRunners": null,
+                        "ratingBand": null,
+                        "startScheduledDatetime": {
+                            "utc": "2021-03-28T13:35:00+01:00",
+                            "local": "2021-03-28T13:35:00+01:00"
+                        },
+                        "distance": {
+                            "miles": null,
+                            "yards": 4238,
+                            "meters": null,
+                            "furlongs": null
+                        },
+                        "bettingReturns": null,
+                        "replayDetails": null,
+                        "tvDetails": [
+                            "SKY"
+                        ],
+                        "performRaceUidATR": null,
+                        "performRaceUidRUK": null
+                    }
+                ],
+                "weather": null,
+                "going": "Good"
+            }
+        ]
+    },
+    "status": 200
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<root>
+    <data>
+        <id>703330</id>
+        <diffusion_name>ASCOT</diffusion_name>
+        <title>Coventry Stakes (Group 2)</title>
+        <type>Turf</type>
+        <class>1</class>
+        <agesAllowed>2yo</agesAllowed>
+        <going>Good To Firm</going>
+        <group>Group 2</group>
+        <tvText>ITV</tvText>
+        <distance>6f</distance>
+        <distanceRounded>6f</distanceRounded>
+        <distanceRoundedFurlong>6f</distanceRoundedFurlong>
+        <bookmaker>William Hill</bookmaker>
+        <adsChangeDelay>10</adsChangeDelay>
+        <bettingLink>1</bettingLink>
+        <raceDescription>Class 1 Group 2</raceDescription>
+        <prizePos1>
+            <prizeGbp>85065.00</prizeGbp>
+            <prizeEur/>
+        </prizePos1>
+        <runner id="1969796">
+            <number>1</number>
+            <draw>1</draw>
+            <courseDist/>
+            <daysSinceRun>(12J)</daysSinceRun>
+            <name>Advertise</name>
+            <silk>6/0/1/264106.png</silk>
+            <trainer>Martyn Meade</trainer>
+            <officialRating>&amp;mdash;</officialRating>
+            <doubtfulRunner>0</doubtfulRunner>
+            <jockey>Oisin Murphy</jockey>
+            <age>2</age>
+            <jockeyAllowance/>
+            <headGear/>
+            <reserve>N</reserve>
+            <runner_weight>9-1</runner_weight>
+            <sex>colt</sex>
+            <comment>Beat a few of today&amp;acute;s rivals in Newbury maiden on debut; open to progress</comment>
+            <spotlight>Beat a few of today&amp;acute;s rivals in Newbury maiden (6f, good to firm) on debut, running on to lead well inside the final furlong; one of several once-raced winners who are open to any amount of improvement.</spotlight>
+            <rpr>&amp;mdash;</rpr>
+            <topSpeed>81</topSpeed>
+            <form>1</form>
+            <results>
+                <result>
+                    <raceTitle><![CDATA[British Stallion Studs EBF Novice Stakes (Plus 10 Race)]]></raceTitle>
+                    <raceId>705751</raceId>
+                    <raceDate>05 Jul 18</raceDate>
+                    <course>Rip</course>
+                    <distance>5.5f</distance>
+                    <distanceRounded>5½f</distanceRounded>
+                    <going>Gd</going>
+                    <raceType>Turf</raceType>
+                    <weight>9-8</weight>
+                    <outcomePosition>PU</outcomePosition>
+                    <noRunners>9</noRunners>
+                    <rpr>80</rpr>
+                </result>
+            </results>
+            <tipsQuantity>2</tipsQuantity>
+        </runner>
+        <runner id="1234567">
+            <number>1</number>
+            <draw>1</draw>
+            <courseDist/>
+            <daysSinceRun>32</daysSinceRun>
+            <name>Advertise</name>
+            <silk>6/0/1/264106.png</silk>
+            <trainer>Martyn Meade</trainer>
+            <officialRating>&amp;mdash;</officialRating>
+            <doubtfulRunner>0</doubtfulRunner>
+            <jockey>Oisin Murphy</jockey>
+            <age>2</age>
+            <jockeyAllowance/>
+            <headGear/>
+            <reserve>N</reserve>
+            <runner_weight>9-1</runner_weight>
+            <sex>colt</sex>
+            <comment>Beat a few of today&amp;acute;s rivals in Newbury maiden on debut; open to progress</comment>
+            <spotlight>Beat a few of today&amp;acute;s rivals in Newbury maiden (6f, good to firm) on debut, running on to lead well inside the final furlong; one of several once-raced winners who are open to any amount of improvement.</spotlight>
+            <rpr>&amp;mdash;</rpr>
+            <topSpeed>81</topSpeed>
+            <form>-46231</form>
+            <results>
+                <result>
+                    <raceTitle><![CDATA[British Stallion Studs EBF Novice Stakes (Plus 10 Race)]]></raceTitle>
+                    <raceId>705751</raceId>
+                    <raceDate>21 Jul 18</raceDate>
+                    <course>Rip</course>
+                    <distance>5f</distance>
+                    <distanceRounded>5f</distanceRounded>
+                    <going>Gd</going>
+                    <raceType>Turf</raceType>
+                    <weight>9-8</weight>
+                    <outcomePosition>2</outcomePosition>
+                    <noRunners>9</noRunners>
+                    <rpr>&amp;mdash;</rpr>
+                </result>
+            </results>
+            <tipsQuantity>2</tipsQuantity>
+        </runner>
+    </data>
+    <status>200</status>
+</root>

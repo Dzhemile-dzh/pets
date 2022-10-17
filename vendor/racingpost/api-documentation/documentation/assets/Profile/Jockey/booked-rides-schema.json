@@ -1,0 +1,102 @@
+{
+    "required": [
+        "data",
+        "status"
+    ],
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "data": {
+            "required": [
+                "booked_rides"
+            ],
+            "type": "object",
+            "properties": {
+                "booked_rides": {
+                    "items": [
+                        {
+                            "required": [
+                                "course_key",
+                                "course_name",
+                                "course_style_name",
+                                "course_uid",
+                                "diffusion_course_name",
+                                "horse_name",
+                                "horse_uid",
+                                "race_datetime",
+                                "race_status_code",
+                                "race_instance_title",
+                                "race_uid",
+                                "race_instance_uid",
+                                "course_type_code",
+                                "running_conditions"
+                            ],
+                            "type": "object",
+                            "properties": {
+                                "race_instance_title": {
+                                    "type": "string",
+                                    "maxLength": 100
+                                },
+                                "race_datetime": {
+                                    "type": "string",
+                                    "minLength": 25,
+                                    "maxLength": 25
+                                },
+                                "diffusion_course_name": {
+                                    "type": "string",
+                                    "maxLength": 30
+                                },
+                                "race_status_code": {
+                                    "type": "string",
+                                    "maxLength": 10
+                                },
+                                "course_key": {
+                                    "type": "string",
+                                    "maxLength": 30
+                                },
+                                "course_uid": {
+                                    "type": "integer"
+                                },
+                                "horse_name": {
+                                    "type": "string",
+                                    "maxLength": 30
+                                },
+                                "course_name": {
+                                    "type": "string",
+                                    "maxLength": 30
+                                },
+                                "course_style_name": {
+                                    "type": "string",
+                                    "maxLength": 60
+                                },
+                                "race_uid": {
+                                    "type": "integer"
+                                },
+                                "horse_uid": {
+                                    "type": "integer"
+                                },
+                                "race_instance_uid": {
+                                    "type": "integer"
+                                },
+                                "course_type_code": {
+                                    "type":"string",
+                                    "maxLength":1
+                                },
+                                "running_conditions": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ],
+                                    "maxLength": 255
+                                }
+                            }
+                        }
+                    ],
+                    "type": "array"
+                }
+            }
+        }
+    }
+}

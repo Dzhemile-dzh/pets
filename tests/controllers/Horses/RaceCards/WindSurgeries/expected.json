@@ -1,0 +1,182 @@
+{
+    "data": {
+        "wind_surgeries": [
+            {
+                "horse_uid": 724070,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 780205,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 798177,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 799109,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 799387,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 803283,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": true
+            },
+            {
+                "horse_uid": 810016,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 824337,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 826157,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 830335,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 830549,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 832519,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 834219,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 838796,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 841033,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 848280,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 848743,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 851772,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 854993,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 855396,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 857308,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 860300,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 860332,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 871871,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 872366,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 874188,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 874547,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 879645,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 882071,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 883120,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 883823,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 884391,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 889788,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 905153,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            },
+            {
+                "horse_uid": 988603,
+                "wind_surgery_first_time": false,
+                "wind_surgery_second_time": false
+            }
+        ]
+    },
+    "status": 200
+}

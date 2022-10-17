@@ -1,0 +1,137 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {
+        "itemTemplate": {
+            "required": [
+                "category",
+                "group_id",
+                "group_name",
+                "percent",
+                "rides",
+                "stakes",
+                "wins",
+                "place_2nd_number",
+                "place_3rd_number",
+                "place_4th_number",
+                "race_placed",
+                "total_prize"
+            ],
+            "type": "object",
+            "properties": {
+                "category": {
+                    "type": "string",
+                    "maxLength": 7
+                },
+                "wins": {
+                    "type": ["null", "integer"]
+                },
+                "place_2nd_number": {
+                    "type": ["null", "integer"]
+                },
+                "place_3rd_number": {
+                    "type": ["null", "integer"]
+                },
+                "place_4th_number": {
+                    "type": ["null", "integer"]
+                },
+                "race_placed": {
+                    "type": ["null", "integer"]
+                },
+                "percent": {
+                    "type": ["null", "integer"]
+                },
+                "group_name": {
+                    "type": "string",
+                    "maxLength": 30
+                },
+                "group_id": {
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "rides": {
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "stakes": {
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                },
+                "total_prize": {
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                }
+            }
+        }
+    },
+    "required": [
+        "data",
+        "status"
+    ],
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "data": {
+            "required": [
+                "statistics",
+                "season_info"
+            ],
+            "type": "object",
+            "properties": {
+                "statistics": {
+                    "required": [
+                        "OVERALL"
+                    ],
+                    "type": ["object", "null"],
+                    "additionalProperties": {
+                        "items": [
+                            {
+                                "$ref": "#/definitions/itemTemplate"
+                            }
+                        ],
+                        "type": "array"
+                    }
+                },
+                "season_info": {
+                    "required": [
+                        "season_year_begin",
+                        "season_year_end",
+                        "race_type",
+                        "country_code",
+                        "statistics_type"
+                    ],
+                    "type": "object",
+                    "properties": {
+                        "season_year_begin": {
+                            "type": "integer"
+                        },
+                        "season_year_end": {
+                            "type": "integer"
+                        },
+                        "race_type": {
+                            "type": "string",
+                            "maxLength": 5
+                        },
+                        "country_code": {
+                            "type": "string",
+                            "maxLength": 3
+                        },
+                        "statistics_type": {
+                            "type": "string",
+                            "maxLength": 13
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

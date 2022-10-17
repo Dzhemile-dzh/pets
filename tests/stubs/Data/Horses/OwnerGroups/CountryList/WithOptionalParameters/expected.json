@@ -1,0 +1,19 @@
+{
+    "data": {
+        "country_list": [
+            {
+                "country_code": "FR ",
+                "country_desc": "France"
+            },
+            {
+                "country_code": "GB ",
+                "country_desc": "Great Britain"
+            },
+            {
+                "country_code": "UAE",
+                "country_desc": "United Arab Emirates"
+            }
+        ]
+    },
+    "status": 200
+}

@@ -1,0 +1,111 @@
+
+.clearfix {clear:both;}
+.clearfix:after {content:"."; display:block; clear:both; visibility:hidden; line-height:0; height:0;}
+channel link, channel language, channel copyright, channel managingEditor, channel webMaster, channel docs, channel lastBuildDate {
+    display:none;
+}
+rss {
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:0.7em;
+    line-height:130%;
+    margin:1em;
+}
+/* HEADER */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+channel title {
+    display:block;
+    padding:0.4em 0.2em;
+    border-bottom:1px solid black;
+    font-weight:bold;
+    font-size:140%;
+}
+channel description {
+    display:block;
+    float:left;
+    font-size:130%;
+    font-weight:bold;
+    margin:0.5em;
+}
+/* CONTENT */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+channel item {
+    border:1px solid #000;
+    clear:both;
+    display:block;
+    padding:0 0 5px;
+    margin:1em;
+}
+channel item title {
+    background-color:#000;
+    border-bottom-width:0;
+    color:#FFF;
+    display:block;
+    font-size:110%;
+    font-weight:bold;
+    margin:0;
+    padding:0.3em 0.5em;
+}
+channel item description {
+    display: block;
+    float:none;
+    margin:0;
+    text-align: left;
+    padding:0.2em 0.5em 0.4em;
+    color: black;
+    font-size:100%;
+    font-weight:normal;
+}
+channel item link {
+    color:#666;
+    display:block;
+    font-size:86%;
+    padding:0 0.5em;
+}
+channel item pubDate {
+    color:#666;
+    display:block;
+    font-size:86%;
+    padding:0 0.5em;
+}
+div.titleWithLine{
+    font-size:130%;
+}
+div.wrap{
+    font-family:Tahoma, Geneva, Helvetica, Arial, sans-serif;
+    margin:10px 0;
+    padding: 10px;
+    border: 1px solid #C1C1C1;
+    background-color:#E0E0E0;
+}
+div.image, div.cont{
+    display:block;
+    float:left;
+    padding: 5px;
+}
+div.cont{
+    border: 0px solid red;
+    max-width:80%;
+}
+
+div.image img.thumb {
+    padding: 2px;
+    border:1px solid #000;
+    background-color:#fff;
+}
+div.cont a{
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:120%;
+    clear:both;
+    display:block;
+}
+div.cont p{
+    font-family:Tahoma, Geneva, Helvetica, Arial, sans-serif;
+    display:block;
+    font-size:86%;
+    float:left;
+    clear:both;
+}
+
+div.cont p.description{
+    font-size:100%;
+}

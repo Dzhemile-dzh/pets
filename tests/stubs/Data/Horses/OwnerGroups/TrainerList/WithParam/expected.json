@@ -1,0 +1,29 @@
+{
+    "data": {
+        "trainer_list": [
+            {
+                "trainer_uid": 25628,
+                "trainer_name": "Charles Hills",
+                "trainer_country": [
+                    {
+                        "code": "GB",
+                        "desc": "Great Britain"
+                    }
+                ],
+                "trainer_owners": [
+                    {
+                        "owner_uid": 7,
+                        "owner_name": "Sheikh Juma Dalmook Al Maktoum",
+                        "owner_group_uid": 5
+                    },
+                    {
+                        "owner_uid": 12,
+                        "owner_name": "Sheikh Juma Dalmook Al Maktoum",
+                        "owner_group_uid": 5
+                    }
+                ]
+            }
+        ]
+    },
+    "status": 200
+}

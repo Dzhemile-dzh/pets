@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+    bootstrap                   = "bootstrap.php"
+    backupGlobals               = "false"
+    backupStaticAttributes      = "false"
+    verbose                     = "true"
+    colors                      = "true"
+    convertErrorsToExceptions   = "true"
+    convertNoticesToExceptions  = "true"
+    convertWarningsToExceptions = "true"
+    processIsolation            = "false"
+    stopOnFailure               = "false"
+    syntaxCheck                 = "true"
+>
+    <testsuites>
+        <testsuite name="Util">
+            <directory suffix="Test.php">Util</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./../library</directory>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-clover" target="../coverage/phpunit.coverage.xml"/>
+        <log type="coverage-text"   target="php://stdout" showUncoveredFiles="true" showOnlySummary="false" />
+        <log type="coverage-html"   target="../coverage/phpunit.coverage.html"/>
+        <log type="junit"           target="../coverage/junit_report.xml" logIncompleteSkipped="true"/>
+    </logging>
+</phpunit>

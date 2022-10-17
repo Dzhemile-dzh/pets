@@ -1,0 +1,455 @@
+{
+    "data": {
+        "seasonal_first_crop_statistics": [
+            {
+                "sire_uid": 805556,
+                "sire_style_name": "Bungle Inthejungle",
+                "wins": 4,
+                "runs": 8,
+                "second_place": 0,
+                "third_place": 0,
+                "fourth_place": 0,
+                "win_prize_money_euro": 0,
+                "win_prize_money": 15525.6,
+                "total_prize_money_euro": 0,
+                "total_prize_money": 15525.6,
+                "overall_win_prizemoney": 15525.6,
+                "overall_total_prizemoney": 15525.6,
+                "net_win_prize_money": 5902.2,
+                "net_total_prize_money": 11804.4,
+                "winners": 1,
+                "runners": 2,
+                "stakes_wins": 0,
+                "stakes_winner": 0,
+                "stakes_runner": 0,
+                "stakes_winner_percent": null,
+                "progeny_performers": [
+                    {
+                        "horse_uid": 1860325,
+                        "horse_name": "Carey Street",
+                        "dam_sire_uid": 589733,
+                        "dam_sire_name": "Hurricane Run",
+                        "rp_postmark": 78
+                    }
+                ]
+            },
+            {
+                "sire_uid": 821883,
+                "sire_style_name": "Morpheus",
+                "wins": 4,
+                "runs": 8,
+                "second_place": 0,
+                "third_place": 0,
+                "fourth_place": 0,
+                "win_prize_money_euro": 0,
+                "win_prize_money": 15008.08,
+                "total_prize_money_euro": 0,
+                "total_prize_money": 15008.08,
+                "overall_win_prizemoney": 15008.08,
+                "overall_total_prizemoney": 15008.08,
+                "net_win_prize_money": 5705.46,
+                "net_total_prize_money": 13575.06,
+                "winners": 1,
+                "runners": 2,
+                "stakes_wins": 0,
+                "stakes_winner": 0,
+                "stakes_runner": 0,
+                "stakes_winner_percent": null,
+                "progeny_performers": [
+                    {
+                        "horse_uid": 1954882,
+                        "horse_name": "James Watt",
+                        "dam_sire_uid": 547614,
+                        "dam_sire_name": "Johannesburg",
+                        "rp_postmark": 77
+                    }
+                ]
+            },
+            {
+                "sire_uid": 811093,
+                "sire_style_name": "Olympic Glory",
+                "wins": 0,
+                "runs": 4,
+                "second_place": 4,
+                "third_place": 0,
+                "fourth_place": 0,
+                "win_prize_money_euro": 0,
+                "win_prize_money": 0,
+                "total_prize_money_euro": 0,
+                "total_prize_money": 6160,
+                "overall_win_prizemoney": 0,
+                "overall_total_prizemoney": 6160,
+                "net_win_prize_money": 0,
+                "net_total_prize_money": 7869.6,
+                "winners": 0,
+                "runners": 1,
+                "stakes_wins": 0,
+                "stakes_winner": 0,
+                "stakes_runner": 0,
+                "stakes_winner_percent": null,
+                "progeny_performers": [
+                    {
+                        "horse_uid": 1894516,
+                        "horse_name": "Ynys Mon",
+                        "dam_sire_uid": 538051,
+                        "dam_sire_name": "Falbrav",
+                        "rp_postmark": 83
+                    }
+                ]
+            },
+            {
+                "sire_uid": 774595,
+                "sire_style_name": "Slade Power",
+                "wins": 0,
+                "runs": 4,
+                "second_place": 0,
+                "third_place": 4,
+                "fourth_place": 0,
+                "win_prize_money_euro": 0,
+                "win_prize_money": 0,
+                "total_prize_money_euro": 0,
+                "total_prize_money": 5387.2,
+                "overall_win_prizemoney": 0,
+                "overall_total_prizemoney": 5387.2,
+                "net_win_prize_money": 0,
+                "net_total_prize_money": 13771.8,
+                "winners": 0,
+                "runners": 1,
+                "stakes_wins": 0,
+                "stakes_winner": 0,
+                "stakes_runner": 0,
+                "stakes_winner_percent": null,
+                "progeny_performers": [
+                    {
+                        "horse_uid": 1796373,
+                        "horse_name": "Spell",
+                        "dam_sire_uid": 578657,
+                        "dam_sire_name": "One Cool Cat",
+                        "rp_postmark": 79
+                    }
+                ]
+            },
+            {
+                "sire_uid": 815858,
+                "sire_style_name": "Garswood",
+                "wins": 0,
+                "runs": 4,
+                "second_place": 4,
+                "third_place": 0,
+                "fourth_place": 0,
+                "win_prize_money_euro": 0,
+                "win_prize_money": 0,
+                "total_prize_money_euro": 0,
+                "total_prize_money": 4620,
+                "overall_win_prizemoney": 0,
+                "overall_total_prizemoney": 4620,
+                "net_win_prize_money": 0,
+                "net_total_prize_money": 5902.2,
+                "winners": 0,
+                "runners": 1,
+                "stakes_wins": 0,
+                "stakes_winner": 0,
+                "stakes_runner": 0,
+                "stakes_winner_percent": null,
+                "progeny_performers": [
+                    {
+                        "horse_uid": 1887397,
+                        "horse_name": "Bengali Spirit",
+                        "dam_sire_uid": 540336,
+                        "dam_sire_name": "Dubai Destination",
+                        "rp_postmark": 74
+                    }
+                ]
+            },
+            {
+                "sire_uid": 839221,
+                "sire_style_name": "No Nay Never",
+                "wins": 0,
+                "runs": 8,
+                "second_place": 0,
+                "third_place": 0,
+                "fourth_place": 8,
+                "win_prize_money_euro": 0,
+                "win_prize_money": 0,
+                "total_prize_money_euro": 0,
+                "total_prize_money": 3809.52,
+                "overall_win_prizemoney": 0,
+                "overall_total_prizemoney": 3809.52,
+                "net_win_prize_money": 0,
+                "net_total_prize_money": 19477.26,
+                "winners": 0,
+                "runners": 2,
+                "stakes_wins": 0,
+                "stakes_winner": 0,
+                "stakes_runner": 0,
+                "stakes_winner_percent": null,
+                "progeny_performers": [
+                    {
+                        "horse_uid": 1909737,
+                        "horse_name": "The Irish Rover",
+                        "dam_sire_uid": 104011,
+                        "dam_sire_name": "Danehill Dancer",
+                        "rp_postmark": 87
+                    }
+                ]
+            },
+            {
+                "sire_uid": 829788,
+                "sire_style_name": "Kuroshio",
+                "wins": 0,
+                "runs": 8,
+                "second_place": 0,
+                "third_place": 4,
+                "fourth_place": 4,
+                "win_prize_money_euro": 0,
+                "win_prize_money": 0,
+                "total_prize_money_euro": 0,
+                "total_prize_money": 3386.24,
+                "overall_win_prizemoney": 0,
+                "overall_total_prizemoney": 3386.24,
+                "net_win_prize_money": 0,
+                "net_total_prize_money": 11607.66,
+                "winners": 0,
+                "runners": 2,
+                "stakes_wins": 0,
+                "stakes_winner": 0,
+                "stakes_runner": 0,
+                "stakes_winner_percent": null,
+                "progeny_performers": [
+                    {
+                        "horse_uid": 1953164,
+                        "horse_name": "Kapono",
+                        "dam_sire_uid": 92036,
+                        "dam_sire_name": "Carnegie",
+                        "rp_postmark": 62
+                    }
+                ]
+            },
+            {
+                "sire_uid": 832546,
+                "sire_style_name": "Coach House",
+                "wins": 0,
+                "runs": 4,
+                "second_place": 0,
+                "third_place": 4,
+                "fourth_place": 0,
+                "win_prize_money_euro": 0,
+                "win_prize_money": 0,
+                "total_prize_money_euro": 0,
+                "total_prize_money": 2462.72,
+                "overall_win_prizemoney": 0,
+                "overall_total_prizemoney": 2462.72,
+                "net_win_prize_money": 0,
+                "net_total_prize_money": 6295.68,
+                "winners": 0,
+                "runners": 1,
+                "stakes_wins": 0,
+                "stakes_winner": 0,
+                "stakes_runner": 0,
+                "stakes_winner_percent": null,
+                "progeny_performers": [
+                    {
+                        "horse_uid": 1958508,
+                        "horse_name": "Coach Trip",
+                        "dam_sire_uid": 470699,
+                        "dam_sire_name": "Daggers Drawn",
+                        "rp_postmark": 59
+                    }
+                ]
+            },
+            {
+                "sire_uid": 805266,
+                "sire_style_name": "Alhebayeb",
+                "wins": 0,
+                "runs": 4,
+                "second_place": 0,
+                "third_place": 4,
+                "fourth_place": 0,
+                "win_prize_money_euro": 0,
+                "win_prize_money": 0,
+                "total_prize_money_euro": 0,
+                "total_prize_money": 2308.8,
+                "overall_win_prizemoney": 0,
+                "overall_total_prizemoney": 2308.8,
+                "net_win_prize_money": 0,
+                "net_total_prize_money": 5902.2,
+                "winners": 0,
+                "runners": 1,
+                "stakes_wins": 0,
+                "stakes_winner": 0,
+                "stakes_runner": 0,
+                "stakes_winner_percent": null,
+                "progeny_performers": [
+                    {
+                        "horse_uid": 1870906,
+                        "horse_name": "Five Amarones",
+                        "dam_sire_uid": 590219,
+                        "dam_sire_name": "Motivator",
+                        "rp_postmark": 69
+                    }
+                ]
+            },
+            {
+                "sire_uid": 789808,
+                "sire_style_name": "Heeraat",
+                "wins": 0,
+                "runs": 4,
+                "second_place": 0,
+                "third_place": 0,
+                "fourth_place": 4,
+                "win_prize_money_euro": 0,
+                "win_prize_money": 0,
+                "total_prize_money_euro": 0,
+                "total_prize_money": 1250.6,
+                "overall_win_prizemoney": 0,
+                "overall_total_prizemoney": 1250.6,
+                "net_win_prize_money": 0,
+                "net_total_prize_money": 6394.05,
+                "winners": 0,
+                "runners": 1,
+                "stakes_wins": 0,
+                "stakes_winner": 0,
+                "stakes_runner": 0,
+                "stakes_winner_percent": null,
+                "progeny_performers": [
+                    {
+                        "horse_uid": 1897245,
+                        "horse_name": "Majestic Appeal",
+                        "dam_sire_uid": 473501,
+                        "dam_sire_name": "Diktat",
+                        "rp_postmark": 60
+                    }
+                ]
+            },
+            {
+                "sire_uid": 800198,
+                "sire_style_name": "Battle Of Marengo",
+                "wins": 0,
+                "runs": 4,
+                "second_place": 0,
+                "third_place": 0,
+                "fourth_place": 0,
+                "win_prize_money_euro": 0,
+                "win_prize_money": 0,
+                "total_prize_money_euro": 0,
+                "total_prize_money": 0,
+                "overall_win_prizemoney": 0,
+                "overall_total_prizemoney": 0,
+                "net_win_prize_money": 0,
+                "net_total_prize_money": 9837,
+                "winners": 0,
+                "runners": 1,
+                "stakes_wins": 0,
+                "stakes_winner": 0,
+                "stakes_runner": 0,
+                "stakes_winner_percent": null,
+                "progeny_performers": [
+                    {
+                        "horse_uid": 1932437,
+                        "horse_name": "Pinaclouddown",
+                        "dam_sire_uid": 516624,
+                        "dam_sire_name": "King's Best",
+                        "rp_postmark": 22
+                    }
+                ]
+            },
+            {
+                "sire_uid": 805559,
+                "sire_style_name": "Gale Force Ten",
+                "wins": 0,
+                "runs": 8,
+                "second_place": 0,
+                "third_place": 0,
+                "fourth_place": 0,
+                "win_prize_money_euro": 0,
+                "win_prize_money": 0,
+                "total_prize_money_euro": 0,
+                "total_prize_money": 0,
+                "overall_win_prizemoney": 0,
+                "overall_total_prizemoney": 0,
+                "net_win_prize_money": 0,
+                "net_total_prize_money": 13771.8,
+                "winners": 0,
+                "runners": 2,
+                "stakes_wins": 0,
+                "stakes_winner": 0,
+                "stakes_runner": 0,
+                "stakes_winner_percent": null,
+                "progeny_performers": [
+                    {
+                        "horse_uid": 1936683,
+                        "horse_name": "Arriba De Toda",
+                        "dam_sire_uid": 579845,
+                        "dam_sire_name": "Kheleyf",
+                        "rp_postmark": 32
+                    }
+                ]
+            },
+            {
+                "sire_uid": 784865,
+                "sire_style_name": "Gregorian",
+                "wins": 0,
+                "runs": 4,
+                "second_place": 0,
+                "third_place": 0,
+                "fourth_place": 0,
+                "win_prize_money_euro": 0,
+                "win_prize_money": 0,
+                "total_prize_money_euro": 0,
+                "total_prize_money": 0,
+                "overall_win_prizemoney": 0,
+                "overall_total_prizemoney": 0,
+                "net_win_prize_money": 0,
+                "net_total_prize_money": 7869.6,
+                "winners": 0,
+                "runners": 1,
+                "stakes_wins": 0,
+                "stakes_winner": 0,
+                "stakes_runner": 0,
+                "stakes_winner_percent": null,
+                "progeny_performers": [
+                    {
+                        "horse_uid": 1922319,
+                        "horse_name": "Aloysius Lilius",
+                        "dam_sire_uid": 602045,
+                        "dam_sire_name": "Shamardal",
+                        "rp_postmark": 50
+                    }
+                ]
+            },
+            {
+                "sire_uid": 831212,
+                "sire_style_name": "War Command",
+                "wins": 0,
+                "runs": 4,
+                "second_place": 0,
+                "third_place": 0,
+                "fourth_place": 0,
+                "win_prize_money_euro": 0,
+                "win_prize_money": 0,
+                "total_prize_money_euro": 0,
+                "total_prize_money": 0,
+                "overall_win_prizemoney": 0,
+                "overall_total_prizemoney": 0,
+                "net_win_prize_money": 0,
+                "net_total_prize_money": 7869.6,
+                "winners": 0,
+                "runners": 1,
+                "stakes_wins": 0,
+                "stakes_winner": 0,
+                "stakes_runner": 0,
+                "stakes_winner_percent": null,
+                "progeny_performers": [
+                    {
+                        "horse_uid": 1953165,
+                        "horse_name": "Juniors Fantasy",
+                        "dam_sire_uid": 649434,
+                        "dam_sire_name": "Teofilo",
+                        "rp_postmark": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "status": 200
+}

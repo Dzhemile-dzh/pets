@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<root>
+    <data>
+        <id>703330</id>
+        <title>Coventry Stakes (Group 2)</title>
+        <diffusion_name>ASCOT</diffusion_name>
+        <bookmaker>William Hill</bookmaker>
+        <distance>6f</distance>
+        <distanceRounded>6f</distanceRounded>
+        <distanceRoundedFurlong>6f</distanceRoundedFurlong>
+        <class>1</class>
+        <group>Group 2</group>
+        <going>Good To Firm</going>
+        <adsChangeDelay>10</adsChangeDelay>
+        <raceDescription>Class 1 Group 2</raceDescription>
+        <declaredRunners>24</declaredRunners>
+        <runners>
+            <runner id="2031533">
+                <number>7</number>
+                <draw>22</draw>
+                <rpr>115</rpr>
+                <name>Calyx</name>
+                <silk>6/0/9/16906.png</silk>
+                <tipsQuantity>6</tipsQuantity>
+            </runner>
+            <runner id="1965314">
+                <number>8</number>
+                <draw>15</draw>
+                <rpr>117</rpr>
+                <name>Cosmic Law</name>
+                <silk>c/0/4/219540c.png</silk>
+                <tipsQuantity>4</tipsQuantity>
+            </runner>
+            <runner id="1948326">
+                <number>14</number>
+                <draw>19</draw>
+                <rpr>105</rpr>
+                <name>Indigo Balance</name>
+                <silk>f/9/3/205339f.png</silk>
+                <tipsQuantity>2</tipsQuantity>
+            </runner>
+            <runner id="1969796">
+                <number>1</number>
+                <draw>1</draw>
+                <rpr>104</rpr>
+                <name>Advertise</name>
+                <silk>6/0/1/264106.png</silk>
+                <tipsQuantity>2</tipsQuantity>
+            </runner>
+            <runner id="1909735">
+                <number>20</number>
+                <draw>4</draw>
+                <rpr>116</rpr>
+                <name>Sergei Prokofiev</name>
+                <silk>1/6/0/145061.png</silk>
+                <tipsQuantity>2</tipsQuantity>
+            </runner>
+            <runner id="1234567">
+                <number>6</number>
+                <draw>22222</draw>
+                <rpr>&amp;mdash;</rpr>
+                <name>Koko Jambo</name>
+                <silk>6/0/1/264106.png</silk>
+                <tipsQuantity>1</tipsQuantity>
+            </runner>
+        </runners>
+        <selections>
+            <selection>
+                <source>Spotlight</source>
+                <runnerName>Sergei Prokofiev</runnerName>
+            </selection>
+            <selection>
+                <source>Lambourn</source>
+                <runnerName>Koko Jambo</runnerName>
+            </selection>
+            <selection>
+                <source>RP Ratings</source>
+                <runnerName>Cosmic Law</runnerName>
+            </selection>
+            <selection>
+                <source>Topspeed</source>
+                <runnerName>Cosmic Law</runnerName>
+            </selection>
+            <selection>
+                <source>Postdata</source>
+                <runnerName>Sergei Prokofiev</runnerName>
+            </selection>
+            <selection>
+                <source>Lambourn</source>
+                <runnerName>Advertise</runnerName>
+            </selection>
+            <selection>
+                <source>Newmarket</source>
+                <runnerName>Calyx</runnerName>
+            </selection>
+            <selection>
+                <source>The North</source>
+                <runnerName>Cosmic Law</runnerName>
+            </selection>
+            <selection>
+                <source>The Times</source>
+                <runnerName>Calyx</runnerName>
+            </selection>
+            <selection>
+                <source>Telegraph</source>
+                <runnerName>Indigo Balance</runnerName>
+            </selection>
+            <selection>
+                <source>The Guardian</source>
+                <runnerName>Cosmic Law</runnerName>
+            </selection>
+            <selection>
+                <source>Daily Mail</source>
+                <runnerName>Calyx</runnerName>
+            </selection>
+            <selection>
+                <source>Daily Express</source>
+                <runnerName>Calyx</runnerName>
+            </selection>
+            <selection>
+                <source>Daily Mirror</source>
+                <runnerName>Calyx</runnerName>
+            </selection>
+            <selection>
+                <source>The Sun</source>
+                <runnerName>Advertise</runnerName>
+            </selection>
+            <selection>
+                <source>The Star</source>
+                <runnerName>Indigo Balance</runnerName>
+            </selection>
+            <selection>
+                <source>Daily Record</source>
+                <runnerName>Calyx</runnerName>
+            </selection>
+        </selections>
+        <diomedVerdict>As usual there are unexposed types at every turn but the two colts at the head of the betting are particularly striking candidates, with &amp;lt;b&amp;gt;Calyx&amp;lt;/b&amp;gt; looking potentially high class and &amp;lt;b&amp;gt;SERGEI PROKOFIEV&amp;lt;/b&amp;gt; having very strong credentials. The latter is taken to give Aidan O'Brien a ninth Coventry success but the Gosden runner is a hugely respected rival. Ballydoyle's other contender, &amp;lt;b&amp;gt;The Irish Rover&amp;lt;/b&amp;gt;, shouldn't be far away. &amp;lt;b&amp;gt;Cosmic Law&amp;lt;/b&amp;gt; has major claims on his Woodcote win but that came on soft ground. &amp;lt;b&amp;gt;Dubai Legacy&amp;lt;/b&amp;gt; and &amp;lt;b&amp;gt;Indigo Balance&amp;lt;/b&amp;gt; are interesting sorts among the once-raced winners, aside from the standout Calyx.[Steve Boow]</diomedVerdict>
+        <keyStats>Paul Hanagan (&amp;lt;b&amp;gt;Ninetythreetwenty&amp;lt;/b&amp;gt;) shows a profit of &amp;amp;pound;37.28 when riding for Richard Fahey this season</keyStats>
+    </data>
+    <status>200</status>
+</root>

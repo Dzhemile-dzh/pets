@@ -1,0 +1,57 @@
+version: '3'
+services:
+  horses-api:
+    container_name: horses-api
+    image: horses-api:latest
+    build:
+      context: ./
+    ports:
+      - "80:80"
+    links:
+      - "horses-api-cache"
+      - "horses-api-datadog"
+    entrypoint:
+      ["/usr/sbin/httpd", "-DFOREGROUND"]
+    volumes:
+      - ./bo:/code/v2/bo
+      - ./config:/code/v2/config
+      - ./controllers:/code/v2/controllers
+      - ./documentation:/code/v2/documentation
+      - ./env:/code/v2/env
+      - ./lib:/code/v2/lib
+      - ./tests:/code/v2/tests
+      - ./models:/code/v2/models
+      - ./provider:/code/v2/provider
+      - ./public:/code/v2/public
+      - ./composer.json:/code/v2/composer.json
+      - ./composer.lock:/code/v2/composer.lock
+      - ./package.json:/code/v2/package.json
+      - ./swagger:/code/v2/public/documentation/swagger
+      - ./xdebug.ini:/etc/php.d/15-xdebug.ini
+    environment:
+      - RP_ENVIRONMENT=local
+      - ASE_HOST=rp-aws-load-balancer.rp-infra.com
+      - ASE_PORT=15102
+      - AUTH_DB_SERVERNAME_API_HORSES=rp9-uat-ase-01.rp-infra.com:15101
+      - AUTH_DB_PASSWORD_API_HORSES=2rs2sdigj3
+      - REDIS_CACHE=horses-api-cache
+      - AUTH_REDIS_CLUSTER_API_HORSES=horses-api-cache:7000;horses-api-cache:7001;
+      - DATADOG_TRACE_AGENT_HOSTNAME=horses-api-datadog
+      - MAKE_THINGS_VERBOSE=1
+      - CTRL_LOGGER_GENERAL_LEVEL_API_HORSES=OFF
+      - CTRL_NODES_SERVERNAME_API_HORSES=rp9-uat-ase-01.rp-infra.com:15101
+      - CTRL_NODES_PASSWORD_API_HORSES=23efgfg4545
+      - CTRL_REDIS_CACHEON_API_HORSES=0
+      - PRODUCT_BRANCH=current
+  horses-api-cache:
+    container_name: horses-api-cache
+    image: "grokzen/redis-cluster:latest"
+    ports:
+      - "6379:6379"
+  horses-api-datadog:
+    container_name: horses-api-datadog
+    image: datadog/agent:latest
+    environment:
+      - DD_API_KEY=b86ed3f2b46a67d76566611b9b63b04c
+      - DD_APM_ENABLED=true
+      - DD_APM_NON_LOCAL_TRAFFIC=true

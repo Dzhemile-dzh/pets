@@ -1,0 +1,91 @@
+{
+  "data": {
+    "selections": [
+      {
+        "newspaper_name": "The Irish Sun",
+        "newspaper_uid": 100,
+        "sort_order": 26,
+        "horse_name": "Commander Won",
+        "horse_uid": 868564,
+        "selection_type": "",
+        "tipster_uid" : 1234,
+        "tipster_name" : "Cathal Gahan",
+        "selection_cnt": 1,
+        "rp_owner_choice": null,
+        "silk_image_path": null,
+        "non_runner": false
+      },
+      {
+        "newspaper_name": "POSTDATA",
+        "newspaper_uid": 4,
+        "sort_order": 4,
+        "horse_name": "Ringside Humour",
+        "horse_uid": 865556,
+        "selection_type": "",
+        "tipster_uid" : 1234,
+        "tipster_name" : "Cathal Gahan",
+        "selection_cnt": 1,
+        "rp_owner_choice": null,
+        "silk_image_path": null,
+        "non_runner": false
+      },
+      {
+        "newspaper_name": "SPOTLIGHT",
+        "newspaper_uid": 1,
+        "sort_order": 1,
+        "horse_name": "Johann Bach",
+        "horse_uid": 823662,
+        "selection_type": "*",
+        "tipster_uid" : 1234,
+        "tipster_name" : "Cathal Gahan",
+        "selection_cnt": 1,
+        "rp_owner_choice": null,
+        "silk_image_path": null,
+        "non_runner": false
+      },
+      {
+        "newspaper_name": "TOPSPEED",
+        "newspaper_uid": 3,
+        "sort_order": 3,
+        "horse_name": "Sharjah",
+        "horse_uid": 814695,
+        "selection_type": "",
+        "tipster_uid" : 1234,
+        "tipster_name" : "Cathal Gahan",
+        "selection_cnt": 1,
+        "rp_owner_choice": null,
+        "silk_image_path": null,
+        "non_runner": false
+      },
+      {
+        "newspaper_name": "RP Ratings (IRE)",
+        "newspaper_uid": 78,
+        "sort_order": 2,
+        "horse_name": "Here For The Craic",
+        "horse_uid": 782511,
+        "selection_type": "*",
+        "tipster_uid" : 1234,
+        "tipster_name" : "Cathal Gahan",
+        "selection_cnt": 1,
+        "rp_owner_choice": null,
+        "silk_image_path": null,
+        "non_runner": false
+      }
+    ],
+    "selections_count": 5,
+    "race_details": {
+      "race_datetime": "2018-01-05T19:00:00+00:00",
+      "course_uid": 1138,
+      "course_style_name": "Dundalk (AW)",
+      "diffusion_course_name": "DUNDALK",
+      "distance_yard": null,
+      "distance_furlong_rounded": null,
+      "going_type_code": "SD"
+    },
+    "selections_selection": {
+      "horse_uid": 868564,
+      "horse_name": "Commander Won"
+    }
+  },
+  "status": 200
+}

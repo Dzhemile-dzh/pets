@@ -1,0 +1,105 @@
+{
+    "data": {
+        "seasonal_owner_statistics": [
+            {
+                "owner_uid": 247287,
+                "owner_style_name": "Mrs Susan Hadida",
+                "wins": 0,
+                "second_place": 0,
+                "third_place": 1,
+                "fourth_place": 0,
+                "runs": 1,
+                "winnings": 0,
+                "earnings": 801.36,
+                "winnings_euro": 0,
+                "earnings_euro": 905.54,
+                "winners": 0,
+                "runners": 1,
+                "placed": 1,
+                "stake": -1,
+                "percent_winners_runners": 0,
+                "top_trainer": {
+                    "trainer_uid": 35,
+                    "trainer_style_name": "J R Jenkins",
+                    "trainer_short_name": "J Jenkins",
+                    "wins": 0,
+                    "runs": 1,
+                    "percent_wins_runs": 0
+                }
+            },
+            {
+                "owner_uid": 239122,
+                "owner_style_name": "Nature and Science Agriculture Limited",
+                "wins": 0,
+                "second_place": 0,
+                "third_place": 0,
+                "fourth_place": 0,
+                "runs": 1,
+                "winnings": 0,
+                "earnings": 450,
+                "winnings_euro": 0,
+                "earnings_euro": 508.5,
+                "winners": 0,
+                "runners": 1,
+                "placed": 0,
+                "stake": -1,
+                "percent_winners_runners": 0,
+                "top_trainer": {
+                    "trainer_uid": 6773,
+                    "trainer_style_name": "Peter Winks",
+                    "trainer_short_name": "P Winks",
+                    "wins": 1,
+                    "runs": 2,
+                    "percent_wins_runs": 50
+                }
+            },
+            {
+                "owner_uid": 262751,
+                "owner_style_name": "Blacklock And Partners",
+                "wins": 0,
+                "second_place": 0,
+                "third_place": 0,
+                "fourth_place": 1,
+                "runs": 1,
+                "winnings": 0,
+                "earnings": 450,
+                "winnings_euro": 0,
+                "earnings_euro": 508.5,
+                "winners": 0,
+                "runners": 1,
+                "placed": 1,
+                "stake": -1,
+                "percent_winners_runners": 0,
+                "top_trainer": {
+                    "trainer_uid": 30683,
+                    "trainer_style_name": "Kenny Johnson",
+                    "trainer_short_name": "K Johnson",
+                    "wins": 0,
+                    "runs": 1,
+                    "percent_wins_runs": 0
+                }
+            }
+        ],
+        "season": [
+            {
+                "season_uid": 549,
+                "season_start_date": "2018-04-29T00:00:00+01:00",
+                "season_end_date": "2019-04-27T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_race_type": "jumps",
+                "season_country_code": "GB",
+                "season_desc": "NH 2018-2019"
+            },
+            {
+                "season_uid": 550,
+                "season_start_date": "2018-04-29T00:00:00+01:00",
+                "season_end_date": "2019-04-27T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_race_type": "jumps",
+                "season_country_code": "IRE",
+                "season_desc": "Irish Jumps 2018-2019"
+            }
+        ]
+    },
+    "status": 200
+}

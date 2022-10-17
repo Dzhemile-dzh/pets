@@ -1,0 +1,1372 @@
+{
+    "data": {
+        "championships_available": [
+            {
+                "season_uid": 551,
+                "season_start_date": "2019-04-28T00:00:00+01:00",
+                "season_end_date": "2020-04-27T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 2019-2020"
+            },
+            {
+                "season_uid": 552,
+                "season_start_date": "2019-04-28T00:00:00+01:00",
+                "season_end_date": "2020-04-27T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 2019-2020"
+            },
+            {
+                "season_uid": 545,
+                "season_start_date": "2019-01-01T00:00:00+00:00",
+                "season_end_date": "2019-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 2019"
+            },
+            {
+                "season_uid": 549,
+                "season_start_date": "2018-04-29T00:00:00+01:00",
+                "season_end_date": "2019-04-27T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 2018-2019"
+            },
+            {
+                "season_uid": 550,
+                "season_start_date": "2018-04-29T00:00:00+01:00",
+                "season_end_date": "2019-04-27T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 2018-2019"
+            },
+            {
+                "season_uid": 524,
+                "season_start_date": "2018-01-01T00:00:00+00:00",
+                "season_end_date": "2018-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 2018"
+            },
+            {
+                "season_uid": 546,
+                "season_start_date": "2018-01-01T00:00:00+00:00",
+                "season_end_date": "2018-12-31T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 2018"
+            },
+            {
+                "season_uid": 543,
+                "season_start_date": "2018-03-25T00:00:00+00:00",
+                "season_end_date": "2018-11-04T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 2018"
+            },
+            {
+                "season_uid": 531,
+                "season_start_date": "2017-04-30T00:00:00+01:00",
+                "season_end_date": "2018-04-28T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 2017-2018"
+            },
+            {
+                "season_uid": 532,
+                "season_start_date": "2017-04-30T00:00:00+01:00",
+                "season_end_date": "2018-04-28T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 2017-2018"
+            },
+            {
+                "season_uid": 539,
+                "season_start_date": "2017-10-24T00:00:00+01:00",
+                "season_end_date": "2018-03-30T23:59:00+01:00",
+                "season_type_code": "A",
+                "season_desc": "AW 2017-2018"
+            },
+            {
+                "season_uid": 533,
+                "season_start_date": "2017-11-08T00:00:00+00:00",
+                "season_end_date": "2018-03-23T23:59:00+00:00",
+                "season_type_code": "W",
+                "season_desc": "Irish AW 2017-2018"
+            },
+            {
+                "season_uid": 520,
+                "season_start_date": "2017-01-01T00:00:00+00:00",
+                "season_end_date": "2017-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 2017"
+            },
+            {
+                "season_uid": 525,
+                "season_start_date": "2017-01-01T00:00:00+00:00",
+                "season_end_date": "2017-12-31T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 2017"
+            },
+            {
+                "season_uid": 529,
+                "season_start_date": "2017-03-26T00:00:00+00:00",
+                "season_end_date": "2017-11-05T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 2017"
+            },
+            {
+                "season_uid": 522,
+                "season_start_date": "2016-04-24T00:00:00+01:00",
+                "season_end_date": "2017-04-29T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 2016-2017"
+            },
+            {
+                "season_uid": 523,
+                "season_start_date": "2016-05-01T00:00:00+01:00",
+                "season_end_date": "2017-04-29T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 2016-2017"
+            },
+            {
+                "season_uid": 521,
+                "season_start_date": "2016-10-27T00:00:00+01:00",
+                "season_end_date": "2017-04-14T23:59:00+01:00",
+                "season_type_code": "A",
+                "season_desc": "AW 2016-2017"
+            },
+            {
+                "season_uid": 513,
+                "season_start_date": "2016-11-04T00:00:00+00:00",
+                "season_end_date": "2017-03-24T00:02:00+00:00",
+                "season_type_code": "W",
+                "season_desc": "Irish AW 2016-2017"
+            },
+            {
+                "season_uid": 514,
+                "season_start_date": "2016-01-01T00:00:00+00:00",
+                "season_end_date": "2016-12-31T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 2016"
+            },
+            {
+                "season_uid": 506,
+                "season_start_date": "2016-01-01T00:00:00+00:00",
+                "season_end_date": "2016-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 2016"
+            },
+            {
+                "season_uid": 518,
+                "season_start_date": "2016-03-20T00:00:00+00:00",
+                "season_end_date": "2016-10-29T23:59:00+01:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 2016"
+            },
+            {
+                "season_uid": 511,
+                "season_start_date": "2015-05-03T00:00:00+01:00",
+                "season_end_date": "2016-04-30T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 2015-2016"
+            },
+            {
+                "season_uid": 510,
+                "season_start_date": "2015-04-26T00:00:00+01:00",
+                "season_end_date": "2016-04-23T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 2015-2016"
+            },
+            {
+                "season_uid": 512,
+                "season_start_date": "2015-10-29T00:00:00+00:00",
+                "season_end_date": "2016-03-25T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 2015-2016"
+            },
+            {
+                "season_uid": 507,
+                "season_start_date": "2015-10-28T00:00:00+00:00",
+                "season_end_date": "2016-03-18T23:59:00+00:00",
+                "season_type_code": "W",
+                "season_desc": "Irish AW 2015-2016"
+            },
+            {
+                "season_uid": 499,
+                "season_start_date": "2015-01-01T00:00:00+00:00",
+                "season_end_date": "2015-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 2015"
+            },
+            {
+                "season_uid": 504,
+                "season_start_date": "2014-11-10T00:00:00+00:00",
+                "season_end_date": "2015-11-07T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 2015"
+            },
+            {
+                "season_uid": 509,
+                "season_start_date": "2015-03-29T00:00:00+00:00",
+                "season_end_date": "2015-10-25T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 2015"
+            },
+            {
+                "season_uid": 496,
+                "season_start_date": "2014-05-04T00:00:00+01:00",
+                "season_end_date": "2015-05-02T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 2014-2015"
+            },
+            {
+                "season_uid": 497,
+                "season_start_date": "2014-04-27T00:00:00+01:00",
+                "season_end_date": "2015-04-25T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 2014-2015"
+            },
+            {
+                "season_uid": 502,
+                "season_start_date": "2014-10-30T00:00:00+00:00",
+                "season_end_date": "2015-04-03T23:59:00+01:00",
+                "season_type_code": "A",
+                "season_desc": "AW 2014-2015"
+            },
+            {
+                "season_uid": 501,
+                "season_start_date": "2014-10-31T00:00:00+00:00",
+                "season_end_date": "2015-03-18T23:59:00+00:00",
+                "season_type_code": "W",
+                "season_desc": "Irish AW 2014-2015"
+            },
+            {
+                "season_uid": 374,
+                "season_start_date": "2014-01-01T00:00:00+00:00",
+                "season_end_date": "2014-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 2014"
+            },
+            {
+                "season_uid": 493,
+                "season_start_date": "2013-11-10T00:00:00+00:00",
+                "season_end_date": "2014-11-08T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 2014"
+            },
+            {
+                "season_uid": 491,
+                "season_start_date": "2014-03-23T00:00:00+00:00",
+                "season_end_date": "2014-10-26T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 2014"
+            },
+            {
+                "season_uid": 376,
+                "season_start_date": "2013-04-28T00:00:00+01:00",
+                "season_end_date": "2014-05-03T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 2013-2014"
+            },
+            {
+                "season_uid": 375,
+                "season_start_date": "2013-04-28T00:00:00+01:00",
+                "season_end_date": "2014-04-26T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 2013-2014"
+            },
+            {
+                "season_uid": 488,
+                "season_start_date": "2013-10-26T00:00:00+01:00",
+                "season_end_date": "2014-04-18T23:59:00+01:00",
+                "season_type_code": "A",
+                "season_desc": "AW 2013-2014"
+            },
+            {
+                "season_uid": 489,
+                "season_start_date": "2013-11-08T00:00:00+00:00",
+                "season_end_date": "2014-03-21T23:59:00+00:00",
+                "season_type_code": "W",
+                "season_desc": "Irish AW 2013-2014"
+            },
+            {
+                "season_uid": 370,
+                "season_start_date": "2013-01-01T00:00:00+00:00",
+                "season_end_date": "2013-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 2013"
+            },
+            {
+                "season_uid": 478,
+                "season_start_date": "2012-11-11T00:00:00+00:00",
+                "season_end_date": "2013-11-09T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 2013"
+            },
+            {
+                "season_uid": 480,
+                "season_start_date": "2013-03-24T00:00:00+00:00",
+                "season_end_date": "2013-11-03T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 2013"
+            },
+            {
+                "season_uid": 367,
+                "season_start_date": "2012-04-29T00:00:00+01:00",
+                "season_end_date": "2013-04-27T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 2012-2013"
+            },
+            {
+                "season_uid": 368,
+                "season_start_date": "2012-04-29T00:00:00+01:00",
+                "season_end_date": "2013-04-27T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 2012-2013"
+            },
+            {
+                "season_uid": 373,
+                "season_start_date": "2012-11-14T00:00:00+00:00",
+                "season_end_date": "2013-03-28T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 2012-2013"
+            },
+            {
+                "season_uid": 366,
+                "season_start_date": "2012-11-09T00:00:00+00:00",
+                "season_end_date": "2013-03-22T23:59:00+00:00",
+                "season_type_code": "W",
+                "season_desc": "Irish AW 2012-2013"
+            },
+            {
+                "season_uid": 354,
+                "season_start_date": "2012-01-01T00:00:00+00:00",
+                "season_end_date": "2012-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 2012"
+            },
+            {
+                "season_uid": 474,
+                "season_start_date": "2011-11-06T00:00:00+00:00",
+                "season_end_date": "2012-11-10T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 2012"
+            },
+            {
+                "season_uid": 476,
+                "season_start_date": "2012-03-25T00:00:00+00:00",
+                "season_end_date": "2012-11-04T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 2012"
+            },
+            {
+                "season_uid": 355,
+                "season_start_date": "2011-04-24T00:00:00+01:00",
+                "season_end_date": "2012-04-28T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 2011-2012"
+            },
+            {
+                "season_uid": 356,
+                "season_start_date": "2011-05-08T00:00:00+01:00",
+                "season_end_date": "2012-04-28T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 2011-2012"
+            },
+            {
+                "season_uid": 362,
+                "season_start_date": "2011-11-09T00:00:00+00:00",
+                "season_end_date": "2012-03-30T23:59:00+01:00",
+                "season_type_code": "A",
+                "season_desc": "AW 2011-2012"
+            },
+            {
+                "season_uid": 364,
+                "season_start_date": "2011-11-11T00:00:00+00:00",
+                "season_end_date": "2012-03-23T23:59:00+00:00",
+                "season_type_code": "W",
+                "season_desc": "Irish AW 2011-2012"
+            },
+            {
+                "season_uid": 352,
+                "season_start_date": "2011-01-01T00:00:00+00:00",
+                "season_end_date": "2011-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 2011"
+            },
+            {
+                "season_uid": 472,
+                "season_start_date": "2011-03-20T00:00:00+00:00",
+                "season_end_date": "2011-11-06T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 2011"
+            },
+            {
+                "season_uid": 470,
+                "season_start_date": "2010-11-07T00:00:00+00:00",
+                "season_end_date": "2011-11-05T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 2011"
+            },
+            {
+                "season_uid": 350,
+                "season_start_date": "2010-04-25T00:00:00+01:00",
+                "season_end_date": "2011-05-07T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 2010-2011"
+            },
+            {
+                "season_uid": 349,
+                "season_start_date": "2010-04-25T00:00:00+01:00",
+                "season_end_date": "2011-04-23T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 2010-2011"
+            },
+            {
+                "season_uid": 348,
+                "season_start_date": "2010-11-08T00:00:00+00:00",
+                "season_end_date": "2011-03-27T23:59:00+01:00",
+                "season_type_code": "A",
+                "season_desc": "AW 2010-2011"
+            },
+            {
+                "season_uid": 363,
+                "season_start_date": "2010-11-06T00:00:00+00:00",
+                "season_end_date": "2011-03-18T23:59:00+00:00",
+                "season_type_code": "W",
+                "season_desc": "Irish AW 2010-2011"
+            },
+            {
+                "season_uid": 342,
+                "season_start_date": "2010-01-01T00:00:00+00:00",
+                "season_end_date": "2010-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 2010"
+            },
+            {
+                "season_uid": 468,
+                "season_start_date": "2010-01-01T00:00:00+00:00",
+                "season_end_date": "2010-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 2010"
+            },
+            {
+                "season_uid": 466,
+                "season_start_date": "2010-03-27T00:00:00+00:00",
+                "season_end_date": "2010-11-06T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 2010"
+            },
+            {
+                "season_uid": 343,
+                "season_start_date": "2009-04-26T00:00:00+01:00",
+                "season_end_date": "2010-04-24T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 2009-2010"
+            },
+            {
+                "season_uid": 345,
+                "season_start_date": "2009-05-03T00:00:00+01:00",
+                "season_end_date": "2010-04-24T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 2009-2010"
+            },
+            {
+                "season_uid": 344,
+                "season_start_date": "2009-11-08T00:00:00+00:00",
+                "season_end_date": "2010-03-26T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 2009-2010"
+            },
+            {
+                "season_uid": 336,
+                "season_start_date": "2009-01-01T00:00:00+00:00",
+                "season_end_date": "2009-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 2009"
+            },
+            {
+                "season_uid": 464,
+                "season_start_date": "2009-01-01T00:00:00+00:00",
+                "season_end_date": "2009-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 2009"
+            },
+            {
+                "season_uid": 462,
+                "season_start_date": "2009-03-28T00:00:00+00:00",
+                "season_end_date": "2009-11-07T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 2009"
+            },
+            {
+                "season_uid": 338,
+                "season_start_date": "2008-04-27T00:00:00+01:00",
+                "season_end_date": "2009-05-02T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 2008-2009"
+            },
+            {
+                "season_uid": 335,
+                "season_start_date": "2008-04-27T00:00:00+01:00",
+                "season_end_date": "2009-04-25T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 2008-2009"
+            },
+            {
+                "season_uid": 341,
+                "season_start_date": "2008-11-10T00:00:00+00:00",
+                "season_end_date": "2009-03-27T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 2008-2009"
+            },
+            {
+                "season_uid": 333,
+                "season_start_date": "2008-01-01T00:00:00+00:00",
+                "season_end_date": "2008-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 2008"
+            },
+            {
+                "season_uid": 460,
+                "season_start_date": "2008-01-01T00:00:00+00:00",
+                "season_end_date": "2008-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 2008"
+            },
+            {
+                "season_uid": 458,
+                "season_start_date": "2008-03-22T00:00:00+00:00",
+                "season_end_date": "2008-11-08T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 2008"
+            },
+            {
+                "season_uid": 332,
+                "season_start_date": "2007-04-28T00:00:00+01:00",
+                "season_end_date": "2008-04-26T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 2007-2008"
+            },
+            {
+                "season_uid": 331,
+                "season_start_date": "2007-04-29T00:00:00+01:00",
+                "season_end_date": "2008-04-26T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 2007-2008"
+            },
+            {
+                "season_uid": 330,
+                "season_start_date": "2007-11-10T00:00:00+00:00",
+                "season_end_date": "2008-03-21T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 2007-2008"
+            },
+            {
+                "season_uid": 328,
+                "season_start_date": "2007-01-01T00:00:00+00:00",
+                "season_end_date": "2007-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 2007"
+            },
+            {
+                "season_uid": 456,
+                "season_start_date": "2007-01-01T00:00:00+00:00",
+                "season_end_date": "2007-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 2007"
+            },
+            {
+                "season_uid": 454,
+                "season_start_date": "2007-03-31T00:00:00+01:00",
+                "season_end_date": "2007-11-10T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 2007"
+            },
+            {
+                "season_uid": 324,
+                "season_start_date": "2006-04-30T00:00:00+01:00",
+                "season_end_date": "2007-04-28T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 2006-2007"
+            },
+            {
+                "season_uid": 323,
+                "season_start_date": "2006-04-30T00:00:00+01:00",
+                "season_end_date": "2007-04-27T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 2006-2007"
+            },
+            {
+                "season_uid": 326,
+                "season_start_date": "2006-11-06T00:00:00+00:00",
+                "season_end_date": "2007-03-24T18:00:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 2006-2007"
+            },
+            {
+                "season_uid": 322,
+                "season_start_date": "2006-01-01T00:00:00+00:00",
+                "season_end_date": "2006-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 2006"
+            },
+            {
+                "season_uid": 452,
+                "season_start_date": "2006-01-01T00:00:00+00:00",
+                "season_end_date": "2006-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 2006"
+            },
+            {
+                "season_uid": 450,
+                "season_start_date": "2006-03-23T00:00:00+00:00",
+                "season_end_date": "2006-11-04T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 2006"
+            },
+            {
+                "season_uid": 320,
+                "season_start_date": "2005-04-24T00:00:00+01:00",
+                "season_end_date": "2006-04-29T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 2005-2006"
+            },
+            {
+                "season_uid": 321,
+                "season_start_date": "2005-05-31T00:00:00+01:00",
+                "season_end_date": "2006-04-29T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 2005-2006"
+            },
+            {
+                "season_uid": 319,
+                "season_start_date": "2005-11-07T00:00:00+00:00",
+                "season_end_date": "2006-03-18T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 2005-2006"
+            },
+            {
+                "season_uid": 448,
+                "season_start_date": "2005-01-01T00:00:00+00:00",
+                "season_end_date": "2005-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 2005"
+            },
+            {
+                "season_uid": 318,
+                "season_start_date": "2005-01-01T00:00:00+00:00",
+                "season_end_date": "2005-12-31T23:58:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 2005"
+            },
+            {
+                "season_uid": 446,
+                "season_start_date": "2005-03-26T00:00:00+00:00",
+                "season_end_date": "2005-11-05T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 2005"
+            },
+            {
+                "season_uid": 315,
+                "season_start_date": "2004-05-02T00:00:00+01:00",
+                "season_end_date": "2005-04-30T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 2004-2005"
+            },
+            {
+                "season_uid": 314,
+                "season_start_date": "2004-04-25T00:00:00+01:00",
+                "season_end_date": "2005-04-23T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 2004-2005"
+            },
+            {
+                "season_uid": 316,
+                "season_start_date": "2004-11-08T00:00:00+00:00",
+                "season_end_date": "2005-03-19T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 2004-2005"
+            },
+            {
+                "season_uid": 312,
+                "season_start_date": "2004-01-01T00:00:00+00:00",
+                "season_end_date": "2004-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 2004"
+            },
+            {
+                "season_uid": 444,
+                "season_start_date": "2004-01-01T00:00:00+00:00",
+                "season_end_date": "2004-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 2004"
+            },
+            {
+                "season_uid": 442,
+                "season_start_date": "2004-03-25T00:00:00+00:00",
+                "season_end_date": "2004-11-06T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 2004"
+            },
+            {
+                "season_uid": 310,
+                "season_start_date": "2003-05-04T00:00:00+01:00",
+                "season_end_date": "2004-05-01T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 2003-2004"
+            },
+            {
+                "season_uid": 309,
+                "season_start_date": "2003-04-27T00:00:00+01:00",
+                "season_end_date": "2004-04-24T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 2003-2004"
+            },
+            {
+                "season_uid": 311,
+                "season_start_date": "2003-11-10T00:00:00+00:00",
+                "season_end_date": "2004-03-21T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 2003-2004"
+            },
+            {
+                "season_uid": 440,
+                "season_start_date": "2003-01-01T00:00:00+00:00",
+                "season_end_date": "2003-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 2003"
+            },
+            {
+                "season_uid": 307,
+                "season_start_date": "2003-01-01T00:00:00+00:00",
+                "season_end_date": "2003-12-31T23:58:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 2003"
+            },
+            {
+                "season_uid": 438,
+                "season_start_date": "2003-03-20T00:00:00+00:00",
+                "season_end_date": "2003-11-08T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 2003"
+            },
+            {
+                "season_uid": 305,
+                "season_start_date": "2002-06-01T00:00:00+01:00",
+                "season_end_date": "2003-05-03T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 2002-2003"
+            },
+            {
+                "season_uid": 124,
+                "season_start_date": "2002-04-29T00:00:00+01:00",
+                "season_end_date": "2003-04-26T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 2002-2003"
+            },
+            {
+                "season_uid": 306,
+                "season_start_date": "2002-11-11T00:00:00+00:00",
+                "season_end_date": "2003-03-19T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 2002-2003"
+            },
+            {
+                "season_uid": 436,
+                "season_start_date": "2002-01-01T00:00:00+00:00",
+                "season_end_date": "2002-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 2002"
+            },
+            {
+                "season_uid": 122,
+                "season_start_date": "2002-01-01T00:00:00+00:00",
+                "season_end_date": "2002-12-31T23:58:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 2002"
+            },
+            {
+                "season_uid": 434,
+                "season_start_date": "2002-03-21T00:00:00+00:00",
+                "season_end_date": "2002-11-09T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 2002"
+            },
+            {
+                "season_uid": 304,
+                "season_start_date": "2001-06-02T00:00:00+01:00",
+                "season_end_date": "2002-05-31T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 2001-2002"
+            },
+            {
+                "season_uid": 120,
+                "season_start_date": "2001-04-29T00:00:00+01:00",
+                "season_end_date": "2002-04-28T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 2001-2002"
+            },
+            {
+                "season_uid": 121,
+                "season_start_date": "2001-11-13T00:00:00+00:00",
+                "season_end_date": "2002-03-28T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 2001-2002"
+            },
+            {
+                "season_uid": 432,
+                "season_start_date": "2001-01-01T00:00:00+00:00",
+                "season_end_date": "2001-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 2001"
+            },
+            {
+                "season_uid": 118,
+                "season_start_date": "2001-01-01T00:00:00+00:00",
+                "season_end_date": "2001-12-31T23:58:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 2001"
+            },
+            {
+                "season_uid": 430,
+                "season_start_date": "2001-03-22T00:00:00+00:00",
+                "season_end_date": "2001-11-10T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 2001"
+            },
+            {
+                "season_uid": 303,
+                "season_start_date": "2000-06-03T00:00:00+01:00",
+                "season_end_date": "2001-06-01T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 2000-2001"
+            },
+            {
+                "season_uid": 116,
+                "season_start_date": "2000-04-30T00:00:00+01:00",
+                "season_end_date": "2001-04-28T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 2000-2001"
+            },
+            {
+                "season_uid": 117,
+                "season_start_date": "2000-11-06T00:00:00+00:00",
+                "season_end_date": "2001-03-21T23:58:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 2000-2001"
+            },
+            {
+                "season_uid": 428,
+                "season_start_date": "2000-01-01T00:00:00+00:00",
+                "season_end_date": "2000-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 2000"
+            },
+            {
+                "season_uid": 114,
+                "season_start_date": "2000-01-01T00:00:00+00:00",
+                "season_end_date": "2000-12-31T23:58:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 2000"
+            },
+            {
+                "season_uid": 426,
+                "season_start_date": "2000-03-23T00:00:00+00:00",
+                "season_end_date": "2000-11-04T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 2000"
+            },
+            {
+                "season_uid": 302,
+                "season_start_date": "1999-06-05T00:00:00+01:00",
+                "season_end_date": "2000-06-02T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 1999-2000"
+            },
+            {
+                "season_uid": 112,
+                "season_start_date": "1999-06-02T00:00:00+01:00",
+                "season_end_date": "2000-04-29T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 1999-2000"
+            },
+            {
+                "season_uid": 113,
+                "season_start_date": "1999-11-08T12:00:00+00:00",
+                "season_end_date": "2000-03-22T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 1999-2000"
+            },
+            {
+                "season_uid": 424,
+                "season_start_date": "1999-01-01T00:00:00+00:00",
+                "season_end_date": "1999-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 1999"
+            },
+            {
+                "season_uid": 37,
+                "season_start_date": "1999-01-01T00:00:00+00:00",
+                "season_end_date": "1999-12-31T23:58:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 1999"
+            },
+            {
+                "season_uid": 422,
+                "season_start_date": "1999-03-25T00:00:00+00:00",
+                "season_end_date": "1999-11-06T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 1999"
+            },
+            {
+                "season_uid": 301,
+                "season_start_date": "1998-06-06T00:00:00+01:00",
+                "season_end_date": "1999-06-04T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 1998-1999"
+            },
+            {
+                "season_uid": 36,
+                "season_start_date": "1998-06-01T00:00:00+01:00",
+                "season_end_date": "1999-06-01T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 1998-99"
+            },
+            {
+                "season_uid": 110,
+                "season_start_date": "1998-11-08T12:00:00+00:00",
+                "season_end_date": "1999-03-24T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 1998-99"
+            },
+            {
+                "season_uid": 420,
+                "season_start_date": "1998-01-01T00:00:00+00:00",
+                "season_end_date": "1998-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 1998"
+            },
+            {
+                "season_uid": 34,
+                "season_start_date": "1998-01-01T00:00:00+00:00",
+                "season_end_date": "1998-12-31T23:58:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 1998"
+            },
+            {
+                "season_uid": 418,
+                "season_start_date": "1998-03-26T00:00:00+00:00",
+                "season_end_date": "1998-11-06T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 1998"
+            },
+            {
+                "season_uid": 300,
+                "season_start_date": "1997-06-01T00:00:00+01:00",
+                "season_end_date": "1998-06-05T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 1997-1998"
+            },
+            {
+                "season_uid": 33,
+                "season_start_date": "1997-06-01T00:00:00+01:00",
+                "season_end_date": "1998-05-31T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 1997-98"
+            },
+            {
+                "season_uid": 109,
+                "season_start_date": "1997-11-10T00:00:00+00:00",
+                "season_end_date": "1998-03-24T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 1997-98"
+            },
+            {
+                "season_uid": 32,
+                "season_start_date": "1997-01-01T00:00:00+00:00",
+                "season_end_date": "1997-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 1997"
+            },
+            {
+                "season_uid": 416,
+                "season_start_date": "1997-01-01T00:00:00+00:00",
+                "season_end_date": "1997-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 1997"
+            },
+            {
+                "season_uid": 414,
+                "season_start_date": "1997-03-20T00:00:00+00:00",
+                "season_end_date": "1997-11-07T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 1997"
+            },
+            {
+                "season_uid": 299,
+                "season_start_date": "1996-06-01T00:00:00+01:00",
+                "season_end_date": "1997-05-31T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 1996-1997"
+            },
+            {
+                "season_uid": 20,
+                "season_start_date": "1996-06-02T00:00:00+01:00",
+                "season_end_date": "1997-05-31T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 1996-97"
+            },
+            {
+                "season_uid": 108,
+                "season_start_date": "1996-11-11T00:00:00+00:00",
+                "season_end_date": "1997-03-19T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 1996-97"
+            },
+            {
+                "season_uid": 19,
+                "season_start_date": "1996-01-01T00:00:00+00:00",
+                "season_end_date": "1996-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 1996"
+            },
+            {
+                "season_uid": 412,
+                "season_start_date": "1996-01-01T00:00:00+00:00",
+                "season_end_date": "1996-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 1996"
+            },
+            {
+                "season_uid": 410,
+                "season_start_date": "1996-03-21T00:00:00+00:00",
+                "season_end_date": "1996-11-10T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 1996"
+            },
+            {
+                "season_uid": 18,
+                "season_start_date": "1995-06-04T00:00:00+01:00",
+                "season_end_date": "1996-06-01T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 1995-96"
+            },
+            {
+                "season_uid": 298,
+                "season_start_date": "1995-06-03T00:00:00+01:00",
+                "season_end_date": "1996-05-31T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 1995-1996"
+            },
+            {
+                "season_uid": 107,
+                "season_start_date": "1995-11-06T00:00:00+00:00",
+                "season_end_date": "1996-03-20T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 1995-96"
+            },
+            {
+                "season_uid": 17,
+                "season_start_date": "1995-01-01T00:00:00+00:00",
+                "season_end_date": "1995-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 1995"
+            },
+            {
+                "season_uid": 408,
+                "season_start_date": "1995-01-01T00:00:00+00:00",
+                "season_end_date": "1995-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 1995"
+            },
+            {
+                "season_uid": 406,
+                "season_start_date": "1995-03-23T00:00:00+00:00",
+                "season_end_date": "1995-11-05T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 1995"
+            },
+            {
+                "season_uid": 16,
+                "season_start_date": "1994-06-05T00:00:00+01:00",
+                "season_end_date": "1995-06-03T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 1994-95"
+            },
+            {
+                "season_uid": 297,
+                "season_start_date": "1994-06-04T00:00:00+01:00",
+                "season_end_date": "1995-06-02T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 1994-1995"
+            },
+            {
+                "season_uid": 106,
+                "season_start_date": "1994-11-07T00:00:00+00:00",
+                "season_end_date": "1995-03-22T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 1994-95"
+            },
+            {
+                "season_uid": 15,
+                "season_start_date": "1994-01-01T00:00:00+00:00",
+                "season_end_date": "1994-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 1994"
+            },
+            {
+                "season_uid": 404,
+                "season_start_date": "1994-01-01T00:00:00+00:00",
+                "season_end_date": "1994-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 1994"
+            },
+            {
+                "season_uid": 402,
+                "season_start_date": "1994-03-24T00:00:00+00:00",
+                "season_end_date": "1994-11-06T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 1994"
+            },
+            {
+                "season_uid": 14,
+                "season_start_date": "1993-06-11T00:00:00+01:00",
+                "season_end_date": "1994-06-04T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 1993-94"
+            },
+            {
+                "season_uid": 482,
+                "season_start_date": "1993-06-06T00:00:00+01:00",
+                "season_end_date": "1994-06-03T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 1993-1994"
+            },
+            {
+                "season_uid": 105,
+                "season_start_date": "1993-11-08T00:00:00+00:00",
+                "season_end_date": "1994-03-23T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 1993-94"
+            },
+            {
+                "season_uid": 13,
+                "season_start_date": "1993-01-01T00:00:00+00:00",
+                "season_end_date": "1993-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 1993"
+            },
+            {
+                "season_uid": 400,
+                "season_start_date": "1993-01-01T00:00:00+00:00",
+                "season_end_date": "1993-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 1993"
+            },
+            {
+                "season_uid": 398,
+                "season_start_date": "1993-03-25T00:00:00+00:00",
+                "season_end_date": "1993-11-07T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 1993"
+            },
+            {
+                "season_uid": 12,
+                "season_start_date": "1992-05-31T00:00:00+01:00",
+                "season_end_date": "1993-06-10T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 1992-93"
+            },
+            {
+                "season_uid": 483,
+                "season_start_date": "1992-05-31T00:00:00+01:00",
+                "season_end_date": "1993-06-05T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 1992-1993"
+            },
+            {
+                "season_uid": 104,
+                "season_start_date": "1992-11-09T00:00:00+00:00",
+                "season_end_date": "1993-03-24T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 1992-93"
+            },
+            {
+                "season_uid": 11,
+                "season_start_date": "1992-01-01T00:00:00+00:00",
+                "season_end_date": "1992-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 1992"
+            },
+            {
+                "season_uid": 396,
+                "season_start_date": "1992-01-01T00:00:00+00:00",
+                "season_end_date": "1992-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 1992"
+            },
+            {
+                "season_uid": 394,
+                "season_start_date": "1992-03-19T00:00:00+00:00",
+                "season_end_date": "1992-11-08T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 1992"
+            },
+            {
+                "season_uid": 10,
+                "season_start_date": "1991-06-02T00:00:00+01:00",
+                "season_end_date": "1992-05-30T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 1991-92"
+            },
+            {
+                "season_uid": 484,
+                "season_start_date": "1991-06-02T00:00:00+01:00",
+                "season_end_date": "1992-05-30T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 1991-1992"
+            },
+            {
+                "season_uid": 103,
+                "season_start_date": "1991-11-11T00:00:00+00:00",
+                "season_end_date": "1992-03-18T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 1991-92"
+            },
+            {
+                "season_uid": 9,
+                "season_start_date": "1991-01-01T00:00:00+00:00",
+                "season_end_date": "1991-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 1991"
+            },
+            {
+                "season_uid": 392,
+                "season_start_date": "1991-01-01T00:00:00+00:00",
+                "season_end_date": "1991-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 1991"
+            },
+            {
+                "season_uid": 390,
+                "season_start_date": "1991-03-21T00:00:00+00:00",
+                "season_end_date": "1991-11-10T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 1991"
+            },
+            {
+                "season_uid": 8,
+                "season_start_date": "1990-06-03T00:00:00+01:00",
+                "season_end_date": "1991-06-01T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 1990-91"
+            },
+            {
+                "season_uid": 485,
+                "season_start_date": "1990-06-03T00:00:00+01:00",
+                "season_end_date": "1991-06-01T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 1990-1991"
+            },
+            {
+                "season_uid": 102,
+                "season_start_date": "1990-11-12T00:00:00+00:00",
+                "season_end_date": "1991-03-20T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 1990-91"
+            },
+            {
+                "season_uid": 7,
+                "season_start_date": "1990-01-01T00:00:00+00:00",
+                "season_end_date": "1990-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 1990"
+            },
+            {
+                "season_uid": 388,
+                "season_start_date": "1990-01-01T00:00:00+00:00",
+                "season_end_date": "1990-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 1990"
+            },
+            {
+                "season_uid": 386,
+                "season_start_date": "1990-03-22T00:00:00+00:00",
+                "season_end_date": "1990-11-11T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 1990"
+            },
+            {
+                "season_uid": 6,
+                "season_start_date": "1989-06-04T00:00:00+01:00",
+                "season_end_date": "1990-06-02T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 1989-90"
+            },
+            {
+                "season_uid": 486,
+                "season_start_date": "1989-06-04T00:00:00+01:00",
+                "season_end_date": "1990-06-02T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 1989-1990"
+            },
+            {
+                "season_uid": 101,
+                "season_start_date": "1989-11-11T00:00:00+00:00",
+                "season_end_date": "1990-03-21T23:59:00+00:00",
+                "season_type_code": "A",
+                "season_desc": "AW 1989-90"
+            },
+            {
+                "season_uid": 5,
+                "season_start_date": "1989-01-01T00:00:00+00:00",
+                "season_end_date": "1989-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 1989"
+            },
+            {
+                "season_uid": 384,
+                "season_start_date": "1989-01-01T00:00:00+00:00",
+                "season_end_date": "1989-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 1989"
+            },
+            {
+                "season_uid": 382,
+                "season_start_date": "1989-03-25T00:00:00+00:00",
+                "season_end_date": "1989-11-10T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 1989"
+            },
+            {
+                "season_uid": 4,
+                "season_start_date": "1988-06-05T00:00:00+01:00",
+                "season_end_date": "1989-06-03T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_desc": "NH 1988-89"
+            },
+            {
+                "season_uid": 487,
+                "season_start_date": "1988-06-05T00:00:00+01:00",
+                "season_end_date": "1989-06-03T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_desc": "Irish Jumps 1988-1989"
+            },
+            {
+                "season_uid": 3,
+                "season_start_date": "1988-01-01T00:00:00+00:00",
+                "season_end_date": "1988-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_desc": "Flat 1988"
+            },
+            {
+                "season_uid": 380,
+                "season_start_date": "1988-01-01T00:00:00+00:00",
+                "season_end_date": "1988-12-31T23:59:00+00:00",
+                "season_type_code": "N",
+                "season_desc": "Irish Flat Trainer Title 1988"
+            },
+            {
+                "season_uid": 378,
+                "season_start_date": "1988-03-24T00:00:00+00:00",
+                "season_end_date": "1988-11-04T23:59:00+00:00",
+                "season_type_code": "L",
+                "season_desc": "GB Flat Trainer Title 1988"
+            }
+        ]
+    },
+    "status": 200
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="./bootstrap.php"
+         backupGlobals="false"
+         backupStaticAttributes="false"
+         verbose="true"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         beStrictAboutTestsThatDoNotTestAnything="true"
+         beStrictAboutOutputDuringTests="false"
+         checkForUnintentionallyCoveredCode="false">
+
+    <testsuites>
+        <testsuite name="Content attributes Testsuite">
+            <directory>./utils</directory>
+        </testsuite>
+    </testsuites>
+
+    <logging>
+        <log type="coverage-clover" target="../coverage/phpunit.coverage.xml"/>
+        <log type="coverage-text" target="php://stdout" showUncoveredFiles="false" showOnlySummary="true" />
+        <log type="junit" target="../coverage/junit_report.xml" logIncompleteSkipped="false"/>
+    </logging>
+
+    <filter>
+        <blacklist>
+            <directory>../../vendor/</directory>
+            <directory>../../test/</directory>
+        </blacklist>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory>../../src/</directory>
+        </whitelist>
+    </filter>
+
+
+</phpunit>

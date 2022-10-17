@@ -1,0 +1,27 @@
+{
+  "data": {
+    "sales": {
+      "1371607": {
+        "horse_uid": 1371607,
+        "horse_name": "Yimou",
+        "sales_info": [
+          {
+            "buyer_detail": "Graham Thorner",
+            "price": 18000,
+            "sale_date": "2017-11-08T00:00:00+00:00",
+            "venue_desc": "GOFFS UK (DONCASTER)",
+            "venue_uid": 44,
+            "lot_no": 180,
+            "lot_letter": "",
+            "seller_name": "From Godolphin",
+            "cur_code": "GBP",
+            "sale_name": "Goffs UK Autumn HIT and Yearling Sale 2017",
+            "abbrev_name": "Goffs UK Autumn (hit & yearlings)",
+            "sale_type": null
+          }
+        ]
+      }
+    }
+  },
+  "status": 200
+}

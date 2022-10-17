@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<root>
+    <data>
+        <actionType>card</actionType>
+        <dates>
+            <date available="1">2018-07-27</date>
+            <date available="1">2018-07-28</date>
+            <date available="1">2018-07-29</date>
+            <date available="1">2018-07-30</date>
+            <date available="1">2018-07-31</date>
+            <date available="1">2018-08-01</date>
+            <date available="1">2018-08-02</date>
+        </dates>
+    </data>
+    <status>200</status>
+</root>

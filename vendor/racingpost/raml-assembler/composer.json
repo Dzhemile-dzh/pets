@@ -1,0 +1,14 @@
+{
+  "name": "racingpost/raml-assembler",
+  "description": "Script for generation of common RAML file",
+  "authors": [
+    {
+      "name": "Team Tesla",
+      "email": "tesla@racingpost.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "version": "0.1.3"
+}

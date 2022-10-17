@@ -1,0 +1,1 @@
+../racingpost/code-style/bin/setup-git-hooks.sh

@@ -1,0 +1,12 @@
+{
+  "name": "racingpost/code-style",
+  "description": "library to check code style for racingpost projects",
+  "bin": [
+    "bin/setup-git-hooks.sh"
+  ],
+  "require": {
+    "php": ">=5.4",
+    "squizlabs/php_codesniffer": "2.*"
+  },
+  "version": "0.05"
+}

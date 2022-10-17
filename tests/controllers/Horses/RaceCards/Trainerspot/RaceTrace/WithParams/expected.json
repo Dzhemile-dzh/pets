@@ -1,0 +1,161 @@
+{
+    "data": {
+        "trainerspot": {
+            "race_trace": [
+                {
+                    "course_uid": 175,
+                    "course_name": "Ballinrobe",
+                    "trainers": [
+                        {
+                            "trainer_uid": 18145,
+                            "trainer_name": "Gordon Elliott",
+                            "race_instance_uid": 703521,
+                            "race_datetime": "2018-05-29T19:30:00+01:00",
+                            "stats": {
+                                "wins": 2,
+                                "runs": 7,
+                                "percent": 29,
+                                "profit": 1.5
+                            },
+                            "past_performance": [
+                                {
+                                    "year": 2009,
+                                    "finishing_positions": "7"
+                                },
+                                {
+                                    "year": 2010,
+                                    "finishing_positions": "1"
+                                },
+                                {
+                                    "year": 2011,
+                                    "finishing_positions": "3"
+                                },
+                                {
+                                    "year": 2012,
+                                    "finishing_positions": "5"
+                                },
+                                {
+                                    "year": 2013,
+                                    "finishing_positions": "6"
+                                },
+                                {
+                                    "year": 2015,
+                                    "finishing_positions": "4"
+                                },
+                                {
+                                    "year": 2016,
+                                    "finishing_positions": "1"
+                                }
+                            ],
+                            "today_runners": [
+                                {
+                                    "horse_uid": 980309,
+                                    "horse_name": "Midnight Escape"
+                                }
+                            ]
+                        },
+                        {
+                            "trainer_uid": 18145,
+                            "trainer_name": "Gordon Elliott",
+                            "race_instance_uid": 703518,
+                            "race_datetime": "2018-05-29T18:00:00+01:00",
+                            "stats": {
+                                "wins": 2,
+                                "runs": 4,
+                                "percent": 50,
+                                "profit": 11.5
+                            },
+                            "past_performance": [
+                                {
+                                    "year": 2012,
+                                    "finishing_positions": "0"
+                                },
+                                {
+                                    "year": 2013,
+                                    "finishing_positions": "1"
+                                },
+                                {
+                                    "year": 2015,
+                                    "finishing_positions": "4"
+                                },
+                                {
+                                    "year": 2016,
+                                    "finishing_positions": "1"
+                                }
+                            ],
+                            "today_runners": [
+                                {
+                                    "horse_uid": 1506936,
+                                    "horse_name": "Anytime Now"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "course_uid": 184,
+                    "course_name": "Gowran Park",
+                    "trainers": [
+                        {
+                            "trainer_uid": 1010,
+                            "trainer_name": "D K Weld",
+                            "race_instance_uid": 703547,
+                            "race_datetime": "2018-05-29T18:45:00+01:00",
+                            "stats": {
+                                "wins": 3,
+                                "runs": 10,
+                                "percent": 30,
+                                "profit": -1.5
+                            },
+                            "past_performance": [
+                                {
+                                    "year": 2009,
+                                    "finishing_positions": "2"
+                                },
+                                {
+                                    "year": 2010,
+                                    "finishing_positions": "1"
+                                },
+                                {
+                                    "year": 2011,
+                                    "finishing_positions": "5"
+                                },
+                                {
+                                    "year": 2012,
+                                    "finishing_positions": "74"
+                                },
+                                {
+                                    "year": 2013,
+                                    "finishing_positions": "1"
+                                },
+                                {
+                                    "year": 2014,
+                                    "finishing_positions": "1"
+                                },
+                                {
+                                    "year": 2015,
+                                    "finishing_positions": "4"
+                                },
+                                {
+                                    "year": 2016,
+                                    "finishing_positions": "2"
+                                },
+                                {
+                                    "year": 2017,
+                                    "finishing_positions": "2"
+                                }
+                            ],
+                            "today_runners": [
+                                {
+                                    "horse_uid": 1552022,
+                                    "horse_name": "Bella Estrella"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "status": 200
+}

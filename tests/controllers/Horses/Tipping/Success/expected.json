@@ -1,0 +1,58 @@
+{
+  "data": {
+    "tippings": {
+      "1": {
+        "winning_tip": {
+          "horse_uid": 2,
+          "horse_name": "Deinonychus",
+          "race_instance_uid": 723998,
+          "race_datetime": "2100-03-28T17:00:00+00:00",
+          "course_name": "Nottingham",
+          "odds_desc": "11/8F",
+          "odds_value": 1.375,
+          "tipster_name": "JACK",
+          "tipster_type": "RP"
+        },
+        "upcoming_tip": {
+          "horse_uid": 884391,
+          "horse_name": "Ascot De Bruyere",
+          "start_number": 1,
+          "race_instance_uid": 723997,
+          "race_datetime": "2100-03-28T20:30:00+00:00",
+          "course_name": "Newcastle",
+          "diffusion_course_name": "NEWCASTLE",
+          "tipster_name": "JACK",
+          "tipster_type": "SIGNPOSTS SWEETSPOTS",
+          "spotlight_tip_verdict": null
+        }
+      },
+      "2": {
+        "winning_tip": {
+          "horse_uid": 2,
+          "horse_name": "Deinonychus",
+          "race_instance_uid": 700000,
+          "race_datetime": "2100-03-28T17:00:00+00:00",
+          "course_name": "Nottingham",
+          "odds_desc": "11/8F",
+          "odds_value": 1.375,
+          "tipster_name": "DAVID",
+          "tipster_type": "SPOTLIGHT"
+        },
+        "upcoming_tip": {
+          "horse_uid": 884391,
+          "horse_name": "Ascot De Bruyere",
+          "start_number": 1,
+          "race_instance_uid": 711111,
+          "race_datetime": "2100-03-28T19:00:00+00:00",
+          "course_name": "Newcastle",
+          "diffusion_course_name": "NEWCASTLE",
+          "tipster_name": "DAVID",
+          "tipster_type": "SPOTLIGHT",
+          "spotlight_tip_verdict": "THERE IS SOME TEXT HERE"
+
+        }
+      }
+    }
+  },
+  "status": 200
+}

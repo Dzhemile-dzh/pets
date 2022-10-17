@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="/horses/css/rss.css"?>
+<?xml-stylesheet type="text/xsl" href="/horses/css/rss.xsl"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>YouTube videos from racingpostdotcom | Racing Post</title>
+        <link>http://www.racingpost.com/rss/</link>
+        <description>Get the latest news from Racing Post: breaking news, features, analysis, blogs and debate plus audio and video content.</description>
+        <language>en-gb</language>
+        <lastBuildDate>Wed, 07 Nov 2018 13:55:35 +0000</lastBuildDate>
+        <copyright>COPYRIGHT (C) 2018 Centurycomm Limited or its licensors, all rights reserved</copyright>
+        <docs>http://www.racingpost.com/rss/</docs>
+        <ttl>1440</ttl>
+        <image>
+            <title>Iphone Top | Racing Post</title>
+            <url>http://www.racingpost.com/img/elements/rp-logo-for-rss.gif</url>
+            <link>http://www.racingpost.com/rss/</link>
+            <width>144</width>
+            <height>39</height>
+        </image>
+        <item>
+            <title><![CDATA[Ten Second Tip: Wednesday 31-10-2018]]></title>
+            <description><![CDATA[Maddy Playle has a confident selection on Wednesday]]></description>
+            <link>http://www.youtube.com/watch?v=Gbfa429zvcA</link>
+            <guid isPermaLink="true">http://www.youtube.com/watch?v=Gbfa429zvcA</guid>
+            <pubDate>Wed, 31 Oct 2018 07:55:39 +0000</pubDate>
+            <media:thumbnail width="100" height="61" url="http://images.racingpost.com/2016/Jul/tb211682.jpg"></media:thumbnail>
+            <media:tags>Gbfa429zvcA</media:tags>
+        </item>
+        <item>
+            <title><![CDATA[Oliver Sherwood Stable Tour]]></title>
+            <description><![CDATA[Some exciting novices to note from the Grand National-winning trainer]]></description>
+            <link>http://www.youtube.com/watch?v=HD4rrazOGgQ</link>
+            <guid isPermaLink="true">http://www.youtube.com/watch?v=HD4rrazOGgQ</guid>
+            <pubDate>Thu, 01 Nov 2018 16:00:00 +0000</pubDate>
+            <media:thumbnail width="100" height="61" url="http://images.racingpost.com/2018/Nov/tb290614.jpg"/>
+            <media:tags>HD4rrazOGgQ</media:tags>
+        </item>
+    </channel>
+</rss>

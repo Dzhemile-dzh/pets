@@ -1,0 +1,3380 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "v1",
+        "title": "Racingpost Horses API"
+    },
+    "host": "racing-post.test",
+    "basePath": "\/sample",
+    "schemes": [
+        "http",
+        "https"
+    ],
+    "paths": {
+        "\/profile\/jockey\/{jockeyId}\/big-race-wins": {
+            "get": {
+                "tags": [
+                    "Jockey Profile"
+                ],
+                "summary": "Big Race Wins",
+                "description": "Represents Big Race Wins Resource",
+                "operationId": "TestsDocumentationSampleProfileJockeyBigRaceWins",
+                "consumes": [],
+                "produces": [
+                    "application\/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "jockeyId",
+                        "in": "path",
+                        "description": "Numeric id of the Jockey to get Big Race Wins **Example: **85793",
+                        "type": "integer",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Returns Big Race Wins data for a given jockey",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-big-race-wins-schema-json"
+                        }
+                    },
+                    "400": {
+                        "description": "Returns Big Race Wins data for a given jockey",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet400-schema400-json"
+                        }
+                    },
+                    "404": {
+                        "description": "Returns Big Race Wins data for a given jockey",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet404-schema404-json"
+                        }
+                    }
+                }
+            }
+        },
+        "\/profile\/jockey\/{jockeyId}\/booked-rides": {
+            "get": {
+                "tags": [
+                    "Jockey Profile"
+                ],
+                "summary": "Booked rides",
+                "description": "Represents Booked rides Resource",
+                "operationId": "TestsDocumentationSampleProfileJockeyBookedRides",
+                "consumes": [],
+                "produces": [
+                    "application\/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "jockeyId",
+                        "in": "path",
+                        "description": "Numeric id of the Jockey to get Booked rides **Example: **85793",
+                        "type": "integer",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Returns Booked rides data for a given jockey",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-booked-rides-schema-json"
+                        }
+                    },
+                    "400": {
+                        "description": "Returns Booked rides data for a given jockey",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet400-schema400-json"
+                        }
+                    },
+                    "404": {
+                        "description": "Returns Booked rides data for a given jockey",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet404-schema404-json"
+                        }
+                    }
+                }
+            }
+        },
+        "\/profile\/jockey\/{jockeyId}\/horses": {
+            "get": {
+                "tags": [
+                    "Jockey Profile"
+                ],
+                "summary": "Represents Horses Resource",
+                "description": "Jockey profile data related to horses",
+                "operationId": "RPDocumentationGroup",
+                "consumes": [],
+                "produces": [
+                    "application\/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "jockeyId",
+                        "in": "path",
+                        "description": "Numeric `id` of the Jockey **Example: **88563",
+                        "type": "integer",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Represents Horses Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-horses-schema-json"
+                        }
+                    },
+                    "400": {
+                        "description": "Represents Horses Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet400-schema400-json"
+                        }
+                    },
+                    "404": {
+                        "description": "Represents Horses Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet404-schema404-json"
+                        }
+                    }
+                }
+            }
+        },
+        "\/profile\/jockey\/{jockeyId}\/horses\/{year}\/{countryCode}\/{raceType}": {
+            "get": {
+                "tags": [
+                    "Jockey Profile"
+                ],
+                "summary": "Represents Horses Resource",
+                "description": "Jockey profile data related to horses",
+                "operationId": "RPDocumentationGroup",
+                "consumes": [],
+                "produces": [
+                    "application\/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "jockeyId",
+                        "in": "path",
+                        "description": "Numeric `id` of the Jockey **Example: **88563",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "year",
+                        "in": "path",
+                        "description": "Numeric representation of an year **Example: **2013",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "countryCode",
+                        "in": "path",
+                        "description": "Alphabet short code of country **Example: **IRE",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "name": "raceType",
+                        "in": "path",
+                        "description": "Allowed types of the race types **Example: **flat",
+                        "type": "string",
+                        "required": true,
+                        "enum": [
+                            "flat",
+                            "jumps"
+                        ]
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Represents Horses Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-horses-schema-json"
+                        }
+                    },
+                    "400": {
+                        "description": "Represents Horses Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet400-schema400-json"
+                        }
+                    },
+                    "404": {
+                        "description": "Represents Horses Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet404-schema404-json"
+                        }
+                    }
+                }
+            }
+        },
+        "\/profile\/jockey\/{jockeyId}\/horses\/{year}\/{countryCode}\/{raceType}\/{surface}": {
+            "get": {
+                "tags": [
+                    "Jockey Profile"
+                ],
+                "summary": "Represents Horses Resource",
+                "description": "Jockey profile data related to horses",
+                "operationId": "RPDocumentationGroup",
+                "consumes": [],
+                "produces": [
+                    "application\/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "jockeyId",
+                        "in": "path",
+                        "description": "Numeric `id` of the Jockey **Example: **88563",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "year",
+                        "in": "path",
+                        "description": "Numeric representation of an year **Example: **2013",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "countryCode",
+                        "in": "path",
+                        "description": "Alphabet short code of country **Example: **IRE",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "name": "raceType",
+                        "in": "path",
+                        "description": "Allowed types of the race types **Example: **flat",
+                        "type": "string",
+                        "required": true,
+                        "enum": [
+                            "flat",
+                            "jumps"
+                        ]
+                    },
+                    {
+                        "name": "surface",
+                        "in": "path",
+                        "description": "Allowed types of the surfaces **Example: **turf",
+                        "type": "string",
+                        "required": true,
+                        "enum": [
+                            "turf",
+                            "aw"
+                        ]
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Represents Horses Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-horses-schema-json"
+                        }
+                    },
+                    "400": {
+                        "description": "Represents Horses Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet400-schema400-json"
+                        }
+                    },
+                    "404": {
+                        "description": "Represents Horses Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet404-schema404-json"
+                        }
+                    }
+                }
+            }
+        },
+        "\/profile\/jockey\/{jockeyId}\/horses\/{year}\/{countryCode}\/{raceType}\/{surface}\/{championship}": {
+            "get": {
+                "tags": [
+                    "Jockey Profile"
+                ],
+                "summary": "Represents Horses Resource",
+                "description": "Jockey profile data related to horses",
+                "operationId": "RPDocumentationGroup",
+                "consumes": [],
+                "produces": [
+                    "application\/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "jockeyId",
+                        "in": "path",
+                        "description": "Numeric `id` of the Jockey **Example: **88563",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "year",
+                        "in": "path",
+                        "description": "Numeric representation of an year **Example: **2013",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "countryCode",
+                        "in": "path",
+                        "description": "Alphabet short code of country **Example: **IRE",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "name": "raceType",
+                        "in": "path",
+                        "description": "Allowed types of the race types **Example: **flat",
+                        "type": "string",
+                        "required": true,
+                        "enum": [
+                            "flat",
+                            "jumps"
+                        ]
+                    },
+                    {
+                        "name": "surface",
+                        "in": "path",
+                        "description": "Allowed types of the surfaces **Example: **turf",
+                        "type": "string",
+                        "required": true,
+                        "enum": [
+                            "turf",
+                            "aw"
+                        ]
+                    },
+                    {
+                        "name": "championship",
+                        "in": "path",
+                        "description": "If parameter is specified - statistics will be calculated regarding championship type code **Example: **championship",
+                        "type": "string",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Represents Horses Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-horses-schema-json"
+                        }
+                    },
+                    "400": {
+                        "description": "Represents Horses Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet400-schema400-json"
+                        }
+                    },
+                    "404": {
+                        "description": "Represents Horses Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet404-schema404-json"
+                        }
+                    }
+                }
+            }
+        },
+        "\/profile\/jockey\/{jockeyId}\/last-14-days": {
+            "get": {
+                "tags": [
+                    "Jockey Profile"
+                ],
+                "summary": "Last 14 Days",
+                "description": "Represents Last 14 Days Resource",
+                "operationId": "TestsDocumentationSampleProfileJockeyLast14Days",
+                "consumes": [],
+                "produces": [
+                    "application\/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "jockeyId",
+                        "in": "path",
+                        "description": "Numeric id of the Jockey to get Last 14 Days **Example: **90517",
+                        "type": "integer",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Returns Last 14 Days data for a given jockey",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-last14-days-schema-json"
+                        }
+                    },
+                    "400": {
+                        "description": "Returns Last 14 Days data for a given jockey",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet400-schema400-json"
+                        }
+                    },
+                    "404": {
+                        "description": "Returns Last 14 Days data for a given jockey",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet404-schema404-json"
+                        }
+                    }
+                }
+            }
+        },
+        "\/profile\/jockey\/{jockeyId}\/record-by-race-type": {
+            "get": {
+                "tags": [
+                    "Jockey Profile"
+                ],
+                "summary": "Record by Race Type",
+                "description": "Represents Record by Race Type Resource",
+                "operationId": "RPDocumentationGroup",
+                "consumes": [],
+                "produces": [
+                    "application\/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "jockeyId",
+                        "in": "path",
+                        "description": "Numeric `id` of the Jockey **Example: **87600",
+                        "type": "integer",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Returns Record by Race Type data for a given jockey",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-record-by-race-type-schema-json"
+                        }
+                    },
+                    "400": {
+                        "description": "Returns Record by Race Type data for a given jockey",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet400-schema400-json"
+                        }
+                    },
+                    "404": {
+                        "description": "Returns Record by Race Type data for a given jockey",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet404-schema404-json"
+                        }
+                    }
+                }
+            }
+        },
+        "\/profile\/jockey\/{jockeyId}\/record-by-race-type\/{countryCode}\/{raceType}\/{beginSeasonYear}\/{endSeasonYear}": {
+            "get": {
+                "tags": [
+                    "Jockey Profile"
+                ],
+                "summary": "Record by Race Type",
+                "description": "Represents Record by Race Type Resource",
+                "operationId": "RPDocumentationGroup",
+                "consumes": [],
+                "produces": [
+                    "application\/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "jockeyId",
+                        "in": "path",
+                        "description": "Numeric `id` of the Jockey **Example: **87600",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "countryCode",
+                        "in": "path",
+                        "description": "String `code` of the Country **Example: **GB",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "name": "raceType",
+                        "in": "path",
+                        "description": "String `code` of the Race Type **Example: **flat",
+                        "type": "string",
+                        "required": true,
+                        "enum": [
+                            "flat",
+                            "jumps"
+                        ]
+                    },
+                    {
+                        "name": "beginSeasonYear",
+                        "in": "path",
+                        "description": "Numeric `year` of the beginning of the season **Example: **2011",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "endSeasonYear",
+                        "in": "path",
+                        "description": "Numeric `year` of the end of the season. **Example: **2012",
+                        "type": "integer",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Returns Record by Race Type data for a given jockey",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-record-by-race-type-schema-json"
+                        }
+                    },
+                    "400": {
+                        "description": "Returns Record by Race Type data for a given jockey",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet400-schema400-json"
+                        }
+                    },
+                    "404": {
+                        "description": "Returns Record by Race Type data for a given jockey",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet404-schema404-json"
+                        }
+                    }
+                }
+            }
+        },
+        "\/profile\/jockey\/{jockeyId}\/statistical-summary": {
+            "get": {
+                "tags": [
+                    "Jockey Profile"
+                ],
+                "summary": "Represents of Statistical Summary Resource",
+                "description": "Summary statistics of the Jockey",
+                "operationId": "RPDocumentationGroup",
+                "consumes": [],
+                "produces": [
+                    "application\/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "jockeyId",
+                        "in": "path",
+                        "description": "Numeric `id` of the Jockey **Example: **92227",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "beginSeasonYear",
+                        "in": "query",
+                        "description": "Numeric `year` of the beginning of the season **Example: **2011",
+                        "type": "integer",
+                        "required": false
+                    },
+                    {
+                        "name": "endSeasonYear",
+                        "in": "query",
+                        "description": "Numeric `year` of the end of the season. **Example: **2012",
+                        "type": "integer",
+                        "required": false
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Returns Statistical Summary Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-statistical-summary-schema-json"
+                        }
+                    },
+                    "400": {
+                        "description": "Returns Statistical Summary Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet400-schema400-json"
+                        }
+                    },
+                    "404": {
+                        "description": "Returns Statistical Summary Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet404-schema404-json"
+                        }
+                    }
+                }
+            }
+        },
+        "\/profile\/jockey\/{jockeyId}\/statistical-summary\/{countryCode}\/{raceType}": {
+            "get": {
+                "tags": [
+                    "Jockey Profile"
+                ],
+                "summary": "Represents of Statistical Summary Resource",
+                "description": "Summary statistics of the Jockey",
+                "operationId": "RPDocumentationGroup",
+                "consumes": [],
+                "produces": [
+                    "application\/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "jockeyId",
+                        "in": "path",
+                        "description": "Numeric `id` of the Jockey **Example: **92227",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "countryCode",
+                        "in": "path",
+                        "description": "Alphabet short code of country **Example: **IRE",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "name": "raceType",
+                        "in": "path",
+                        "description": "Allowed types of the race types **Example: **flat",
+                        "type": "string",
+                        "required": true,
+                        "enum": [
+                            "flat",
+                            "jumps"
+                        ]
+                    },
+                    {
+                        "name": "beginSeasonYear",
+                        "in": "query",
+                        "description": "Numeric `year` of the beginning of the season **Example: **2011",
+                        "type": "integer",
+                        "required": false
+                    },
+                    {
+                        "name": "endSeasonYear",
+                        "in": "query",
+                        "description": "Numeric `year` of the end of the season. **Example: **2012",
+                        "type": "integer",
+                        "required": false
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Returns Statistical Summary Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-statistical-summary-schema-json"
+                        }
+                    },
+                    "400": {
+                        "description": "Returns Statistical Summary Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet400-schema400-json"
+                        }
+                    },
+                    "404": {
+                        "description": "Returns Statistical Summary Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet404-schema404-json"
+                        }
+                    }
+                }
+            }
+        },
+        "\/profile\/jockey\/{jockeyId}\/statistical-summary\/{countryCode}\/{raceType}\/{surface}": {
+            "get": {
+                "tags": [
+                    "Jockey Profile"
+                ],
+                "summary": "Represents of Statistical Summary Resource",
+                "description": "Summary statistics of the Jockey",
+                "operationId": "RPDocumentationGroup",
+                "consumes": [],
+                "produces": [
+                    "application\/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "jockeyId",
+                        "in": "path",
+                        "description": "Numeric `id` of the Jockey **Example: **92227",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "countryCode",
+                        "in": "path",
+                        "description": "Alphabet short code of country **Example: **IRE",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "name": "raceType",
+                        "in": "path",
+                        "description": "Allowed types of the race types **Example: **flat",
+                        "type": "string",
+                        "required": true,
+                        "enum": [
+                            "flat",
+                            "jumps"
+                        ]
+                    },
+                    {
+                        "name": "surface",
+                        "in": "path",
+                        "description": "Allowed types of the surfaces **Example: **aw",
+                        "type": "string",
+                        "required": true,
+                        "enum": [
+                            "turf",
+                            "aw"
+                        ]
+                    },
+                    {
+                        "name": "beginSeasonYear",
+                        "in": "query",
+                        "description": "Numeric `year` of the beginning of the season **Example: **2011",
+                        "type": "integer",
+                        "required": false
+                    },
+                    {
+                        "name": "endSeasonYear",
+                        "in": "query",
+                        "description": "Numeric `year` of the end of the season. **Example: **2012",
+                        "type": "integer",
+                        "required": false
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Returns Statistical Summary Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-statistical-summary-schema-json"
+                        }
+                    },
+                    "400": {
+                        "description": "Returns Statistical Summary Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet400-schema400-json"
+                        }
+                    },
+                    "404": {
+                        "description": "Returns Statistical Summary Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet404-schema404-json"
+                        }
+                    }
+                }
+            }
+        },
+        "\/profile\/jockey\/{jockeyId}\/statistical-summary\/{countryCode}\/{raceType}\/{surface}\/{championship}": {
+            "get": {
+                "tags": [
+                    "Jockey Profile"
+                ],
+                "summary": "Represents of Statistical Summary Resource",
+                "description": "Summary statistics of the Jockey",
+                "operationId": "RPDocumentationGroup",
+                "consumes": [],
+                "produces": [
+                    "application\/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "jockeyId",
+                        "in": "path",
+                        "description": "Numeric `id` of the Jockey **Example: **92227",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "countryCode",
+                        "in": "path",
+                        "description": "Alphabet short code of country **Example: **IRE",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "name": "raceType",
+                        "in": "path",
+                        "description": "Allowed types of the race types **Example: **flat",
+                        "type": "string",
+                        "required": true,
+                        "enum": [
+                            "flat",
+                            "jumps"
+                        ]
+                    },
+                    {
+                        "name": "surface",
+                        "in": "path",
+                        "description": "Allowed types of the surfaces **Example: **aw",
+                        "type": "string",
+                        "required": true,
+                        "enum": [
+                            "turf",
+                            "aw"
+                        ]
+                    },
+                    {
+                        "name": "championship",
+                        "in": "path",
+                        "description": "If parameter is specified - statistics will be calculated regarding championship type code **Example: **championship",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "name": "beginSeasonYear",
+                        "in": "query",
+                        "description": "Numeric `year` of the beginning of the season **Example: **2011",
+                        "type": "integer",
+                        "required": false
+                    },
+                    {
+                        "name": "endSeasonYear",
+                        "in": "query",
+                        "description": "Numeric `year` of the end of the season. **Example: **2012",
+                        "type": "integer",
+                        "required": false
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Returns Statistical Summary Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-statistical-summary-schema-json"
+                        }
+                    },
+                    "400": {
+                        "description": "Returns Statistical Summary Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet400-schema400-json"
+                        }
+                    },
+                    "404": {
+                        "description": "Returns Statistical Summary Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet404-schema404-json"
+                        }
+                    }
+                }
+            }
+        },
+        "\/profile\/jockey\/{jockeyId}\/statistics": {
+            "get": {
+                "tags": [
+                    "Jockey Profile"
+                ],
+                "summary": "Represents Statistical Resource",
+                "description": "Jockey statistical data related to few criteria.",
+                "operationId": "RPDocumentationGroup",
+                "consumes": [],
+                "produces": [
+                    "application\/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "jockeyId",
+                        "in": "path",
+                        "description": "Numeric `id` of the Jockey **Example: **88563",
+                        "type": "integer",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Represents Statistical Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-statistics-schema-json"
+                        }
+                    },
+                    "400": {
+                        "description": "Represents Statistical Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet400-schema400-json"
+                        }
+                    },
+                    "404": {
+                        "description": "Represents Statistical Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet404-schema404-json"
+                        }
+                    }
+                }
+            }
+        },
+        "\/profile\/jockey\/{jockeyId}\/statistics\/{beginSeasonYear}\/{endSeasonYear}\/{raceType}\/{countryCode}\/{statisticsType}": {
+            "get": {
+                "tags": [
+                    "Jockey Profile"
+                ],
+                "summary": "Represents Statistical Resource",
+                "description": "Jockey statistical data related to few criteria.",
+                "operationId": "RPDocumentationGroup",
+                "consumes": [],
+                "produces": [
+                    "application\/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "jockeyId",
+                        "in": "path",
+                        "description": "Numeric `id` of the Jockey **Example: **88563",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "beginSeasonYear",
+                        "in": "path",
+                        "description": "Numeric representation of an year **Example: **2011",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "endSeasonYear",
+                        "in": "path",
+                        "description": "Numeric representation of an year **Example: **2015",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "raceType",
+                        "in": "path",
+                        "description": "String `code` of the Race Type **Example: **flat",
+                        "type": "string",
+                        "required": true,
+                        "enum": [
+                            "flat",
+                            "jumps"
+                        ]
+                    },
+                    {
+                        "name": "countryCode",
+                        "in": "path",
+                        "description": "Alphabet short `code` of country **Example: **GB",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "name": "statisticsType",
+                        "in": "path",
+                        "description": "Allowed types of the statistics. Notice `age-of-horse` available only for flat races,`race-category` available for jumps **Example: **distance",
+                        "type": "string",
+                        "required": true,
+                        "enum": [
+                            "course",
+                            "distance",
+                            "month",
+                            "race-type",
+                            "trainer",
+                            "race-class",
+                            "age-of-horse",
+                            "race-category"
+                        ]
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Represents Statistical Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-statistics-schema-json"
+                        }
+                    },
+                    "400": {
+                        "description": "Represents Statistical Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet400-schema400-json"
+                        }
+                    },
+                    "404": {
+                        "description": "Represents Statistical Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet404-schema404-json"
+                        }
+                    }
+                }
+            }
+        },
+        "\/profile\/jockey\/{jockeyId}\/statistics\/{beginSeasonYear}\/{endSeasonYear}\/{raceType}\/{countryCode}\/{statisticsType}\/{surface}": {
+            "get": {
+                "tags": [
+                    "Jockey Profile"
+                ],
+                "summary": "Represents Statistical Resource",
+                "description": "Jockey statistical data related to few criteria.",
+                "operationId": "RPDocumentationGroup",
+                "consumes": [],
+                "produces": [
+                    "application\/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "jockeyId",
+                        "in": "path",
+                        "description": "Numeric `id` of the Jockey **Example: **88563",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "beginSeasonYear",
+                        "in": "path",
+                        "description": "Numeric representation of an year **Example: **2011",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "endSeasonYear",
+                        "in": "path",
+                        "description": "Numeric representation of an year **Example: **2015",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "raceType",
+                        "in": "path",
+                        "description": "String `code` of the Race Type **Example: **flat",
+                        "type": "string",
+                        "required": true,
+                        "enum": [
+                            "flat",
+                            "jumps"
+                        ]
+                    },
+                    {
+                        "name": "countryCode",
+                        "in": "path",
+                        "description": "Alphabet short `code` of country **Example: **GB",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "name": "statisticsType",
+                        "in": "path",
+                        "description": "Allowed types of the statistics. Notice `age-of-horse` available only for flat races,`race-category` available for jumps **Example: **distance",
+                        "type": "string",
+                        "required": true,
+                        "enum": [
+                            "course",
+                            "distance",
+                            "month",
+                            "race-type",
+                            "trainer",
+                            "race-class",
+                            "age-of-horse",
+                            "race-category"
+                        ]
+                    },
+                    {
+                        "name": "surface",
+                        "in": "path",
+                        "description": "Allowed types of the surfaces **Example: **aw",
+                        "type": "string",
+                        "required": true,
+                        "enum": [
+                            "turf",
+                            "aw"
+                        ]
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Represents Statistical Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-statistics-schema-json"
+                        }
+                    },
+                    "400": {
+                        "description": "Represents Statistical Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet400-schema400-json"
+                        }
+                    },
+                    "404": {
+                        "description": "Represents Statistical Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet404-schema404-json"
+                        }
+                    }
+                }
+            }
+        },
+        "\/profile\/jockey\/{jockeyId}\/statistics\/{beginSeasonYear}\/{endSeasonYear}\/{raceType}\/{countryCode}\/{statisticsType}\/{surface}\/{championship}": {
+            "get": {
+                "tags": [
+                    "Jockey Profile"
+                ],
+                "summary": "Represents Statistical Resource",
+                "description": "Jockey statistical data related to few criteria.",
+                "operationId": "RPDocumentationGroup",
+                "consumes": [],
+                "produces": [
+                    "application\/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "jockeyId",
+                        "in": "path",
+                        "description": "Numeric `id` of the Jockey **Example: **88563",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "beginSeasonYear",
+                        "in": "path",
+                        "description": "Numeric representation of an year **Example: **2011",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "endSeasonYear",
+                        "in": "path",
+                        "description": "Numeric representation of an year **Example: **2015",
+                        "type": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "raceType",
+                        "in": "path",
+                        "description": "String `code` of the Race Type **Example: **flat",
+                        "type": "string",
+                        "required": true,
+                        "enum": [
+                            "flat",
+                            "jumps"
+                        ]
+                    },
+                    {
+                        "name": "countryCode",
+                        "in": "path",
+                        "description": "Alphabet short `code` of country **Example: **GB",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "name": "statisticsType",
+                        "in": "path",
+                        "description": "Allowed types of the statistics. Notice `age-of-horse` available only for flat races,`race-category` available for jumps **Example: **distance",
+                        "type": "string",
+                        "required": true,
+                        "enum": [
+                            "course",
+                            "distance",
+                            "month",
+                            "race-type",
+                            "trainer",
+                            "race-class",
+                            "age-of-horse",
+                            "race-category"
+                        ]
+                    },
+                    {
+                        "name": "surface",
+                        "in": "path",
+                        "description": "Allowed types of the surfaces **Example: **aw",
+                        "type": "string",
+                        "required": true,
+                        "enum": [
+                            "turf",
+                            "aw"
+                        ]
+                    },
+                    {
+                        "name": "championship",
+                        "in": "path",
+                        "description": "If parameter is specified - statistics will be calculated regarding championship start\/end dates **Example: **championship",
+                        "type": "string",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Represents Statistical Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-statistics-schema-json"
+                        }
+                    },
+                    "400": {
+                        "description": "Represents Statistical Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet400-schema400-json"
+                        }
+                    },
+                    "404": {
+                        "description": "Represents Statistical Resource",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet404-schema404-json"
+                        }
+                    }
+                }
+            }
+        },
+        "\/profile\/jockey\/{jockeyId}": {
+            "get": {
+                "tags": [
+                    "Jockey Profile"
+                ],
+                "summary": "Jockey",
+                "description": "Represents Jockey Resource",
+                "operationId": "TestsDocumentationSampleProfileJockeyJockey",
+                "consumes": [],
+                "produces": [
+                    "application\/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "jockeyId",
+                        "in": "path",
+                        "description": "Numeric `id` of the Jockey **Example: **4107",
+                        "type": "integer",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Returns Jockey data",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-jockey-schema-json"
+                        }
+                    },
+                    "400": {
+                        "description": "Returns Jockey data",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet400-schema400-json"
+                        }
+                    },
+                    "404": {
+                        "description": "Returns Jockey data",
+                        "schema": {
+                            "$ref": "#\/definitions\/SchemaGet404-schema404-json"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "SchemaGet200-Profile-Jockey-big-race-wins-schema-json": {
+            "required": [
+                "data",
+                "status"
+            ],
+            "type": "object",
+            "properties": {
+                "status": {
+                    "type": "integer"
+                },
+                "data": {
+                    "required": [
+                        "big_race_wins"
+                    ],
+                    "type": "object",
+                    "properties": {
+                        "big_race_wins": {
+                            "items": [
+                                {
+                                    "required": [
+                                        "country",
+                                        "course_uid",
+                                        "days_diff",
+                                        "disq_desc",
+                                        "distance_yard",
+                                        "horse_style_name",
+                                        "horse_uid",
+                                        "prize_sterling",
+                                        "prize_euro",
+                                        "provider",
+                                        "ptv_video_id",
+                                        "race_date",
+                                        "race_group_code",
+                                        "race_group_desc",
+                                        "race_instance_title",
+                                        "race_instance_uid",
+                                        "race_outcome_code",
+                                        "race_outcome_position",
+                                        "race_type_code",
+                                        "rp_abbrev_3",
+                                        "trainer_style_name",
+                                        "trainer_uid",
+                                        "course_name",
+                                        "course_style_name",
+                                        "trainer_short_name",
+                                        "trainer_ptp_type_code",
+                                        "course_type_code"
+                                    ],
+                                    "type": "object",
+                                    "properties": {
+                                        "race_type_code": {
+                                            "type": "string",
+                                            "maxLength": 1
+                                        },
+                                        "disq_desc": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 30
+                                        },
+                                        "rp_abbrev_3": {
+                                            "type": "string",
+                                            "maxLength": 3
+                                        },
+                                        "distance_yard": {
+                                            "type": "integer"
+                                        },
+                                        "horse_uid": {
+                                            "type": "integer"
+                                        },
+                                        "trainer_style_name": {
+                                            "type": "string",
+                                            "maxLength": 60
+                                        },
+                                        "race_outcome_code": {
+                                            "type": "string",
+                                            "maxLength": 3
+                                        },
+                                        "race_outcome_position": {
+                                            "type": "integer"
+                                        },
+                                        "race_group_desc": {
+                                            "type": "string",
+                                            "maxLength": 30
+                                        },
+                                        "provider": {
+                                            "type": "string",
+                                            "maxLength": 3
+                                        },
+                                        "race_group_code": {
+                                            "type": "string",
+                                            "maxLength": 1
+                                        },
+                                        "horse_style_name": {
+                                            "type": "string",
+                                            "maxLength": 30
+                                        },
+                                        "trainer_uid": {
+                                            "type": "integer"
+                                        },
+                                        "prize_sterling": {
+                                            "type": "number"
+                                        },
+                                        "prize_euro": {
+                                            "type": "number"
+                                        },
+                                        "ptv_video_id": {
+                                            "type": [
+                                                "integer",
+                                                "null"
+                                            ]
+                                        },
+                                        "course_uid": {
+                                            "type": "integer"
+                                        },
+                                        "country": {
+                                            "type": "string",
+                                            "maxLength": 3
+                                        },
+                                        "race_instance_title": {
+                                            "type": "string",
+                                            "maxLength": 100
+                                        },
+                                        "days_diff": {
+                                            "type": "integer"
+                                        },
+                                        "race_instance_uid": {
+                                            "type": "integer"
+                                        },
+                                        "race_date": {
+                                            "type": "string",
+                                            "minLength": 25,
+                                            "maxLength": 25
+                                        },
+                                        "course_name": {
+                                            "type": "string",
+                                            "maxLength": 30
+                                        },
+                                        "course_style_name": {
+                                            "type": "string",
+                                            "maxLength": 60
+                                        },
+                                        "trainer_short_name": {
+                                            "type": "string",
+                                            "maxLength": 60
+                                        },
+                                        "trainer_ptp_type_code": {
+                                            "type": "string",
+                                            "maxLength": 1
+                                        },
+                                        "course_type_code": {
+                                            "type": "string",
+                                            "maxLength": 1
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": [
+                                "array",
+                                "null"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "SchemaGet400-schema400-json": {
+            "required": [
+                "errors",
+                "status"
+            ],
+            "type": "object",
+            "properties": {
+                "status": {
+                    "type": "integer"
+                },
+                "errors": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "type": "string",
+                        "maxLength": 256
+                    }
+                }
+            }
+        },
+        "SchemaGet404-schema404-json": {
+            "required": [
+                "errors",
+                "status"
+            ],
+            "type": "object",
+            "properties": {
+                "status": {
+                    "type": "integer"
+                },
+                "errors": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "type": "string",
+                        "maxLength": 256
+                    }
+                }
+            }
+        },
+        "SchemaGet200-Profile-Jockey-booked-rides-schema-json": {
+            "required": [
+                "data",
+                "status"
+            ],
+            "type": "object",
+            "properties": {
+                "status": {
+                    "type": "integer"
+                },
+                "data": {
+                    "required": [
+                        "booked_rides"
+                    ],
+                    "type": "object",
+                    "properties": {
+                        "booked_rides": {
+                            "items": [
+                                {
+                                    "required": [
+                                        "course_key",
+                                        "course_name",
+                                        "course_style_name",
+                                        "course_uid",
+                                        "diffusion_course_name",
+                                        "horse_name",
+                                        "horse_uid",
+                                        "race_datetime",
+                                        "race_status_code",
+                                        "race_instance_title",
+                                        "race_uid",
+                                        "race_instance_uid",
+                                        "course_type_code",
+                                        "running_conditions"
+                                    ],
+                                    "type": "object",
+                                    "properties": {
+                                        "race_instance_title": {
+                                            "type": "string",
+                                            "maxLength": 100
+                                        },
+                                        "race_datetime": {
+                                            "type": "string",
+                                            "minLength": 25,
+                                            "maxLength": 25
+                                        },
+                                        "diffusion_course_name": {
+                                            "type": "string",
+                                            "maxLength": 30
+                                        },
+                                        "race_status_code": {
+                                            "type": "string",
+                                            "maxLength": 10
+                                        },
+                                        "course_key": {
+                                            "type": "string",
+                                            "maxLength": 30
+                                        },
+                                        "course_uid": {
+                                            "type": "integer"
+                                        },
+                                        "horse_name": {
+                                            "type": "string",
+                                            "maxLength": 30
+                                        },
+                                        "course_name": {
+                                            "type": "string",
+                                            "maxLength": 30
+                                        },
+                                        "course_style_name": {
+                                            "type": "string",
+                                            "maxLength": 60
+                                        },
+                                        "race_uid": {
+                                            "type": "integer"
+                                        },
+                                        "horse_uid": {
+                                            "type": "integer"
+                                        },
+                                        "race_instance_uid": {
+                                            "type": "integer"
+                                        },
+                                        "course_type_code": {
+                                            "type": "string",
+                                            "maxLength": 1
+                                        },
+                                        "running_conditions": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ],
+                                            "maxLength": 255
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": "array"
+                        }
+                    }
+                }
+            }
+        },
+        "SchemaGet200-Profile-Jockey-horses-schema-json": {
+            "required": [
+                "data",
+                "status"
+            ],
+            "type": "object",
+            "properties": {
+                "status": {
+                    "type": "integer"
+                },
+                "data": {
+                    "required": [
+                        "horses",
+                        "season_info"
+                    ],
+                    "type": "object",
+                    "properties": {
+                        "horses": {
+                            "items": [
+                                {
+                                    "required": [
+                                        "horse_name",
+                                        "horse_uid",
+                                        "place_1st_number",
+                                        "races_number",
+                                        "rpr",
+                                        "stake",
+                                        "total_prize",
+                                        "trainer_name",
+                                        "trainer_uid",
+                                        "win_prize",
+                                        "euro_win_prize",
+                                        "euro_total_prize",
+                                        "trainer_ptp_type_code"
+                                    ],
+                                    "type": "object",
+                                    "properties": {
+                                        "rpr": {
+                                            "type": [
+                                                "integer",
+                                                "null"
+                                            ]
+                                        },
+                                        "win_prize": {
+                                            "type": "number"
+                                        },
+                                        "stake": {
+                                            "type": "number"
+                                        },
+                                        "total_prize": {
+                                            "type": "number"
+                                        },
+                                        "euro_win_prize": {
+                                            "type": "number"
+                                        },
+                                        "euro_total_prize": {
+                                            "type": "number"
+                                        },
+                                        "races_number": {
+                                            "type": "integer"
+                                        },
+                                        "trainer_name": {
+                                            "type": "string",
+                                            "maxLength": 60
+                                        },
+                                        "horse_uid": {
+                                            "type": "integer"
+                                        },
+                                        "trainer_uid": {
+                                            "type": "integer"
+                                        },
+                                        "place_1st_number": {
+                                            "type": "integer"
+                                        },
+                                        "horse_name": {
+                                            "type": "string",
+                                            "maxLength": 30
+                                        },
+                                        "trainer_ptp_type_code": {
+                                            "type": "string",
+                                            "maxLength": 1
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": "array"
+                        },
+                        "season_info": {
+                            "required": [
+                                "season_year_begin",
+                                "race_type",
+                                "country_code"
+                            ],
+                            "type": "object",
+                            "properties": {
+                                "season_year_begin": {
+                                    "type": "integer"
+                                },
+                                "race_type": {
+                                    "type": "string",
+                                    "maxLength": 5
+                                },
+                                "country_code": {
+                                    "type": "string",
+                                    "maxLength": 3
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "SchemaGet200-Profile-Jockey-last14-days-schema-json": {
+            "required": [
+                "data",
+                "status"
+            ],
+            "type": "object",
+            "properties": {
+                "status": {
+                    "type": "integer"
+                },
+                "data": {
+                    "required": [
+                        "last_14_days"
+                    ],
+                    "type": "object",
+                    "properties": {
+                        "last_14_days": {
+                            "items": [
+                                {
+                                    "required": [
+                                        "course_rp_abbrev_3",
+                                        "course_name",
+                                        "course_style_name",
+                                        "course_type_code",
+                                        "course_uid",
+                                        "distance_furlong",
+                                        "distance_to_winner",
+                                        "distance_yard",
+                                        "going_type_services_desc",
+                                        "horse_head_gear",
+                                        "horse_style_name",
+                                        "horse_uid",
+                                        "first_time_headgear",
+                                        "no_of_runners",
+                                        "odds_desc",
+                                        "odds_value",
+                                        "prize_sterling",
+                                        "prize_euro",
+                                        "race_class",
+                                        "race_datetime",
+                                        "race_description",
+                                        "race_group_code",
+                                        "race_group_desc",
+                                        "race_instance_title",
+                                        "race_instance_uid",
+                                        "race_outcome_code",
+                                        "race_type_code",
+                                        "rp_ages_allowed_desc",
+                                        "rp_close_up_comment",
+                                        "rp_postmark",
+                                        "rp_postmark_difference",
+                                        "rp_pre_postmark",
+                                        "trainer_short_name",
+                                        "trainer_style_name",
+                                        "trainer_uid",
+                                        "trainer_ptp_type_code",
+                                        "ptv_video_id",
+                                        "video_provider",
+                                        "weight_carried_lbs",
+                                        "winning_distance"
+                                    ],
+                                    "type": "object",
+                                    "properties": {
+                                        "race_type_code": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 1
+                                        },
+                                        "rp_close_up_comment": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ],
+                                            "maxLength": 255
+                                        },
+                                        "distance_to_winner": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ],
+                                            "maxLength": 255
+                                        },
+                                        "trainer_ptp_type_code": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 1
+                                        },
+                                        "course_type_code": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 1
+                                        },
+                                        "going_type_services_desc": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 3
+                                        },
+                                        "distance_yard": {
+                                            "type": "integer"
+                                        },
+                                        "winning_distance": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ],
+                                            "maxLength": 255
+                                        },
+                                        "weight_carried_lbs": {
+                                            "type": "integer"
+                                        },
+                                        "horse_head_gear": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 25
+                                        },
+                                        "rp_pre_postmark": {
+                                            "type": [
+                                                "integer",
+                                                "null"
+                                            ]
+                                        },
+                                        "course_name": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 30
+                                        },
+                                        "course_style_name": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 60
+                                        },
+                                        "odds_desc": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 30
+                                        },
+                                        "rp_postmark": {
+                                            "type": [
+                                                "integer",
+                                                "null"
+                                            ]
+                                        },
+                                        "course_rp_abbrev_3": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 3
+                                        },
+                                        "rp_ages_allowed_desc": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 50
+                                        },
+                                        "horse_uid": {
+                                            "type": "integer"
+                                        },
+                                        "odds_value": {
+                                            "type": [
+                                                "number",
+                                                "null"
+                                            ]
+                                        },
+                                        "trainer_style_name": {
+                                            "type": "string",
+                                            "maxLength": 60
+                                        },
+                                        "no_of_runners": {
+                                            "type": "integer"
+                                        },
+                                        "race_outcome_code": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 3
+                                        },
+                                        "race_description": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 100
+                                        },
+                                        "trainer_short_name": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 20
+                                        },
+                                        "race_datetime": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "minLength": 25,
+                                            "maxLength": 25
+                                        },
+                                        "first_time_headgear": {
+                                            "type": "boolean"
+                                        },
+                                        "distance_furlong": {
+                                            "type": "number"
+                                        },
+                                        "race_group_code": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 1
+                                        },
+                                        "horse_style_name": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 30
+                                        },
+                                        "trainer_uid": {
+                                            "type": "integer"
+                                        },
+                                        "prize_sterling": {
+                                            "type": "number"
+                                        },
+                                        "prize_euro": {
+                                            "type": "number"
+                                        },
+                                        "race_class": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 100
+                                        },
+                                        "race_group_desc": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 30
+                                        },
+                                        "course_uid": {
+                                            "type": "integer"
+                                        },
+                                        "ptv_video_id": {
+                                            "type": [
+                                                "integer",
+                                                "null"
+                                            ]
+                                        },
+                                        "video_provider": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 3
+                                        },
+                                        "race_instance_title": {
+                                            "type": "string",
+                                            "maxLength": 100
+                                        },
+                                        "race_instance_uid": {
+                                            "type": "integer"
+                                        },
+                                        "rp_postmark_difference": {
+                                            "type": [
+                                                "integer",
+                                                "null"
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": "array"
+                        }
+                    }
+                }
+            }
+        },
+        "SchemaGet200-Profile-Jockey-record-by-race-type-schema-jsonrace_type": {
+            "required": [
+                "NHF",
+                "HURDLE",
+                "CHASE",
+                "2YO AW",
+                "2YO TURF",
+                "3YO AW",
+                "3YO TURF",
+                "4YO+ AW",
+                "4YO+ TURF"
+            ],
+            "type": "object",
+            "properties": {
+                "NHF": {
+                    "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-record-by-race-type-schema-jsonitemTemplate"
+                },
+                "HURDLE": {
+                    "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-record-by-race-type-schema-jsonitemTemplate"
+                },
+                "CHASE": {
+                    "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-record-by-race-type-schema-jsonitemTemplate"
+                },
+                "3YO AW": {
+                    "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-record-by-race-type-schema-jsonitemTemplate"
+                },
+                "2YO AW": {
+                    "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-record-by-race-type-schema-jsonitemTemplate"
+                },
+                "4YO+ TURF": {
+                    "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-record-by-race-type-schema-jsonitemTemplate"
+                },
+                "3YO TURF": {
+                    "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-record-by-race-type-schema-jsonitemTemplate"
+                },
+                "4YO+ AW": {
+                    "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-record-by-race-type-schema-jsonitemTemplate"
+                },
+                "2YO TURF": {
+                    "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-record-by-race-type-schema-jsonitemTemplate"
+                }
+            }
+        },
+        "SchemaGet200-Profile-Jockey-record-by-race-type-schema-jsonitemTemplate": {
+            "required": [
+                "best_rp_postmark",
+                "group_name",
+                "horse_name",
+                "horse_uid",
+                "horses",
+                "win_percent",
+                "place_1st_number",
+                "place_2nd_number",
+                "place_3rd_number",
+                "place_4th_number",
+                "placed",
+                "races_number",
+                "stake",
+                "total_prize",
+                "win_prize",
+                "euro_win_prize",
+                "euro_total_prize"
+            ],
+            "type": "object",
+            "properties": {
+                "horses": {
+                    "type": "integer"
+                },
+                "place_2nd_number": {
+                    "type": "integer"
+                },
+                "total_prize": {
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                },
+                "win_prize": {
+                    "type": "number"
+                },
+                "euro_win_prize": {
+                    "type": "number"
+                },
+                "euro_total_prize": {
+                    "type": "number"
+                },
+                "stake": {
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                },
+                "place_4th_number": {
+                    "type": "integer"
+                },
+                "races_number": {
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "group_name": {
+                    "type": "string",
+                    "maxLength": 10
+                },
+                "placed": {
+                    "type": "integer"
+                },
+                "horse_uid": {
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "percent": {
+                    "type": [
+                        "null",
+                        "number"
+                    ]
+                },
+                "place_3rd_number": {
+                    "type": "integer"
+                },
+                "best_rp_postmark": {
+                    "type": "integer"
+                },
+                "place_1st_number": {
+                    "type": "integer"
+                },
+                "horse_name": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 30
+                }
+            }
+        },
+        "SchemaGet200-Profile-Jockey-record-by-race-type-schema-json": {
+            "required": [
+                "data",
+                "status"
+            ],
+            "type": "object",
+            "properties": {
+                "status": {
+                    "type": "integer"
+                },
+                "data": {
+                    "required": [
+                        "record_by_race_type",
+                        "season_info"
+                    ],
+                    "type": "object",
+                    "properties": {
+                        "record_by_race_type": {
+                            "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-record-by-race-type-schema-jsonrace_type"
+                        },
+                        "season_info": {
+                            "required": [
+                                "season_year_begin",
+                                "season_year_end",
+                                "race_type",
+                                "country_code"
+                            ],
+                            "type": "object",
+                            "properties": {
+                                "season_year_begin": {
+                                    "type": "integer"
+                                },
+                                "season_year_end": {
+                                    "type": "integer"
+                                },
+                                "race_type": {
+                                    "type": "string",
+                                    "maxLength": 5
+                                },
+                                "country_code": {
+                                    "type": "string",
+                                    "maxLength": 3
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "SchemaGet200-Profile-Jockey-statistical-summary-schema-json": {
+            "required": [
+                "data",
+                "status"
+            ],
+            "type": "object",
+            "properties": {
+                "status": {
+                    "type": "integer"
+                },
+                "data": {
+                    "required": [
+                        "statistical_summary",
+                        "season_info"
+                    ],
+                    "type": "object",
+                    "properties": {
+                        "statistical_summary": {
+                            "items": [
+                                {
+                                    "required": [
+                                        "place_1st_number",
+                                        "place_2nd_number",
+                                        "place_3rd_number",
+                                        "place_4th_number",
+                                        "races_number",
+                                        "season_end_date",
+                                        "season_start_date",
+                                        "stake",
+                                        "total_prize",
+                                        "euro_win_prize",
+                                        "euro_total_prize",
+                                        "win_percent",
+                                        "win_prize"
+                                    ],
+                                    "type": "object",
+                                    "properties": {
+                                        "place_2nd_number": {
+                                            "type": "integer"
+                                        },
+                                        "total_prize": {
+                                            "type": [
+                                                "null",
+                                                "number"
+                                            ]
+                                        },
+                                        "euro_win_prize": {
+                                            "type": "number"
+                                        },
+                                        "euro_total_prize": {
+                                            "type": "number"
+                                        },
+                                        "win_prize": {
+                                            "type": "number"
+                                        },
+                                        "stake": {
+                                            "type": "number"
+                                        },
+                                        "place_4th_number": {
+                                            "type": "integer"
+                                        },
+                                        "races_number": {
+                                            "type": "integer"
+                                        },
+                                        "season_start_date": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ],
+                                            "maxLength": 25,
+                                            "minLength": 25
+                                        },
+                                        "place_3rd_number": {
+                                            "type": "integer"
+                                        },
+                                        "place_1st_number": {
+                                            "type": "integer"
+                                        },
+                                        "win_percent": {
+                                            "type": "integer"
+                                        },
+                                        "season_end_date": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ],
+                                            "maxLength": 25,
+                                            "minLength": 25
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": [
+                                "array",
+                                "null"
+                            ]
+                        },
+                        "season_info": {
+                            "required": [
+                                "race_type",
+                                "country_code",
+                                "season_start_date",
+                                "season_end_date"
+                            ],
+                            "type": "object",
+                            "properties": {
+                                "race_type": {
+                                    "type": "string",
+                                    "maxLength": 5
+                                },
+                                "country_code": {
+                                    "type": "string",
+                                    "maxLength": 3
+                                },
+                                "season_start_date": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ],
+                                    "minLength": 25,
+                                    "maxLength": 25
+                                },
+                                "season_end_date": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ],
+                                    "minLength": 25,
+                                    "maxLength": 25
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "SchemaGet200-Profile-Jockey-statistics-schema-jsonitemTemplate": {
+            "required": [
+                "category",
+                "group_id",
+                "group_name",
+                "percent",
+                "rides",
+                "stakes",
+                "wins",
+                "place_2nd_number",
+                "place_3rd_number",
+                "place_4th_number",
+                "race_placed",
+                "total_prize"
+            ],
+            "type": "object",
+            "properties": {
+                "category": {
+                    "type": "string",
+                    "maxLength": 7
+                },
+                "wins": {
+                    "type": [
+                        "null",
+                        "integer"
+                    ]
+                },
+                "place_2nd_number": {
+                    "type": [
+                        "null",
+                        "integer"
+                    ]
+                },
+                "place_3rd_number": {
+                    "type": [
+                        "null",
+                        "integer"
+                    ]
+                },
+                "place_4th_number": {
+                    "type": [
+                        "null",
+                        "integer"
+                    ]
+                },
+                "race_placed": {
+                    "type": [
+                        "null",
+                        "integer"
+                    ]
+                },
+                "percent": {
+                    "type": [
+                        "null",
+                        "integer"
+                    ]
+                },
+                "group_name": {
+                    "type": "string",
+                    "maxLength": 30
+                },
+                "group_id": {
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "rides": {
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "stakes": {
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                },
+                "total_prize": {
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                }
+            }
+        },
+        "SchemaGet200-Profile-Jockey-statistics-schema-json": {
+            "required": [
+                "data",
+                "status"
+            ],
+            "type": "object",
+            "properties": {
+                "status": {
+                    "type": "integer"
+                },
+                "data": {
+                    "required": [
+                        "statistics",
+                        "season_info"
+                    ],
+                    "type": "object",
+                    "properties": {
+                        "statistics": {
+                            "required": [
+                                "OVERALL"
+                            ],
+                            "type": [
+                                "object",
+                                "null"
+                            ],
+                            "additionalProperties": {
+                                "items": [
+                                    {
+                                        "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-statistics-schema-jsonitemTemplate"
+                                    }
+                                ],
+                                "type": "array"
+                            }
+                        },
+                        "season_info": {
+                            "required": [
+                                "season_year_begin",
+                                "season_year_end",
+                                "race_type",
+                                "country_code",
+                                "statistics_type"
+                            ],
+                            "type": "object",
+                            "properties": {
+                                "season_year_begin": {
+                                    "type": "integer"
+                                },
+                                "season_year_end": {
+                                    "type": "integer"
+                                },
+                                "race_type": {
+                                    "type": "string",
+                                    "maxLength": 5
+                                },
+                                "country_code": {
+                                    "type": "string",
+                                    "maxLength": 3
+                                },
+                                "statistics_type": {
+                                    "type": "string",
+                                    "maxLength": 13
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "SchemaGet200-Profile-Jockey-jockey-schema-jsonrace_type": {
+            "required": [
+                "NHF",
+                "HURDLE",
+                "CHASE",
+                "2YO AW",
+                "2YO TURF",
+                "3YO AW",
+                "3YO TURF",
+                "4YO+ AW",
+                "4YO+ TURF"
+            ],
+            "type": "object",
+            "properties": {
+                "NHF": {
+                    "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-jockey-schema-jsonitemTemplate"
+                },
+                "HURDLE": {
+                    "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-jockey-schema-jsonitemTemplate"
+                },
+                "CHASE": {
+                    "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-jockey-schema-jsonitemTemplate"
+                },
+                "3YO AW": {
+                    "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-jockey-schema-jsonitemTemplate"
+                },
+                "2YO AW": {
+                    "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-jockey-schema-jsonitemTemplate"
+                },
+                "4YO+ TURF": {
+                    "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-jockey-schema-jsonitemTemplate"
+                },
+                "3YO TURF": {
+                    "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-jockey-schema-jsonitemTemplate"
+                },
+                "4YO+ AW": {
+                    "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-jockey-schema-jsonitemTemplate"
+                },
+                "2YO TURF": {
+                    "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-jockey-schema-jsonitemTemplate"
+                }
+            }
+        },
+        "SchemaGet200-Profile-Jockey-jockey-schema-jsonitemTemplate": {
+            "required": [
+                "best_rp_postmark",
+                "group_name",
+                "horse_name",
+                "horse_uid",
+                "horses",
+                "win_percent",
+                "place_1st_number",
+                "place_2nd_number",
+                "place_3rd_number",
+                "place_4th_number",
+                "placed",
+                "races_number",
+                "stake",
+                "total_prize",
+                "win_prize"
+            ],
+            "type": "object",
+            "properties": {
+                "horses": {
+                    "type": "integer"
+                },
+                "place_2nd_number": {
+                    "type": "integer"
+                },
+                "total_prize": {
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                },
+                "win_prize": {
+                    "type": "number"
+                },
+                "stake": {
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                },
+                "place_4th_number": {
+                    "type": "integer"
+                },
+                "races_number": {
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "group_name": {
+                    "type": "string",
+                    "maxLength": 10
+                },
+                "placed": {
+                    "type": "integer"
+                },
+                "horse_uid": {
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "percent": {
+                    "type": "integer"
+                },
+                "place_3rd_number": {
+                    "type": "integer"
+                },
+                "best_rp_postmark": {
+                    "type": "integer"
+                },
+                "place_1st_number": {
+                    "type": "integer"
+                },
+                "horse_name": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "maxLength": 30
+                }
+            }
+        },
+        "SchemaGet200-Profile-Jockey-jockey-schema-json": {
+            "required": [
+                "data",
+                "status"
+            ],
+            "type": "object",
+            "properties": {
+                "status": {
+                    "type": "integer"
+                },
+                "data": {
+                    "required": [
+                        "profile",
+                        "booked_rides",
+                        "big_race_wins",
+                        "last_14_days",
+                        "record_by_race_type",
+                        "statistical_summary",
+                        "season_info"
+                    ],
+                    "type": "object",
+                    "properties": {
+                        "profile": {
+                            "required": [
+                                "aka_style_name",
+                                "christian_name",
+                                "flat_jockey_type_code",
+                                "jockey_name",
+                                "jockey_sex",
+                                "jockey_uid",
+                                "jump_jockey_type_code",
+                                "longest_flat_losing_seq",
+                                "longest_flat_winning_seq",
+                                "longest_jump_losing_seq",
+                                "longest_jump_winning_seq",
+                                "present_flat_losing_seq",
+                                "present_flat_winning_seq",
+                                "present_jump_losing_seq",
+                                "present_jump_winning_seq",
+                                "style_name",
+                                "lowest_riding_weight",
+                                "country_code",
+                                "jockey_last_14_days",
+                                "since_a_win"
+                            ],
+                            "type": "object",
+                            "properties": {
+                                "longest_jump_losing_seq": {
+                                    "type": [
+                                        "integer",
+                                        "null"
+                                    ]
+                                },
+                                "present_jump_winning_seq": {
+                                    "type": [
+                                        "integer",
+                                        "null"
+                                    ]
+                                },
+                                "longest_jump_winning_seq": {
+                                    "type": [
+                                        "integer",
+                                        "null"
+                                    ]
+                                },
+                                "aka_style_name": {
+                                    "type": "string",
+                                    "maxLength": 100
+                                },
+                                "present_jump_losing_seq": {
+                                    "type": [
+                                        "integer",
+                                        "null"
+                                    ]
+                                },
+                                "present_flat_losing_seq": {
+                                    "type": [
+                                        "integer",
+                                        "null"
+                                    ]
+                                },
+                                "jump_jockey_type_code": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ],
+                                    "maxLength": 1,
+                                    "minLength": 1
+                                },
+                                "flat_jockey_type_code": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ],
+                                    "maxLength": 1,
+                                    "minLength": 1
+                                },
+                                "style_name": {
+                                    "type": "string",
+                                    "maxLength": 60
+                                },
+                                "jockey_sex": {
+                                    "type": "string",
+                                    "maxLength": 1
+                                },
+                                "christian_name": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ],
+                                    "maxLength": 60
+                                },
+                                "present_flat_winning_seq": {
+                                    "type": [
+                                        "integer",
+                                        "null"
+                                    ]
+                                },
+                                "longest_flat_losing_seq": {
+                                    "type": [
+                                        "integer",
+                                        "null"
+                                    ]
+                                },
+                                "jockey_name": {
+                                    "type": "string",
+                                    "maxLength": 60
+                                },
+                                "jockey_uid": {
+                                    "type": "integer"
+                                },
+                                "longest_flat_winning_seq": {
+                                    "type": [
+                                        "integer",
+                                        "null"
+                                    ]
+                                },
+                                "lowest_riding_weight": {
+                                    "type": [
+                                        "integer",
+                                        "null"
+                                    ]
+                                },
+                                "country_code": {
+                                    "type": "string",
+                                    "maxLength": 3
+                                },
+                                "jockey_last_14_days": {
+                                    "type": [
+                                        "object",
+                                        "null"
+                                    ],
+                                    "required": [
+                                        "wins",
+                                        "runs",
+                                        "percent"
+                                    ],
+                                    "properties": {
+                                        "wins": {
+                                            "type": [
+                                                "null",
+                                                "integer"
+                                            ]
+                                        },
+                                        "runs": {
+                                            "type": [
+                                                "null",
+                                                "integer"
+                                            ]
+                                        },
+                                        "percent": {
+                                            "type": [
+                                                "null",
+                                                "integer"
+                                            ]
+                                        }
+                                    }
+                                },
+                                "since_a_win": {
+                                    "properties": {
+                                        "jumps": {
+                                            "properties": {
+                                                "runs": {
+                                                    "type": "integer"
+                                                },
+                                                "days": {
+                                                    "type": "integer"
+                                                }
+                                            },
+                                            "type": "object",
+                                            "required": [
+                                                "days",
+                                                "runs"
+                                            ]
+                                        },
+                                        "flat": {
+                                            "properties": {
+                                                "runs": {
+                                                    "type": "integer"
+                                                },
+                                                "days": {
+                                                    "type": "integer"
+                                                }
+                                            },
+                                            "type": "object",
+                                            "required": [
+                                                "days",
+                                                "runs"
+                                            ]
+                                        }
+                                    },
+                                    "type": "object",
+                                    "required": [
+                                        "flat",
+                                        "jumps"
+                                    ]
+                                }
+                            }
+                        },
+                        "booked_rides": {
+                            "items": [
+                                {
+                                    "required": [
+                                        "course_key",
+                                        "course_name",
+                                        "course_uid",
+                                        "diffusion_course_name",
+                                        "horse_name",
+                                        "horse_uid",
+                                        "race_datetime",
+                                        "race_status_code",
+                                        "race_instance_title",
+                                        "race_uid",
+                                        "running_conditions"
+                                    ],
+                                    "type": "object",
+                                    "properties": {
+                                        "race_instance_title": {
+                                            "type": "string",
+                                            "maxLength": 100
+                                        },
+                                        "race_datetime": {
+                                            "type": "string",
+                                            "minLength": 25,
+                                            "maxLength": 25
+                                        },
+                                        "diffusion_course_name": {
+                                            "type": "string",
+                                            "maxLength": 30
+                                        },
+                                        "race_status_code": {
+                                            "type": "string",
+                                            "maxLength": 10
+                                        },
+                                        "course_key": {
+                                            "type": "string",
+                                            "maxLength": 30
+                                        },
+                                        "horse_name": {
+                                            "type": "string",
+                                            "maxLength": 30
+                                        },
+                                        "course_name": {
+                                            "type": "string",
+                                            "maxLength": 30
+                                        },
+                                        "course_uid": {
+                                            "type": "integer"
+                                        },
+                                        "race_uid": {
+                                            "type": "integer"
+                                        },
+                                        "horse_uid": {
+                                            "type": "integer"
+                                        },
+                                        "running_conditions": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ],
+                                            "maxLength": 255
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": [
+                                "array",
+                                "null"
+                            ]
+                        },
+                        "big_race_wins": {
+                            "items": [
+                                {
+                                    "required": [
+                                        "country",
+                                        "course_uid",
+                                        "course_type_code",
+                                        "days_diff",
+                                        "disq_desc",
+                                        "distance_yard",
+                                        "horse_style_name",
+                                        "horse_uid",
+                                        "prize_sterling",
+                                        "provider",
+                                        "ptv_video_id",
+                                        "race_date",
+                                        "race_group_code",
+                                        "race_group_desc",
+                                        "race_instance_title",
+                                        "race_instance_uid",
+                                        "race_outcome_code",
+                                        "race_outcome_position",
+                                        "race_type_code",
+                                        "rp_abbrev_3",
+                                        "total_adjusted",
+                                        "trainer_style_name",
+                                        "trainer_uid",
+                                        "course_name",
+                                        "course_style_name",
+                                        "trainer_ptp_type_code",
+                                        "trainer_short_name"
+                                    ],
+                                    "type": "object",
+                                    "properties": {
+                                        "race_type_code": {
+                                            "type": "string",
+                                            "maxLength": 1
+                                        },
+                                        "trainer_ptp_type_code": {
+                                            "type": "string",
+                                            "maxLength": 1
+                                        },
+                                        "course_type_code": {
+                                            "type": "string",
+                                            "maxLength": 1
+                                        },
+                                        "disq_desc": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 30
+                                        },
+                                        "rp_abbrev_3": {
+                                            "type": "string",
+                                            "maxLength": 3
+                                        },
+                                        "distance_yard": {
+                                            "type": "integer"
+                                        },
+                                        "total_adjusted": {
+                                            "type": "number"
+                                        },
+                                        "horse_uid": {
+                                            "type": "integer"
+                                        },
+                                        "trainer_style_name": {
+                                            "type": "string",
+                                            "maxLength": 60
+                                        },
+                                        "race_outcome_code": {
+                                            "type": "string",
+                                            "maxLength": 3
+                                        },
+                                        "race_outcome_position": {
+                                            "type": "integer"
+                                        },
+                                        "race_group_desc": {
+                                            "type": "string",
+                                            "maxLength": 30
+                                        },
+                                        "provider": {
+                                            "type": "string",
+                                            "maxLength": 3
+                                        },
+                                        "race_group_code": {
+                                            "type": "string",
+                                            "maxLength": 1
+                                        },
+                                        "horse_style_name": {
+                                            "type": "string",
+                                            "maxLength": 30
+                                        },
+                                        "trainer_uid": {
+                                            "type": "integer"
+                                        },
+                                        "prize_sterling": {
+                                            "type": "number"
+                                        },
+                                        "ptv_video_id": {
+                                            "type": [
+                                                "integer",
+                                                "null"
+                                            ]
+                                        },
+                                        "course_uid": {
+                                            "type": "integer"
+                                        },
+                                        "country": {
+                                            "type": "string",
+                                            "maxLength": 3
+                                        },
+                                        "race_instance_title": {
+                                            "type": "string",
+                                            "maxLength": 100
+                                        },
+                                        "days_diff": {
+                                            "type": "integer"
+                                        },
+                                        "race_instance_uid": {
+                                            "type": "integer"
+                                        },
+                                        "race_date": {
+                                            "type": "string",
+                                            "minLength": 25,
+                                            "maxLength": 25
+                                        },
+                                        "course_name": {
+                                            "type": "string",
+                                            "maxLength": 30
+                                        },
+                                        "course_style_name": {
+                                            "type": "string",
+                                            "maxLength": 60
+                                        },
+                                        "trainer_short_name": {
+                                            "type": "string",
+                                            "maxLength": 60
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": [
+                                "array",
+                                "null"
+                            ]
+                        },
+                        "last_14_days": {
+                            "items": [
+                                {
+                                    "required": [
+                                        "course_rp_abbrev_3",
+                                        "course_name",
+                                        "course_style_name",
+                                        "course_type_code",
+                                        "course_uid",
+                                        "distance_furlong",
+                                        "distance_to_winner",
+                                        "distance_yard",
+                                        "going_type_services_desc",
+                                        "horse_head_gear",
+                                        "horse_style_name",
+                                        "horse_uid",
+                                        "first_time_headgear",
+                                        "no_of_runners",
+                                        "odds_desc",
+                                        "odds_value",
+                                        "prize_sterling",
+                                        "race_class",
+                                        "race_datetime",
+                                        "race_description",
+                                        "race_group_code",
+                                        "race_group_desc",
+                                        "race_instance_title",
+                                        "race_instance_uid",
+                                        "race_outcome_code",
+                                        "race_type_code",
+                                        "rp_ages_allowed_desc",
+                                        "rp_close_up_comment",
+                                        "rp_postmark",
+                                        "rp_postmark_difference",
+                                        "rp_pre_postmark",
+                                        "trainer_short_name",
+                                        "trainer_style_name",
+                                        "trainer_uid",
+                                        "ptv_video_id",
+                                        "video_provider",
+                                        "weight_carried_lbs",
+                                        "winning_distance"
+                                    ],
+                                    "type": "object",
+                                    "properties": {
+                                        "race_type_code": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 1
+                                        },
+                                        "rp_close_up_comment": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ],
+                                            "maxLength": 255
+                                        },
+                                        "course_type_code": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ],
+                                            "maxLength": 1
+                                        },
+                                        "distance_to_winner": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ],
+                                            "maxLength": 255
+                                        },
+                                        "going_type_services_desc": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 3
+                                        },
+                                        "distance_yard": {
+                                            "type": "integer"
+                                        },
+                                        "winning_distance": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ],
+                                            "maxLength": 255
+                                        },
+                                        "weight_carried_lbs": {
+                                            "type": "integer"
+                                        },
+                                        "horse_head_gear": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 25
+                                        },
+                                        "rp_pre_postmark": {
+                                            "type": [
+                                                "integer",
+                                                "null"
+                                            ]
+                                        },
+                                        "course_name": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 30
+                                        },
+                                        "course_style_name": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 60
+                                        },
+                                        "odds_desc": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 30
+                                        },
+                                        "rp_postmark": {
+                                            "type": [
+                                                "integer",
+                                                "null"
+                                            ]
+                                        },
+                                        "course_rp_abbrev_3": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 3
+                                        },
+                                        "rp_ages_allowed_desc": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 50
+                                        },
+                                        "horse_uid": {
+                                            "type": "integer"
+                                        },
+                                        "odds_value": {
+                                            "type": [
+                                                "number",
+                                                "null"
+                                            ]
+                                        },
+                                        "trainer_style_name": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 60
+                                        },
+                                        "no_of_runners": {
+                                            "type": [
+                                                "integer",
+                                                "null"
+                                            ]
+                                        },
+                                        "race_outcome_code": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 3
+                                        },
+                                        "race_description": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 100
+                                        },
+                                        "trainer_short_name": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 20
+                                        },
+                                        "race_datetime": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "minLength": 25,
+                                            "maxLength": 25
+                                        },
+                                        "first_time_headgear": {
+                                            "type": "boolean"
+                                        },
+                                        "distance_furlong": {
+                                            "type": "number"
+                                        },
+                                        "race_group_code": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 1
+                                        },
+                                        "horse_style_name": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 30
+                                        },
+                                        "trainer_uid": {
+                                            "type": "integer"
+                                        },
+                                        "prize_sterling": {
+                                            "type": "number"
+                                        },
+                                        "race_class": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 100
+                                        },
+                                        "race_group_desc": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 30
+                                        },
+                                        "course_uid": {
+                                            "type": "integer"
+                                        },
+                                        "ptv_video_id": {
+                                            "type": [
+                                                "integer",
+                                                "null"
+                                            ]
+                                        },
+                                        "video_provider": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 3
+                                        },
+                                        "race_instance_title": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ],
+                                            "maxLength": 100
+                                        },
+                                        "race_instance_uid": {
+                                            "type": "integer"
+                                        },
+                                        "rp_postmark_difference": {
+                                            "type": [
+                                                "integer",
+                                                "null"
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": [
+                                "array",
+                                "null"
+                            ]
+                        },
+                        "record_by_race_type": {
+                            "$ref": "#\/definitions\/SchemaGet200-Profile-Jockey-jockey-schema-jsonrace_type"
+                        },
+                        "statistical_summary": {
+                            "items": [
+                                {
+                                    "required": [
+                                        "place_1st_number",
+                                        "place_2nd_number",
+                                        "place_3rd_number",
+                                        "place_4th_number",
+                                        "races_number",
+                                        "season_end_date",
+                                        "season_start_date",
+                                        "stake",
+                                        "total_prize",
+                                        "win_percent",
+                                        "win_prize"
+                                    ],
+                                    "type": "object",
+                                    "properties": {
+                                        "place_2nd_number": {
+                                            "type": "integer"
+                                        },
+                                        "total_prize": {
+                                            "type": [
+                                                "null",
+                                                "number"
+                                            ]
+                                        },
+                                        "win_prize": {
+                                            "type": "number"
+                                        },
+                                        "stake": {
+                                            "type": "number"
+                                        },
+                                        "place_4th_number": {
+                                            "type": "integer"
+                                        },
+                                        "races_number": {
+                                            "type": "integer"
+                                        },
+                                        "season_start_date": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ],
+                                            "maxLength": 25,
+                                            "minLength": 25
+                                        },
+                                        "place_3rd_number": {
+                                            "type": "integer"
+                                        },
+                                        "place_1st_number": {
+                                            "type": "integer"
+                                        },
+                                        "win_percent": {
+                                            "type": "integer"
+                                        },
+                                        "season_end_date": {
+                                            "type": "string",
+                                            "maxLength": 25,
+                                            "minLength": 25
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": [
+                                "array",
+                                "null"
+                            ]
+                        },
+                        "season_info": {
+                            "required": [
+                                "season_year_begin",
+                                "season_year_end",
+                                "country_code",
+                                "race_type"
+                            ],
+                            "type": "object",
+                            "properties": {
+                                "season_year_begin": {
+                                    "type": "integer"
+                                },
+                                "season_year_end": {
+                                    "type": "integer"
+                                },
+                                "country_code": {
+                                    "type": "string",
+                                    "maxLength": 3
+                                },
+                                "race_type": {
+                                    "type": "string",
+                                    "maxLength": 4
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

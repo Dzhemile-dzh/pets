@@ -1,0 +1,41 @@
+{
+    "name": "racingpost/api-documentation",
+    "version": "0.2.2",
+    "description": "Documentation on PHP structure to import in various formats",
+    "license": "proprietary",
+    "authors": [
+        { "name": "Team Tesla", "email": "tesla@racingpost.com" }
+    ],
+    "config": {
+        "secure-http": false
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://library.rp-digital.com/packages/"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4",
+        "symfony/yaml": ">=3.2.0"
+    },
+
+    "require-dev": {
+        "racingpost/code-style": "v0.05",
+        "phpunit/phpunit": "4.6.*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "RP\\" : "library/",
+            "Tests\\" : "tests/"
+        }
+    },
+
+    "scripts": {
+        "post-autoload-dump" : [
+            "sh -c 'test ! -f ./vendor/bin/setup-git-hooks.sh' || sh -c 'test -f ./vendor/bin/setup-git-hooks.sh && sh ./vendor/bin/setup-git-hooks.sh'"
+        ]
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "data": {
+        "race_card": {
+            "race_instance_title": "Netbet Sport Best Odds Guaranteed Conditional Jockeys' Mares' Handicap Hurdle",
+            "race_number": 1,
+            "rp_ages_allowed_desc": "4yo+",
+            "race_class": "5",
+            "race_group_code": "H",
+            "official_rating_band_desc": "0-100",
+            "race_datetime": "2018-06-05T14:15:00+01:00",
+            "local_meeting_race_datetime": "2018-06-05T14:15:00+01:00",
+            "three_yo_min_weight_lbs": null,
+            "four_yo_min_weight_lbs": null,
+            "minimum_weight_lbs": 140,
+            "declared_runners": 10,
+            "no_of_runners": 10,
+            "distance_yard": 3902,
+            "distance_furlong_rounded": 17.5,
+            "rp_tv_text": "ATR",
+            "going_type_desc": "Good",
+            "rp_penalties": "after May 26th, each hurdle won 7lb",
+            "course_uid": 20,
+            "mixed_course_uid": null,
+            "course_name": "FONTWELL",
+            "course_style_name": "Fontwell",
+            "course_region": "GB & IRE",
+            "diffusion_course_name": "FONTWELL",
+            "course_key": "fontwell",
+            "small_map_image_path": "course_maps/small/bangor-on-deech.jpg",
+            "large_map_image_path": "course_maps/large/bangor-on-deech.jpg",
+            "rp_horse_types": "4yo+ fillies & mares Rated 0-100 (also open to such horses rated 101 and 102 - see Standard Conditions)",
+            "rp_weights": null,
+            "allowances": "riders who, prior to June 2nd, 2018, have not ridden more than 20 winners under any Rules of Racing 3lb; 10 such winners 5lb; 5 such winners 7lb; riders riding for their own stable allowed, in addition 3lb",
+            "entry_fee": 22,
+            "extra_fee": null,
+            "country_code": "GB",
+            "foreign": 0,
+            "rp_stakes": 6321,
+            "rp_ag_indicator": "G",
+            "weights_raised_lbs": 1,
+            "rp_auction_min": null,
+            "rp_claim_min": null,
+            "rp_confirmed": null,
+            "race_status_code": "R",
+            "race_type_code": "B",
+            "race_group_desc": "Handicap",
+            "going_type_code": "G",
+            "no_of_fences": 9,
+            "no_of_entries": 16,
+            "rp_stalls_position": " ",
+            "stalls_position_desc": null,
+            "prizes": [
+                {
+                    "position_no": 1,
+                    "prize_sterling": 3119.04,
+                    "prize_euro": null,
+                    "prize_usd": 4210.7
+                },
+                {
+                    "position_no": 2,
+                    "prize_sterling": 915.84,
+                    "prize_euro": null,
+                    "prize_usd": 1236.38
+                },
+                {
+                    "position_no": 3,
+                    "prize_sterling": 457.92,
+                    "prize_euro": null,
+                    "prize_usd": 618.19
+                },
+                {
+                    "position_no": 4,
+                    "prize_sterling": 350,
+                    "prize_euro": null,
+                    "prize_usd": 472.5
+                },
+                {
+                    "position_no": 5,
+                    "prize_sterling": 350,
+                    "prize_euro": null,
+                    "prize_usd": 472.5
+                },
+                {
+                    "position_no": 6,
+                    "prize_sterling": 350,
+                    "prize_euro": null,
+                    "prize_usd": 472.5
+                },
+                {
+                    "position_no": 7,
+                    "prize_sterling": 350,
+                    "prize_euro": null,
+                    "prize_usd": 472.5
+                },
+                {
+                    "position_no": 8,
+                    "prize_sterling": 350,
+                    "prize_euro": null,
+                    "prize_usd": 472.5
+                }
+            ],
+            "other_declarations": null,
+            "claiming_prices": null,
+            "forfeits": null,
+            "forfeit_number": null,
+            "forfeit_value": null,
+            "stage": null,
+            "highest_official_rating": {
+                "horse_uid": 969025,
+                "start_number": 1,
+                "horse_name": "Theatre Rouge",
+                "official_rating": 99
+            },
+            "scoop6_race": false,
+            "lucky7_race": false,
+            "jackpot_race": false,
+            "william_hill_offer_race": false,
+            "ladbrokes_offer_race": false,
+            "safety_factor_number": 16,
+            "early_closing_race": false,
+            "reopened": false,
+            "division_preference": null,
+            "last_year": "2018 (20 ran) Red Balloons Richard Fahey 2 8-6 33/1 Barry McHugh (1) RPR87",
+            "perform_race_uid_atr": 328345,
+            "perform_race_uid_ruk": null,
+            "bet_to_view": false,
+            "livestream_uid": 123,
+            "aw_surface_type": null,
+            "straight_round_jubilee_code": null,
+            "live_tab": true,
+            "claiming_race": false,
+            "selling_race": false,
+            "plus10_race": false,
+            "weight_for_age": "4yo from 6yo+ 3lb"
+        }
+    },
+    "status": 200
+}

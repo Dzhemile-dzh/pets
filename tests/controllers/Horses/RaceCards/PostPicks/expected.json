@@ -1,0 +1,23 @@
+{
+    "data": {
+        "post_picks": {
+            "post_pick_1": {
+                "horse_uid": 1975676,
+                "horse_name": "Life On Earth",
+                "saddle_cloth_number": 1
+            },
+            "post_pick_2": {
+                "horse_uid": 1526597,
+                "horse_name": "Last Enchantment",
+                "saddle_cloth_number": 3
+            },
+            "post_pick_3": {
+                "horse_uid": 1996424,
+                "horse_name": "Vampish",
+                "saddle_cloth_number": 6
+            },
+            "post_pick_4": null
+        }
+    },
+    "status": 200
+}

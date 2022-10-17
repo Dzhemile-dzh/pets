@@ -1,0 +1,45 @@
+@startuml
+
+!include skinparam.iuml
+
+header
+Usage of ContentAttributes in EMS
+endheader
+
+title
+HTTPS call
+end title
+
+left to right direction
+
+node "EMS server" {
+    node "EMS Apache server" #LightSteelBlue {
+        package EMS #ffffff {
+            interface "HTTPS" as HTTPS_EMS
+            HTTPS_EMS -- [EMS]
+        }
+
+        package "ContentAttributes API " #ffffff {
+            interface "HTTPS" as HTTPS_CA
+            [ContentAttributes] as CONTENTATTRIBUTES
+            HTTPS_CA -- CONTENTATTRIBUTES
+        }
+    }
+}
+
+node "Public server" {
+    node "Public Apache server" #Khaki {
+        package Homepage #ffffff {
+            interface "HTTPS" as HTTPS_HOMEPAGE
+            [ContentAttributes] as CONTENTATTRIBUTES_HOMEPAGE
+            HTTPS_HOMEPAGE -- [Homepage]
+            Homepage ..> CONTENTATTRIBUTES_HOMEPAGE : use
+        }
+    }
+}
+
+[EMS] .> HTTPS_CA : call
+
+CONTENTATTRIBUTES .[#green,bold]. CONTENTATTRIBUTES_HOMEPAGE : \n\n\n\n\n\n\nthe same version\nof component\nin both products
+
+@enduml

@@ -1,0 +1,6 @@
+# Intellij Idea project files
+.idea
+
+# Composer files and folders
+vendor
+composer.lock

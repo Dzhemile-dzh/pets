@@ -1,0 +1,52 @@
+{
+    "data": {
+        "all_meetings": [
+            {
+                "course_uid": 82,
+                "course_name": "Valparaiso Sporting Club",
+                "country_code": "CHI",
+                "abandoned": 0,
+                "horses_database": false,
+                "course_region": "South America",
+                "races": [
+                    {
+                        "race_instance_uid": 264653,
+                        "race_datetime": "2018-05-03T00:17:00+01:00",
+                        "race_status_code": "R"
+                    }
+                ]
+            },
+            {
+                "course_uid": 159,
+                "course_name": "Evangeline Downs",
+                "country_code": "CHI",
+                "abandoned": 1,
+                "horses_database": false,
+                "course_region": "South America",
+                "races": [
+                    {
+                        "race_instance_uid": 264943,
+                        "race_datetime": "2018-05-03T00:18:00+01:00",
+                        "race_status_code": "A"
+                    }
+                ]
+            },
+            {
+                "course_uid": 80,
+                "course_name": "Thirsk",
+                "country_code": "GB",
+                "abandoned": 0,
+                "horses_database": true,
+                "course_region": "GB & IRE",
+                "races": [
+                    {
+                        "race_instance_uid": 780392,
+                        "race_datetime": "2021-04-17T11:10:00+01:00",
+                        "race_status_code": "R"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": 200
+}

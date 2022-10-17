@@ -1,0 +1,6 @@
+{
+   "errors": {
+      "3105": "Horse ID is not valid"
+   },
+   "status": 400
+}

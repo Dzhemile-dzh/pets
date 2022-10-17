@@ -1,0 +1,52 @@
+{
+  "name": "racingpost/heartbeat",
+  "description": "Module is intended for checking of work all infrastructure backend",
+  "version": "1.1.0",
+  "authors": [
+    {
+      "name": "Team Tesla",
+      "email": "tesla@racingpost.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://php.fury.io/NGPnkxj6bcyuaMExdSfb/racing-post/"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/jimbojsb/pseudo.git"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor/composer",
+    "secure-http": false
+  },
+  "autoload": {
+    "psr-4": {
+      "ApiStatus\\": "library/ApiStatus/",
+      "Phalcon\\": "phalcon-ext/"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "ext-phalcon": ">=1.3",
+    "racingpost/phalcon-ext": ">=2.1.5"
+  },
+  "require-dev": {
+    "racingpost/code-style": "v0.05",
+    "phpunit/phpunit": "6.4.*",
+    "phpspec/prophecy": "~1.0",
+    "jimbojsb/pseudo": "*"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "post-autoload-dump": "sh -c 'test ! -f ./vendor/bin/setup-git-hooks.sh' || sh -c 'test -f ./vendor/bin/setup-git-hooks.sh && sh ./vendor/bin/setup-git-hooks.sh'",
+    "run-unit-test": "vendor/bin/phpunit --configuration tests/phpunit.xml --color tests/",
+    "build-live": "composer install --no-dev -o && composer run-unit-test"
+  }
+}

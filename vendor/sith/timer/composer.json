@@ -1,0 +1,21 @@
+{
+  "name": "sith/timer",
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.7",
+    "phake/phake": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "RP\\Utils\\": "lib/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "RP\\Tests\\": "tests/"
+    }
+  },
+  "version": "1.0.0"
+}

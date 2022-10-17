@@ -1,0 +1,57 @@
+{
+    "data": {
+        "horses": [
+            {
+                "races_number": 3,
+                "place_1st_number": 2,
+                "win_prize": 140625,
+                "total_prize": 144471.15,
+                "euro_win_prize": 191250,
+                "euro_total_prize": 195750,
+                "stake": 4.33,
+                "rpr": 156,
+                "trainer_uid": 1475,
+                "trainer_name": "W P Mullins",
+                "trainer_ptp_type_code": "N",
+                "horse_uid": 781864,
+                "horse_name": "Clondaw Warrior"
+            },
+            {
+                "races_number": 7,
+                "place_1st_number": 6,
+                "win_prize": 117171,
+                "total_prize": 123053.36,
+                "euro_win_prize": 153750,
+                "euro_total_prize": 161750,
+                "stake": 10.11,
+                "rpr": 146,
+                "trainer_uid": 1475,
+                "trainer_name": "W P Mullins",
+                "trainer_ptp_type_code": "N",
+                "horse_uid": 873129,
+                "horse_name": "Westerner Lady"
+            },
+            {
+                "races_number": 5,
+                "place_1st_number": 2,
+                "win_prize": 41911.76,
+                "total_prize": 65257.35,
+                "euro_win_prize": 57000,
+                "euro_total_prize": 88750,
+                "stake": 1.13,
+                "rpr": 160,
+                "trainer_uid": 1475,
+                "trainer_name": "W P Mullins",
+                "trainer_ptp_type_code": "N",
+                "horse_uid": 777450,
+                "horse_name": "Ballycasey"
+            }
+        ],
+        "season_info": {
+            "season_year_begin": 2016,
+            "race_type": "jumps",
+            "country_code": "IRE"
+        }
+    },
+    "status": 200
+}

@@ -1,0 +1,124 @@
+{
+    "data": {
+        "nick": [
+            {
+                "horse_uid": 22874,
+                "style_name": "Genereux Genie",
+                "runs": 14,
+                "wins": 0,
+                "wins_percent": 0,
+                "runners": 1,
+                "winners": 0,
+                "winners_percent": 0,
+                "total_money": 1106.7,
+                "win_prize_money": 0,
+                "descendants": true
+            },
+            {
+                "horse_uid": 78138,
+                "style_name": "Protektor",
+                "runs": 1,
+                "wins": 0,
+                "wins_percent": 0,
+                "runners": 1,
+                "winners": 0,
+                "winners_percent": 0,
+                "total_money": 954,
+                "win_prize_money": 0,
+                "descendants": true
+            },
+            {
+                "horse_uid": 107700,
+                "style_name": "Pivotal",
+                "runs": 5,
+                "wins": 0,
+                "wins_percent": 0,
+                "runners": 1,
+                "winners": 0,
+                "winners_percent": 0,
+                "total_money": 0,
+                "win_prize_money": 0,
+                "descendants": true
+            },
+            {
+                "horse_uid": 109077,
+                "style_name": "Astarabad",
+                "runs": 3,
+                "wins": 0,
+                "wins_percent": 0,
+                "runners": 1,
+                "winners": 0,
+                "winners_percent": 0,
+                "total_money": 1034.15,
+                "win_prize_money": 0,
+                "descendants": true
+            },
+            {
+                "horse_uid": 303416,
+                "style_name": "Law Society",
+                "runs": 1,
+                "wins": 0,
+                "wins_percent": 0,
+                "runners": 1,
+                "winners": 0,
+                "winners_percent": 0,
+                "total_money": 17550,
+                "win_prize_money": 0,
+                "descendants": true
+            },
+            {
+                "horse_uid": 304228,
+                "style_name": "Highest Honor",
+                "runs": 16,
+                "wins": 3,
+                "wins_percent": 19,
+                "runners": 1,
+                "winners": 1,
+                "winners_percent": 100,
+                "total_money": 23430.74,
+                "win_prize_money": 21432.57,
+                "descendants": true
+            },
+            {
+                "horse_uid": 304944,
+                "style_name": "Dynaformer",
+                "runs": 3,
+                "wins": 0,
+                "wins_percent": 0,
+                "runners": 1,
+                "winners": 0,
+                "winners_percent": 0,
+                "total_money": 362.52,
+                "win_prize_money": 0,
+                "descendants": true
+            },
+            {
+                "horse_uid": 466278,
+                "style_name": "Docksider",
+                "runs": 9,
+                "wins": 1,
+                "wins_percent": 11,
+                "runners": 1,
+                "winners": 1,
+                "winners_percent": 100,
+                "total_money": 9086.31,
+                "win_prize_money": 6814.16,
+                "descendants": true
+            },
+            {
+                "horse_uid": 480438,
+                "style_name": "Fantastic Light",
+                "runs": 8,
+                "wins": 0,
+                "wins_percent": 0,
+                "runners": 1,
+                "winners": 0,
+                "winners_percent": 0,
+                "total_money": 288.6,
+                "win_prize_money": 0,
+                "descendants": true
+            }
+        ]
+    },
+    "status": 200
+}

@@ -1,0 +1,42 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: oleg_symonchuk
+ * Date: 29/12/14
+ * Time: 12:41 PM
+ */
+
+namespace Api\Input\Request\Horses\Profile\Horse;
+
+use Phalcon\Input\Request\Parameter\Validator as StandardValidator;
+use Phalcon\Input\Request\Parameter\Cast;
+
+/**
+ * Class Entries
+ *
+ * @method int getHorseId()
+ * @method bool getReturnP2P()
+ *
+ * @package Api\Input\Request\Horses\Profile\Horse
+ */
+class Form extends \Api\Input\Request\HorsesRequest
+{
+    /**
+     * @inheritdoc
+     */
+    protected function setupParameters()
+    {
+        $this->addNamedParameter(
+            'horseId',
+            new StandardValidator\IntegerId()
+        );
+        $this->addCast('horseId', new Cast\DecimalInteger());
+
+        $this->addNamedParameter(
+            'returnP2P',
+            new StandardValidator\Boolean(),
+            false
+        );
+        $this->addCast('returnP2P', new Cast\Boolean());
+    }
+}

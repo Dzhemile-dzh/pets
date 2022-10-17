@@ -1,0 +1,10 @@
+{
+    "data": {
+        "last_14_days_form": {
+            "runs": 8,
+            "wins": 2,
+            "percent": 25
+        }
+    },
+    "status": 200
+}

@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<root>
+    <data>
+        <adsChangeDelay>10</adsChangeDelay>
+        <meeting name="Ascot">
+            <rp_meeting_order>3</rp_meeting_order>
+            <race id="637806" card_details_available="0" race_status_code="R" time="2:40">
+                <fastResult>0</fastResult>
+                <runner>
+                    <position>1</position>
+                    <name>Rock On Ruby</name>
+                    <rate>15/8</rate>
+                </runner>
+            </race>
+        </meeting>
+        <meeting name="Lingfield (AW)">
+            <rp_meeting_order>4</rp_meeting_order>
+            <race id="123" card_details_available="0" race_status_code="R" time="3:41">
+                <fastResult>0</fastResult>
+                <runner>
+                    <position>1</position>
+                    <name>Snow King 1</name>
+                    <rate>16/1</rate>
+                </runner>
+            </race>
+        </meeting>
+        <meeting name="Aqueduct (USA)">
+            <rp_meeting_order>5</rp_meeting_order>
+            <race id="642564" card_details_available="0" race_status_code="R" time="8:21">
+                <fastResult>0</fastResult>
+                <runner>
+                    <position>1</position>
+                    <name>Res Judicata</name>
+                    <rate>46/1</rate>
+                </runner>
+            </race>
+        </meeting>
+        <meeting name="Camden (South Carolina)">
+            <rp_meeting_order>7</rp_meeting_order>
+            <race id="639888" card_details_available="0" race_status_code="R" time="7:00">
+                <fastResult>0</fastResult>
+                <runner>
+                    <position>1</position>
+                    <name>Dawalan</name>
+                    <rate/>
+                </runner>
+            </race>
+        </meeting>
+        <meeting name="Lingfield (ARAB)">
+            <rp_meeting_order>2</rp_meeting_order>
+            <race id="1234" card_details_available="0" race_status_code="R" time="3:42">
+                <fastResult>0</fastResult>
+                <runner>
+                    <position>1</position>
+                    <name>Snow King 2</name>
+                    <rate>16/1</rate>
+                </runner>
+            </race>
+            <race id="12345" card_details_available="0" race_status_code="R" time="3:43">
+                <fastResult>0</fastResult>
+                <runner>
+                    <position>1</position>
+                    <name>Snow King 3</name>
+                    <rate>16/1</rate>
+                </runner>
+            </race>
+        </meeting>
+        <meeting name="Lingfield (AW) (ARAB)">
+            <rp_meeting_order>1</rp_meeting_order>
+            <race id="123456" card_details_available="0" race_status_code="R" time="3:44">
+                <fastResult>0</fastResult>
+                <runner>
+                    <position>1</position>
+                    <name>Snow King 4</name>
+                    <rate>16/1</rate>
+                </runner>
+            </race>
+            <race id="1234567" card_details_available="0" race_status_code="R" time="3:45">
+                <fastResult>0</fastResult>
+                <runner>
+                    <position>1</position>
+                    <name>Snow King 5</name>
+                    <rate>16/1</rate>
+                </runner>
+            </race>
+        </meeting>
+        <meeting name="Wexford (RH) (IRE)">
+            <rp_meeting_order>8</rp_meeting_order>
+            <race id="637715" card_details_available="0" race_status_code="R" time="3:45">
+                <fastResult>0</fastResult>
+                <runner>
+                    <position>1</position>
+                    <name>Snow King</name>
+                    <rate>16/1</rate>
+                </runner>
+            </race>
+        </meeting>
+        <meeting name="Southwell (AW) (ARAB)">
+            <rp_meeting_order>6</rp_meeting_order>
+            <race id="637715" card_details_available="0" race_status_code="R" time="3:45">
+                <fastResult>0</fastResult>
+                <runner>
+                    <position>1</position>
+                    <name>Snow King</name>
+                    <rate>16/1</rate>
+                </runner>
+            </race>
+        </meeting>
+        <meeting name="Maisons-laffitte (FR)">
+            <rp_meeting_order>9</rp_meeting_order>
+            <race id="637715" card_details_available="0" race_status_code="R" time="3:45">
+                <fastResult>0</fastResult>
+                <runner>
+                    <position>1</position>
+                    <name>Snow King</name>
+                    <rate>16/1</rate>
+                </runner>
+            </race>
+        </meeting>
+    </data>
+    <status>200</status>
+</root>

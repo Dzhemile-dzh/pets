@@ -1,0 +1,55 @@
+{
+  "data": {
+    "meetings": {
+      "15": {
+        "course_uid": 15,
+        "race_date": "2021-01-11T00:00:00+00:00",
+        "abandoned": 0,
+        "country_code": "GB",
+        "course_style_name": "DONCASTER",
+        "course_type_code": "B",
+        "meeting_type": "jumps",
+        "pre_going_desc": "GOOD TO SOFT (Soft in places; 6.9)",
+        "pre_weather_desc": "(Showers)",
+        "weather_details": null
+      },
+      "24": {
+        "course_uid": 24,
+        "race_date": "2021-01-11T00:00:00+00:00",
+        "abandoned": 0,
+        "country_code": "GB",
+        "course_style_name": "HEREFORD",
+        "course_type_code": "J",
+        "meeting_type": "jumps",
+        "pre_going_desc": "SOFT",
+        "pre_weather_desc": "(Light rain)",
+        "weather_details": null
+      },
+      "513": {
+        "course_uid": 513,
+        "race_date": "2021-01-11T00:00:00+00:00",
+        "abandoned": 0,
+        "country_code": "GB",
+        "course_style_name": "WOLVERHAMPTON (AW)",
+        "course_type_code": "X",
+        "meeting_type": null,
+        "pre_going_desc": "TAPETA: STANDARD",
+        "pre_weather_desc": "(Showers)",
+        "weather_details": null
+      },
+      "1138": {
+        "course_uid": 1138,
+        "race_date": "2021-01-11T00:00:00+00:00",
+        "abandoned": 0,
+        "country_code": "IRE",
+        "course_style_name": "DUNDALK (AW)",
+        "course_type_code": "X",
+        "meeting_type": "jumps",
+        "pre_going_desc": "POLYTRACK: STANDARD",
+        "pre_weather_desc": "(Showers)",
+        "weather_details": null
+      }
+    }
+  },
+  "status": 200
+}

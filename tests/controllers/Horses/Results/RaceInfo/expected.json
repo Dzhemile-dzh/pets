@@ -1,0 +1,143 @@
+{
+    "data": {
+        "race_info": {
+            "race_status_code": "R",
+            "race_datetime": "2017-08-06T14:35:00+01:00",
+            "race_start_datetime": "2017-08-06T14:35:24+01:00",
+            "local_meeting_race_datetime": "2017-08-06T14:35:00+01:00",
+            "race_instance_title": "Horseradish Hospitality At Southport Flower Show/EBF Stallions Conditions Stakes (Plus 10 Race)",
+            "race_type_code": "F",
+            "race_surface": null,
+            "distance_yard": 1337,
+            "distance_furlong_rounded": 6,
+            "race_group_desc": "Unknown",
+            "race_class": "2",
+            "no_of_fences": null,
+            "ages_allowed_desc": "2yo",
+            "official_rating_band_desc": null,
+            "straight_round_jubilee_code": null,
+            "straight_round_jubilee_desc": null,
+            "rp_straight_round_jubilee_desc": null,
+            "course_uid": 13,
+            "course_name": "CHESTER",
+            "course_region": "GB & IRE",
+            "diffusion_course_name": "CHESTER",
+            "course_key": "chester",
+            "course_style_name": "Chester",
+            "course_country_code": "GB",
+            "course_country_desc": "Great Britain",
+            "meeting_name": "CHESTER",
+            "meeting_date": "2017-08-06T00:00:00+01:00",
+            "meeting_abandoned": null,
+            "abandoned_reason": null,
+            "meeting_going_desc": "GOOD TO SOFT (6.6)",
+            "going_type_code": "GS",
+            "going_type_desc": "Good To Soft",
+            "race_comments": null,
+            "omitted_fences": null,
+            "start_flag": false,
+            "stalls_position": "1m2f - Outside; Remainder - Inside",
+            "misc_text": " ",
+            "rails": " ",
+            "wind": "breezy, across",
+            "rp_analysis": "Add 24yds to race distance. A decent little conditions contest.\\n \\bPRESTBURY PARK\\p looked vulnerable with rivals snapping at his heels turning for home but he's game and clung on to make it two from three. He disappointed on easy ground on debut but proved here that he is effective with some cut and Group 2 entries suggest connections think he's quite useful.\\n \\bRegulator\\p didn't pick up immediately but closed right in as the line loomed and almost snatched it. He shapes like a slightly stiffer test (step up in trip or more galloping track) would suit.\\n \\bUlshaw Bridge\\p was in danger of dropping out the back of the TV at halfway but he stormed home from the final turn and looks a colt who will be much better suited by a more galloping track. He looks one to keep a close eye on.\\n \\bDragons Tail\\p had every chance and kept on well but he is more exposed than the front three.\\n \\bHaddaf\\p dropped out and didn't appear to stay this trip, which is strange given he is bred to appreciate even further. [Gavin Beech]\\n \\bQUOTES\\p Franny [Norton] rode a fantastic race. The horse used up a lot of energy early on and was just tiring at the end. He's very genuine and scopey - Deirdre Johnston, wife of trainer \\n",
+            "prizes": [
+                {
+                    "prize_sterling": 12450,
+                    "prize_euro": null,
+                    "prize_euro_gross": null,
+                    "prize_usd": 15313.5,
+                    "position_no": 1
+                },
+                {
+                    "prize_sterling": 3728,
+                    "prize_euro": null,
+                    "prize_euro_gross": null,
+                    "prize_usd": 4585.44,
+                    "position_no": 2
+                },
+                {
+                    "prize_sterling": 1864,
+                    "prize_euro": null,
+                    "prize_euro_gross": null,
+                    "prize_usd": 2292.72,
+                    "position_no": 3
+                },
+                {
+                    "prize_sterling": 932,
+                    "prize_euro": null,
+                    "prize_euro_gross": null,
+                    "prize_usd": 1146.36,
+                    "position_no": 4
+                },
+                {
+                    "prize_sterling": 466,
+                    "prize_euro": null,
+                    "prize_euro_gross": null,
+                    "prize_usd": 573.18,
+                    "position_no": 5
+                },
+                {
+                    "prize_sterling": 0,
+                    "prize_euro": null,
+                    "prize_euro_gross": null,
+                    "prize_usd": 0,
+                    "position_no": 6
+                }
+            ],
+            "eyecatcher": {
+                "horse_uid": null,
+                "horse_name": "",
+                "notes": null
+            },
+            "star_performer": {
+                "horse_uid": null,
+                "horse_name": "",
+                "notes": null
+            },
+            "tote": {
+                "tote_deadheat_text": null,
+                "tote_win_money": 7.2,
+                "tote_place_1_Money": 3.4,
+                "tote_place_2_Money": 1.2,
+                "tote_place_3_Money": null,
+                "tote_place_4_Money": null,
+                "tote_dual_forecast_money": 13.4,
+                "computer_strght_frcst_money": 31.76,
+                "tricast_money": null,
+                "tote_trio_money": 46.6,
+                "trio_text": null,
+                "rule_4_Text": null,
+                "selling_details_text": null,
+                "jackpot_text": "Not won.",
+                "placepot_text": "£53.00 to a £1 stake. Pool: £88,115.00 - 1,659.42 winning units.",
+                "quadpot_text": "£8.50 to a £1 stake. Pool: £6,773.00 - 788.82 winning units."
+            },
+            "dividends": {
+                "aggregate_sp": 32.5,
+                "favorites_index": 40,
+                "winning_distances": 11.05,
+                "double_cards": 68,
+                "betting_man": "PETER HEAVEN & TURFTV",
+                "analysis_man": "GAVIN BEECH",
+                "close_up_man": "KEITH McHUGH"
+            },
+            "video_detail": [
+                {
+                    "ptv_video_id": 1281765,
+                    "video_provider": "ATR",
+                    "complete_race_uid": 2705304,
+                    "complete_race_start": 321,
+                    "complete_race_end": 487,
+                    "finish_race_uid": 2705305,
+                    "finish_race_start": 357,
+                    "finish_race_end": 447
+                }
+            ],
+            "aw_surface_type": null
+        },
+        "next_race_id": 680586,
+        "prev_race_id": 680591
+    },
+    "status": 200
+}

@@ -1,0 +1,167 @@
+{
+    "required": [
+        "data",
+        "status"
+    ],
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "data": {
+            "required": [
+                "big_race_wins"
+            ],
+            "type": "object",
+            "properties": {
+                "big_race_wins": {
+                    "items": [
+                        {
+                            "required": [
+                                "country",
+                                "course_uid",
+                                "days_diff",
+                                "disq_desc",
+                                "distance_yard",
+                                "horse_style_name",
+                                "horse_uid",
+                                "prize_sterling",
+                                "prize_euro",
+                                "provider",
+                                "ptv_video_id",
+                                "race_date",
+                                "race_group_code",
+                                "race_group_desc",
+                                "race_instance_title",
+                                "race_instance_uid",
+                                "race_outcome_code",
+                                "race_outcome_position",
+                                "race_type_code",
+                                "rp_abbrev_3",
+                                "trainer_style_name",
+                                "trainer_uid",
+                                "course_name",
+                                "course_style_name",
+                                "trainer_short_name",
+                                "trainer_ptp_type_code",
+                                "course_type_code"
+                            ],
+                            "type": "object",
+                            "properties": {
+                                "race_type_code": {
+                                    "type": "string",
+                                    "maxLength": 1
+                                },
+                                "disq_desc": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ],
+                                    "maxLength": 30
+                                },
+                                "rp_abbrev_3": {
+                                    "type": "string",
+                                    "maxLength": 3
+                                },
+                                "distance_yard": {
+                                    "type": "integer"
+                                },
+                                "horse_uid": {
+                                    "type": "integer"
+                                },
+                                "trainer_style_name": {
+                                    "type": "string",
+                                    "maxLength": 60
+                                },
+                                "race_outcome_code": {
+                                    "type": "string",
+                                    "maxLength": 3
+                                },
+                                "race_outcome_position": {
+                                    "type": "integer"
+                                },
+                                "race_group_desc": {
+                                    "type": "string",
+                                    "maxLength": 30
+                                },
+                                "provider": {
+                                    "type": "string",
+                                    "maxLength": 3
+                                },
+                                "race_group_code": {
+                                    "type": "string",
+                                    "maxLength": 1
+                                },
+                                "horse_style_name": {
+                                    "type": "string",
+                                    "maxLength": 30
+                                },
+                                "trainer_uid": {
+                                    "type": "integer"
+                                },
+                                "prize_sterling": {
+                                    "type": "number"
+                                },
+                                "prize_euro": {
+                                    "type": "number"
+                                },
+                                "ptv_video_id": {
+                                    "type": [
+                                        "integer",
+                                        "null"
+                                    ]
+                                },
+                                "course_uid": {
+                                    "type": "integer"
+                                },
+                                "country": {
+                                    "type": "string",
+                                    "maxLength": 3
+                                },
+                                "race_instance_title": {
+                                    "type": "string",
+                                    "maxLength": 100
+                                },
+                                "days_diff": {
+                                    "type": "integer"
+                                },
+                                "race_instance_uid": {
+                                    "type": "integer"
+                                },
+                                "race_date": {
+                                    "type": "string",
+                                    "minLength": 25,
+                                    "maxLength": 25
+                                },
+                                "course_name": {
+                                    "type": "string",
+                                    "maxLength": 30
+                                },
+                                "course_style_name": {
+                                    "type": "string",
+                                    "maxLength": 60
+                                },
+                                "trainer_short_name": {
+                                    "type": "string",
+                                    "maxLength": 60
+                                },
+                                "trainer_ptp_type_code": {
+                                    "type": "string",
+                                    "maxLength": 1
+                                },
+                                "course_type_code": {
+                                    "type": "string",
+                                    "maxLength": 1
+                                }
+                            }
+                        }
+                    ],
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            }
+        }
+    }
+}

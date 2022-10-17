@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "required": [
+        "errors",
+        "status"
+    ],
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "errors": {
+            "type": "object",
+            "additionalProperties": {
+                "type": "string",
+                "maxLength": 256
+            }
+        }
+    }
+}

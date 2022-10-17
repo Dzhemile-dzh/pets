@@ -1,0 +1,91 @@
+{
+    "data": {
+        "seasonal_broodmare_sire_statistics": [
+            {
+                "dam_sire_uid": 49087,
+                "dam_sire_style_name": "Royal Academy",
+                "wins": 0,
+                "runs": 1,
+                "second_place": 1,
+                "third_place": 0,
+                "fourth_place": 0,
+                "win_prize_money_euro": 0,
+                "win_prize_money": 0,
+                "total_prize_money_euro": 0,
+                "total_prize_money": 75250,
+                "overall_win_prizemoney": 0,
+                "overall_total_prizemoney": 75250,
+                "winners": 0,
+                "runners": 1,
+                "weatherbys_uid": null,
+                "weatherbys_api_uid": null,
+                "stakes_wins": 0,
+                "stakes_winner": 0,
+                "stakes_runner": 1,
+                "stakes_winner_percent": 0,
+                "progeny_performers": [
+                    {
+                        "horse_uid": 828590,
+                        "horse_name": "Lightning Spear",
+                        "sire_uid": 107700,
+                        "sire_name": "Pivotal",
+                        "rp_postmark": 122
+                    }
+                ]
+            },
+            {
+                "dam_sire_uid": 97591,
+                "dam_sire_style_name": "Singspiel",
+                "wins": 0,
+                "runs": 1,
+                "second_place": 0,
+                "third_place": 0,
+                "fourth_place": 0,
+                "win_prize_money_euro": 0,
+                "win_prize_money": 0,
+                "total_prize_money_euro": 0,
+                "total_prize_money": 0,
+                "overall_win_prizemoney": 0,
+                "overall_total_prizemoney": 0,
+                "winners": 0,
+                "runners": 1,
+                "weatherbys_uid": "003955",
+                "weatherbys_api_uid": 3955,
+                "stakes_wins": 0,
+                "stakes_winner": 0,
+                "stakes_runner": 1,
+                "stakes_winner_percent": 0,
+                "progeny_performers": [
+                    {
+                        "horse_uid": 851449,
+                        "horse_name": "Suedois",
+                        "sire_uid": 717364,
+                        "sire_name": "Le Havre",
+                        "rp_postmark": 106
+                    }
+                ]
+            }
+        ],
+        "season": [
+            {
+                "season_uid": 524,
+                "season_start_date": "2018-01-01T00:00:00+00:00",
+                "season_end_date": "2018-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_race_type": "flat",
+                "season_country_code": "GB",
+                "season_desc": "Flat 2018"
+            },
+            {
+                "season_uid": 524,
+                "season_start_date": "2018-01-01T00:00:00+00:00",
+                "season_end_date": "2018-12-31T23:59:00+00:00",
+                "season_type_code": "F",
+                "season_race_type": "flat",
+                "season_country_code": "IRE",
+                "season_desc": "Flat 2018"
+            }
+        ]
+    },
+    "status": 200
+}

@@ -1,0 +1,50 @@
+{
+    "data": {
+        "progeny_horses": [
+            {
+                "horse_uid": 1017308,
+                "horse_name": "Butterflies",
+                "country_origin_code": "IRE",
+                "horse_sex_code": "F",
+                "horse_date_of_birth": "2006-02-12T00:00:00+00:00",
+                "horse_age": 3,
+                "runs": 10,
+                "wins": 1,
+                "places": 3,
+                "total_prize_money": 26968.11,
+                "dam_sire_uid": 13903,
+                "dam_sire_style_name": "Rahy",
+                "dam_sire_country_origin_code": "USA",
+                "rp_postmark": 99,
+                "win_percent": 10,
+                "best_or": 99
+            },
+            {
+                "horse_uid": 1212999,
+                "horse_name": "Inconceivable",
+                "country_origin_code": "IRE",
+                "horse_sex_code": "F",
+                "horse_date_of_birth": "2006-02-12T00:00:00+00:00",
+                "horse_age": 3,
+                "runs": 8,
+                "wins": 0,
+                "places": 7,
+                "total_prize_money": 6230.8,
+                "dam_sire_uid": 302250,
+                "dam_sire_style_name": "Shirley Heights",
+                "dam_sire_country_origin_code": "GB",
+                "rp_postmark": 81,
+                "win_percent": 0,
+                "best_or": 77
+            }
+        ],
+        "season_info": {
+            "race_type": "flat",
+            "season_year_begin": 2016,
+            "season_year_end": 2017,
+            "more_progeny_available": true,
+            "number": 2
+        }
+    },
+    "status": 200
+}

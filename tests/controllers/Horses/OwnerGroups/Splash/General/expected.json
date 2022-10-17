@@ -1,0 +1,1087 @@
+{
+    "data": {
+        "splash": {
+            "1": {
+                "owner_group_lookup_uid": 0,
+                "owner_group_uid": 0,
+                "owner_group_splash_uid": 1,
+                "to_follow_uid": 0,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah0_4s.png"
+            },
+            "2": {
+                "owner_group_lookup_uid": 0,
+                "owner_group_uid": 0,
+                "owner_group_splash_uid": 2,
+                "to_follow_uid": 0,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah0_6.png"
+            },
+            "3": {
+                "owner_group_lookup_uid": 0,
+                "owner_group_uid": 0,
+                "owner_group_splash_uid": 3,
+                "to_follow_uid": 0,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah0_6plus.png"
+            },
+            "4": {
+                "owner_group_lookup_uid": 1,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 4,
+                "to_follow_uid": 19,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah1_4s.png"
+            },
+            "5": {
+                "owner_group_lookup_uid": 1,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 5,
+                "to_follow_uid": 19,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah1_6.png"
+            },
+            "6": {
+                "owner_group_lookup_uid": 1,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 6,
+                "to_follow_uid": 19,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah1_6plus.png"
+            },
+            "7": {
+                "owner_group_lookup_uid": 2,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 7,
+                "to_follow_uid": 19,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah2_4s.png"
+            },
+            "8": {
+                "owner_group_lookup_uid": 2,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 8,
+                "to_follow_uid": 19,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah2_6.png"
+            },
+            "9": {
+                "owner_group_lookup_uid": 2,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 9,
+                "to_follow_uid": 19,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah2_6plus.png"
+            },
+            "10": {
+                "owner_group_lookup_uid": 3,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 10,
+                "to_follow_uid": 19,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah3_4s.png"
+            },
+            "11": {
+                "owner_group_lookup_uid": 3,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 11,
+                "to_follow_uid": 19,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah3_6.png"
+            },
+            "12": {
+                "owner_group_lookup_uid": 3,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 12,
+                "to_follow_uid": 19,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah3_6plus.png"
+            },
+            "13": {
+                "owner_group_lookup_uid": 4,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 13,
+                "to_follow_uid": 19,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah4_4s.png"
+            },
+            "14": {
+                "owner_group_lookup_uid": 4,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 14,
+                "to_follow_uid": 19,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah4_6.png"
+            },
+            "15": {
+                "owner_group_lookup_uid": 4,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 15,
+                "to_follow_uid": 19,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah4_6plus.png"
+            },
+            "16": {
+                "owner_group_lookup_uid": 5,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 16,
+                "to_follow_uid": 19,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah5_4s.png"
+            },
+            "17": {
+                "owner_group_lookup_uid": 5,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 17,
+                "to_follow_uid": 19,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah5_6.png"
+            },
+            "18": {
+                "owner_group_lookup_uid": 5,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 18,
+                "to_follow_uid": 19,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah5_6plus.png"
+            },
+            "19": {
+                "owner_group_lookup_uid": 6,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 19,
+                "to_follow_uid": 19,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah6_4s.png"
+            },
+            "20": {
+                "owner_group_lookup_uid": 6,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 20,
+                "to_follow_uid": 19,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah6_6.png"
+            },
+            "21": {
+                "owner_group_lookup_uid": 6,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 21,
+                "to_follow_uid": 19,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah6_6plus.png"
+            },
+            "22": {
+                "owner_group_lookup_uid": 7,
+                "owner_group_uid": 10,
+                "owner_group_splash_uid": 22,
+                "to_follow_uid": 34,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah7_4s.png"
+            },
+            "23": {
+                "owner_group_lookup_uid": 7,
+                "owner_group_uid": 10,
+                "owner_group_splash_uid": 23,
+                "to_follow_uid": 34,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah7_6.png"
+            },
+            "24": {
+                "owner_group_lookup_uid": 7,
+                "owner_group_uid": 10,
+                "owner_group_splash_uid": 24,
+                "to_follow_uid": 34,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah7_6plus.png"
+            },
+            "25": {
+                "owner_group_lookup_uid": 8,
+                "owner_group_uid": 11,
+                "owner_group_splash_uid": 25,
+                "to_follow_uid": 35,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah8_4s.png"
+            },
+            "26": {
+                "owner_group_lookup_uid": 8,
+                "owner_group_uid": 11,
+                "owner_group_splash_uid": 26,
+                "to_follow_uid": 35,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah8_6.png"
+            },
+            "27": {
+                "owner_group_lookup_uid": 8,
+                "owner_group_uid": 11,
+                "owner_group_splash_uid": 27,
+                "to_follow_uid": 35,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah8_6plus.png"
+            },
+            "28": {
+                "owner_group_lookup_uid": 9,
+                "owner_group_uid": 12,
+                "owner_group_splash_uid": 28,
+                "to_follow_uid": 36,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah9_4s.png"
+            },
+            "29": {
+                "owner_group_lookup_uid": 9,
+                "owner_group_uid": 12,
+                "owner_group_splash_uid": 29,
+                "to_follow_uid": 36,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah9_6.png"
+            },
+            "30": {
+                "owner_group_lookup_uid": 9,
+                "owner_group_uid": 12,
+                "owner_group_splash_uid": 30,
+                "to_follow_uid": 36,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah9_6plus.png"
+            },
+            "31": {
+                "owner_group_lookup_uid": 10,
+                "owner_group_uid": 13,
+                "owner_group_splash_uid": 31,
+                "to_follow_uid": 37,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah10_4s.png"
+            },
+            "32": {
+                "owner_group_lookup_uid": 10,
+                "owner_group_uid": 13,
+                "owner_group_splash_uid": 32,
+                "to_follow_uid": 37,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah10_6.png"
+            },
+            "33": {
+                "owner_group_lookup_uid": 10,
+                "owner_group_uid": 13,
+                "owner_group_splash_uid": 33,
+                "to_follow_uid": 37,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah10_6plus.png"
+            },
+            "34": {
+                "owner_group_lookup_uid": 11,
+                "owner_group_uid": 14,
+                "owner_group_splash_uid": 34,
+                "to_follow_uid": 38,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah11_4s.png"
+            },
+            "35": {
+                "owner_group_lookup_uid": 11,
+                "owner_group_uid": 14,
+                "owner_group_splash_uid": 35,
+                "to_follow_uid": 38,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah11_6.png"
+            },
+            "36": {
+                "owner_group_lookup_uid": 11,
+                "owner_group_uid": 14,
+                "owner_group_splash_uid": 36,
+                "to_follow_uid": 38,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah11_6plus.png"
+            },
+            "37": {
+                "owner_group_lookup_uid": 12,
+                "owner_group_uid": 15,
+                "owner_group_splash_uid": 37,
+                "to_follow_uid": 39,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah12_4s.png"
+            },
+            "38": {
+                "owner_group_lookup_uid": 12,
+                "owner_group_uid": 15,
+                "owner_group_splash_uid": 38,
+                "to_follow_uid": 39,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah12_6.png"
+            },
+            "39": {
+                "owner_group_lookup_uid": 12,
+                "owner_group_uid": 15,
+                "owner_group_splash_uid": 39,
+                "to_follow_uid": 39,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah12_6plus.png"
+            },
+            "40": {
+                "owner_group_lookup_uid": 13,
+                "owner_group_uid": 16,
+                "owner_group_splash_uid": 40,
+                "to_follow_uid": 40,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah13_4s.png"
+            },
+            "41": {
+                "owner_group_lookup_uid": 13,
+                "owner_group_uid": 16,
+                "owner_group_splash_uid": 41,
+                "to_follow_uid": 40,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah13_6.png"
+            },
+            "42": {
+                "owner_group_lookup_uid": 13,
+                "owner_group_uid": 16,
+                "owner_group_splash_uid": 42,
+                "to_follow_uid": 40,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah13_6plus.png"
+            },
+            "43": {
+                "owner_group_lookup_uid": 14,
+                "owner_group_uid": 17,
+                "owner_group_splash_uid": 43,
+                "to_follow_uid": 41,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah14_4s.png"
+            },
+            "44": {
+                "owner_group_lookup_uid": 14,
+                "owner_group_uid": 17,
+                "owner_group_splash_uid": 44,
+                "to_follow_uid": 41,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah14_6.png"
+            },
+            "45": {
+                "owner_group_lookup_uid": 14,
+                "owner_group_uid": 17,
+                "owner_group_splash_uid": 45,
+                "to_follow_uid": 41,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah14_6plus.png"
+            },
+            "46": {
+                "owner_group_lookup_uid": 15,
+                "owner_group_uid": 18,
+                "owner_group_splash_uid": 46,
+                "to_follow_uid": 42,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah15_4s.png"
+            },
+            "47": {
+                "owner_group_lookup_uid": 15,
+                "owner_group_uid": 18,
+                "owner_group_splash_uid": 47,
+                "to_follow_uid": 42,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah15_6.png"
+            },
+            "48": {
+                "owner_group_lookup_uid": 15,
+                "owner_group_uid": 18,
+                "owner_group_splash_uid": 48,
+                "to_follow_uid": 42,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah15_6plus.png"
+            },
+            "49": {
+                "owner_group_lookup_uid": 16,
+                "owner_group_uid": 18,
+                "owner_group_splash_uid": 49,
+                "to_follow_uid": 42,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah16_4s.png"
+            },
+            "50": {
+                "owner_group_lookup_uid": 16,
+                "owner_group_uid": 18,
+                "owner_group_splash_uid": 50,
+                "to_follow_uid": 42,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah16_6.png"
+            },
+            "51": {
+                "owner_group_lookup_uid": 16,
+                "owner_group_uid": 18,
+                "owner_group_splash_uid": 51,
+                "to_follow_uid": 42,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah16_6plus.png"
+            },
+            "52": {
+                "owner_group_lookup_uid": 17,
+                "owner_group_uid": 19,
+                "owner_group_splash_uid": 52,
+                "to_follow_uid": 43,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah17_4s.png"
+            },
+            "53": {
+                "owner_group_lookup_uid": 17,
+                "owner_group_uid": 19,
+                "owner_group_splash_uid": 53,
+                "to_follow_uid": 43,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah17_6.png"
+            },
+            "54": {
+                "owner_group_lookup_uid": 17,
+                "owner_group_uid": 19,
+                "owner_group_splash_uid": 54,
+                "to_follow_uid": 43,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah17_6plus.png"
+            },
+            "55": {
+                "owner_group_lookup_uid": 18,
+                "owner_group_uid": 20,
+                "owner_group_splash_uid": 55,
+                "to_follow_uid": 44,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah18_4s.png"
+            },
+            "56": {
+                "owner_group_lookup_uid": 18,
+                "owner_group_uid": 20,
+                "owner_group_splash_uid": 56,
+                "to_follow_uid": 44,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah18_6.png"
+            },
+            "57": {
+                "owner_group_lookup_uid": 18,
+                "owner_group_uid": 20,
+                "owner_group_splash_uid": 57,
+                "to_follow_uid": 44,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah18_6plus.png"
+            },
+            "58": {
+                "owner_group_lookup_uid": 19,
+                "owner_group_uid": 20,
+                "owner_group_splash_uid": 58,
+                "to_follow_uid": 44,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah19_4s.png"
+            },
+            "59": {
+                "owner_group_lookup_uid": 19,
+                "owner_group_uid": 20,
+                "owner_group_splash_uid": 59,
+                "to_follow_uid": 44,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah19_6.png"
+            },
+            "60": {
+                "owner_group_lookup_uid": 19,
+                "owner_group_uid": 20,
+                "owner_group_splash_uid": 60,
+                "to_follow_uid": 44,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah19_6plus.png"
+            },
+            "61": {
+                "owner_group_lookup_uid": 20,
+                "owner_group_uid": 21,
+                "owner_group_splash_uid": 61,
+                "to_follow_uid": 45,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah20_4s.png"
+            },
+            "62": {
+                "owner_group_lookup_uid": 20,
+                "owner_group_uid": 21,
+                "owner_group_splash_uid": 62,
+                "to_follow_uid": 45,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah20_6.png"
+            },
+            "63": {
+                "owner_group_lookup_uid": 20,
+                "owner_group_uid": 21,
+                "owner_group_splash_uid": 63,
+                "to_follow_uid": 45,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah20_6plus.png"
+            },
+            "64": {
+                "owner_group_lookup_uid": 21,
+                "owner_group_uid": 22,
+                "owner_group_splash_uid": 64,
+                "to_follow_uid": 46,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah21_4s.png"
+            },
+            "65": {
+                "owner_group_lookup_uid": 21,
+                "owner_group_uid": 22,
+                "owner_group_splash_uid": 65,
+                "to_follow_uid": 46,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah21_6.png"
+            },
+            "66": {
+                "owner_group_lookup_uid": 21,
+                "owner_group_uid": 22,
+                "owner_group_splash_uid": 66,
+                "to_follow_uid": 46,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah21_6plus.png"
+            },
+            "67": {
+                "owner_group_lookup_uid": 22,
+                "owner_group_uid": 23,
+                "owner_group_splash_uid": 67,
+                "to_follow_uid": 47,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah22_4s.png"
+            },
+            "68": {
+                "owner_group_lookup_uid": 22,
+                "owner_group_uid": 23,
+                "owner_group_splash_uid": 68,
+                "to_follow_uid": 47,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah22_6.png"
+            },
+            "69": {
+                "owner_group_lookup_uid": 22,
+                "owner_group_uid": 23,
+                "owner_group_splash_uid": 69,
+                "to_follow_uid": 47,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah22_6plus.png"
+            },
+            "70": {
+                "owner_group_lookup_uid": 23,
+                "owner_group_uid": 23,
+                "owner_group_splash_uid": 70,
+                "to_follow_uid": 47,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah23_4s.png"
+            },
+            "71": {
+                "owner_group_lookup_uid": 23,
+                "owner_group_uid": 23,
+                "owner_group_splash_uid": 71,
+                "to_follow_uid": 47,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah23_6.png"
+            },
+            "72": {
+                "owner_group_lookup_uid": 23,
+                "owner_group_uid": 23,
+                "owner_group_splash_uid": 72,
+                "to_follow_uid": 47,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah23_6plus.png"
+            },
+            "73": {
+                "owner_group_lookup_uid": 24,
+                "owner_group_uid": 24,
+                "owner_group_splash_uid": 73,
+                "to_follow_uid": 48,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah24_4s.png"
+            },
+            "74": {
+                "owner_group_lookup_uid": 24,
+                "owner_group_uid": 24,
+                "owner_group_splash_uid": 74,
+                "to_follow_uid": 48,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah24_6.png"
+            },
+            "75": {
+                "owner_group_lookup_uid": 24,
+                "owner_group_uid": 24,
+                "owner_group_splash_uid": 75,
+                "to_follow_uid": 48,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah24_6plus.png"
+            },
+            "76": {
+                "owner_group_lookup_uid": 25,
+                "owner_group_uid": 24,
+                "owner_group_splash_uid": 76,
+                "to_follow_uid": 48,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah25_4s.png"
+            },
+            "77": {
+                "owner_group_lookup_uid": 25,
+                "owner_group_uid": 24,
+                "owner_group_splash_uid": 77,
+                "to_follow_uid": 48,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah25_6.png"
+            },
+            "78": {
+                "owner_group_lookup_uid": 25,
+                "owner_group_uid": 24,
+                "owner_group_splash_uid": 78,
+                "to_follow_uid": 48,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah25_6plus.png"
+            },
+            "79": {
+                "owner_group_lookup_uid": 26,
+                "owner_group_uid": 25,
+                "owner_group_splash_uid": 79,
+                "to_follow_uid": 49,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah26_4s.png"
+            },
+            "80": {
+                "owner_group_lookup_uid": 26,
+                "owner_group_uid": 25,
+                "owner_group_splash_uid": 80,
+                "to_follow_uid": 49,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah26_6.png"
+            },
+            "81": {
+                "owner_group_lookup_uid": 26,
+                "owner_group_uid": 25,
+                "owner_group_splash_uid": 81,
+                "to_follow_uid": 49,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah26_6plus.png"
+            },
+            "82": {
+                "owner_group_lookup_uid": 27,
+                "owner_group_uid": 25,
+                "owner_group_splash_uid": 82,
+                "to_follow_uid": 49,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah27_4s.png"
+            },
+            "83": {
+                "owner_group_lookup_uid": 27,
+                "owner_group_uid": 25,
+                "owner_group_splash_uid": 83,
+                "to_follow_uid": 49,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah27_6.png"
+            },
+            "84": {
+                "owner_group_lookup_uid": 27,
+                "owner_group_uid": 25,
+                "owner_group_splash_uid": 84,
+                "to_follow_uid": 49,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah27_6plus.png"
+            },
+            "85": {
+                "owner_group_lookup_uid": 28,
+                "owner_group_uid": 25,
+                "owner_group_splash_uid": 85,
+                "to_follow_uid": 49,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah28_4s.png"
+            },
+            "86": {
+                "owner_group_lookup_uid": 28,
+                "owner_group_uid": 25,
+                "owner_group_splash_uid": 86,
+                "to_follow_uid": 49,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah28_6.png"
+            },
+            "87": {
+                "owner_group_lookup_uid": 28,
+                "owner_group_uid": 25,
+                "owner_group_splash_uid": 87,
+                "to_follow_uid": 49,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah28_6plus.png"
+            },
+            "88": {
+                "owner_group_lookup_uid": 29,
+                "owner_group_uid": 26,
+                "owner_group_splash_uid": 88,
+                "to_follow_uid": 50,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah29_4s.png"
+            },
+            "89": {
+                "owner_group_lookup_uid": 29,
+                "owner_group_uid": 26,
+                "owner_group_splash_uid": 89,
+                "to_follow_uid": 50,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah29_6.png"
+            },
+            "90": {
+                "owner_group_lookup_uid": 29,
+                "owner_group_uid": 26,
+                "owner_group_splash_uid": 90,
+                "to_follow_uid": 50,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah29_6plus.png"
+            },
+            "91": {
+                "owner_group_lookup_uid": 30,
+                "owner_group_uid": 26,
+                "owner_group_splash_uid": 91,
+                "to_follow_uid": 50,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah30_4s.png"
+            },
+            "92": {
+                "owner_group_lookup_uid": 30,
+                "owner_group_uid": 26,
+                "owner_group_splash_uid": 92,
+                "to_follow_uid": 50,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah30_6.png"
+            },
+            "93": {
+                "owner_group_lookup_uid": 30,
+                "owner_group_uid": 26,
+                "owner_group_splash_uid": 93,
+                "to_follow_uid": 50,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah30_6plus.png"
+            },
+            "94": {
+                "owner_group_lookup_uid": 31,
+                "owner_group_uid": 27,
+                "owner_group_splash_uid": 94,
+                "to_follow_uid": 51,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah31_4s.png"
+            },
+            "95": {
+                "owner_group_lookup_uid": 31,
+                "owner_group_uid": 27,
+                "owner_group_splash_uid": 95,
+                "to_follow_uid": 51,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah31_6.png"
+            },
+            "96": {
+                "owner_group_lookup_uid": 31,
+                "owner_group_uid": 27,
+                "owner_group_splash_uid": 96,
+                "to_follow_uid": 51,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah31_6plus.png"
+            },
+            "97": {
+                "owner_group_lookup_uid": 32,
+                "owner_group_uid": 27,
+                "owner_group_splash_uid": 97,
+                "to_follow_uid": 51,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah32_4s.png"
+            },
+            "98": {
+                "owner_group_lookup_uid": 32,
+                "owner_group_uid": 27,
+                "owner_group_splash_uid": 98,
+                "to_follow_uid": 51,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah32_6.png"
+            },
+            "99": {
+                "owner_group_lookup_uid": 32,
+                "owner_group_uid": 27,
+                "owner_group_splash_uid": 99,
+                "to_follow_uid": 51,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah32_6plus.png"
+            },
+            "100": {
+                "owner_group_lookup_uid": 33,
+                "owner_group_uid": 27,
+                "owner_group_splash_uid": 100,
+                "to_follow_uid": 51,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah33_4s.png"
+            },
+            "101": {
+                "owner_group_lookup_uid": 33,
+                "owner_group_uid": 27,
+                "owner_group_splash_uid": 101,
+                "to_follow_uid": 51,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah33_6.png"
+            },
+            "102": {
+                "owner_group_lookup_uid": 33,
+                "owner_group_uid": 27,
+                "owner_group_splash_uid": 102,
+                "to_follow_uid": 51,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah33_6plus.png"
+            },
+            "103": {
+                "owner_group_lookup_uid": 34,
+                "owner_group_uid": 27,
+                "owner_group_splash_uid": 103,
+                "to_follow_uid": 51,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah34_4s.png"
+            },
+            "104": {
+                "owner_group_lookup_uid": 34,
+                "owner_group_uid": 27,
+                "owner_group_splash_uid": 104,
+                "to_follow_uid": 51,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah34_6.png"
+            },
+            "105": {
+                "owner_group_lookup_uid": 34,
+                "owner_group_uid": 27,
+                "owner_group_splash_uid": 105,
+                "to_follow_uid": 51,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah34_6plus.png"
+            },
+            "106": {
+                "owner_group_lookup_uid": 35,
+                "owner_group_uid": 28,
+                "owner_group_splash_uid": 106,
+                "to_follow_uid": 52,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah35_4s.png"
+            },
+            "107": {
+                "owner_group_lookup_uid": 35,
+                "owner_group_uid": 28,
+                "owner_group_splash_uid": 107,
+                "to_follow_uid": 52,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah35_6.png"
+            },
+            "108": {
+                "owner_group_lookup_uid": 35,
+                "owner_group_uid": 28,
+                "owner_group_splash_uid": 108,
+                "to_follow_uid": 52,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah35_6plus.png"
+            },
+            "109": {
+                "owner_group_lookup_uid": 36,
+                "owner_group_uid": 28,
+                "owner_group_splash_uid": 109,
+                "to_follow_uid": 52,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah36_4s.png"
+            },
+            "110": {
+                "owner_group_lookup_uid": 36,
+                "owner_group_uid": 28,
+                "owner_group_splash_uid": 110,
+                "to_follow_uid": 52,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah36_6.png"
+            },
+            "111": {
+                "owner_group_lookup_uid": 36,
+                "owner_group_uid": 28,
+                "owner_group_splash_uid": 111,
+                "to_follow_uid": 52,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah36_6plus.png"
+            },
+            "112": {
+                "owner_group_lookup_uid": 37,
+                "owner_group_uid": 28,
+                "owner_group_splash_uid": 112,
+                "to_follow_uid": 52,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah37_4s.png"
+            },
+            "113": {
+                "owner_group_lookup_uid": 37,
+                "owner_group_uid": 28,
+                "owner_group_splash_uid": 113,
+                "to_follow_uid": 52,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah37_6.png"
+            },
+            "114": {
+                "owner_group_lookup_uid": 37,
+                "owner_group_uid": 28,
+                "owner_group_splash_uid": 114,
+                "to_follow_uid": 52,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah37_6plus.png"
+            },
+            "115": {
+                "owner_group_lookup_uid": 38,
+                "owner_group_uid": 29,
+                "owner_group_splash_uid": 115,
+                "to_follow_uid": 53,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah38_4s.png"
+            },
+            "116": {
+                "owner_group_lookup_uid": 38,
+                "owner_group_uid": 29,
+                "owner_group_splash_uid": 116,
+                "to_follow_uid": 53,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah38_6.png"
+            },
+            "117": {
+                "owner_group_lookup_uid": 38,
+                "owner_group_uid": 29,
+                "owner_group_splash_uid": 117,
+                "to_follow_uid": 53,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah38_6plus.png"
+            },
+            "118": {
+                "owner_group_lookup_uid": 39,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 118,
+                "to_follow_uid": 19,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah39_4s.png"
+            },
+            "119": {
+                "owner_group_lookup_uid": 39,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 119,
+                "to_follow_uid": 19,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah39_6.png"
+            },
+            "120": {
+                "owner_group_lookup_uid": 39,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 120,
+                "to_follow_uid": 19,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah39_6plus.png"
+            },
+            "121": {
+                "owner_group_lookup_uid": 40,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 121,
+                "to_follow_uid": 19,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah40_4s.png"
+            },
+            "122": {
+                "owner_group_lookup_uid": 40,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 122,
+                "to_follow_uid": 19,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah40_6.png"
+            },
+            "123": {
+                "owner_group_lookup_uid": 40,
+                "owner_group_uid": 5,
+                "owner_group_splash_uid": 123,
+                "to_follow_uid": 19,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah40_6plus.png"
+            },
+            "124": {
+                "owner_group_lookup_uid": 41,
+                "owner_group_uid": 23,
+                "owner_group_splash_uid": 124,
+                "to_follow_uid": 47,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah41_4s.png"
+            },
+            "125": {
+                "owner_group_lookup_uid": 41,
+                "owner_group_uid": 23,
+                "owner_group_splash_uid": 125,
+                "to_follow_uid": 47,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah41_6.png"
+            },
+            "126": {
+                "owner_group_lookup_uid": 41,
+                "owner_group_uid": 23,
+                "owner_group_splash_uid": 126,
+                "to_follow_uid": 47,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah41_6plus.png"
+            },
+            "130": {
+                "owner_group_lookup_uid": 43,
+                "owner_group_uid": 31,
+                "owner_group_splash_uid": 130,
+                "to_follow_uid": 56,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah43_4s.png"
+            },
+            "131": {
+                "owner_group_lookup_uid": 43,
+                "owner_group_uid": 31,
+                "owner_group_splash_uid": 131,
+                "to_follow_uid": 56,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah43_6.png"
+            },
+            "132": {
+                "owner_group_lookup_uid": 43,
+                "owner_group_uid": 31,
+                "owner_group_splash_uid": 132,
+                "to_follow_uid": 56,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah43_6plus.png"
+            },
+            "133": {
+                "owner_group_lookup_uid": 44,
+                "owner_group_uid": 30,
+                "owner_group_splash_uid": 133,
+                "to_follow_uid": 55,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah44_4s.png"
+            },
+            "134": {
+                "owner_group_lookup_uid": 44,
+                "owner_group_uid": 30,
+                "owner_group_splash_uid": 134,
+                "to_follow_uid": 55,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah44_6.png"
+            },
+            "135": {
+                "owner_group_lookup_uid": 44,
+                "owner_group_uid": 30,
+                "owner_group_splash_uid": 135,
+                "to_follow_uid": 55,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah44_6plus.png"
+            },
+            "136": {
+                "owner_group_lookup_uid": 45,
+                "owner_group_uid": 32,
+                "owner_group_splash_uid": 136,
+                "to_follow_uid": 57,
+                "device_type": "iphone-4s-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah45_4s.png"
+            },
+            "137": {
+                "owner_group_lookup_uid": 45,
+                "owner_group_uid": 32,
+                "owner_group_splash_uid": 137,
+                "to_follow_uid": 57,
+                "device_type": "iphone-6-2x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah45_6.png"
+            },
+            "138": {
+                "owner_group_lookup_uid": 45,
+                "owner_group_uid": 32,
+                "owner_group_splash_uid": 138,
+                "to_follow_uid": 57,
+                "device_type": "iphone-6-plus-3x",
+                "splash_url": "assets.rpb2b.com/rabbah/rabbah45_6plus.png"
+            }
+        }
+    },
+    "status": 200
+}

@@ -1,0 +1,14 @@
+{
+    "data": {
+        "list": [
+            {
+                "dam_uid": 537663,
+                "dam_name": "A Bit Special I",
+                "country_code": "GB",
+                "date_of_birth": "2018-05-24T14:05:00+01:00",
+                "date_of_death": null
+            }
+        ]
+    },
+    "status": 200
+}

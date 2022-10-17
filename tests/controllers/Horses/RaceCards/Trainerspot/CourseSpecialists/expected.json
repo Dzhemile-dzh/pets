@@ -1,0 +1,538 @@
+{
+    "data": {
+        "trainerspot": {
+            "flat": [
+                {
+                    "course_uid": 7,
+                    "course_name": "BRIGHTON",
+                    "course_specialists": [
+                        {
+                            "description": "3yo+ hcp",
+                            "trainer_uid": 205,
+                            "trainer_name": "Paul Cole",
+                            "current_season": null,
+                            "last_5_season": {
+                                "wins": 6,
+                                "runs": 18,
+                                "percent": 33,
+                                "profit": 4.38
+                            },
+                            "runners": [
+                                {
+                                    "horse_uid": 1178823,
+                                    "horse_name": "Arctic Sea",
+                                    "race_instance_uid": 701341,
+                                    "race_datetime": "2018-05-29T18:20:00+01:00"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "3yo+ hcp",
+                            "trainer_uid": 667,
+                            "trainer_name": "John Bridger",
+                            "current_season": {
+                                "wins": 3,
+                                "runs": 5,
+                                "percent": 60,
+                                "profit": 16.5
+                            },
+                            "last_5_season": null,
+                            "runners": [
+                                {
+                                    "horse_uid": 680121,
+                                    "horse_name": "Shifting Star",
+                                    "race_instance_uid": 701346,
+                                    "race_datetime": "2018-05-29T20:20:00+01:00"
+                                },
+                                {
+                                    "horse_uid": 882549,
+                                    "horse_name": "Flowing Clarets",
+                                    "race_instance_uid": 701343,
+                                    "race_datetime": "2018-05-29T20:50:00+01:00"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "3yo+ hcp",
+                            "trainer_uid": 9440,
+                            "trainer_name": "John Berry",
+                            "current_season": null,
+                            "last_5_season": {
+                                "wins": 8,
+                                "runs": 24,
+                                "percent": 33,
+                                "profit": 33
+                            },
+                            "runners": [
+                                {
+                                    "horse_uid": 1173374,
+                                    "horse_name": "Sussex Girl",
+                                    "race_instance_uid": 701342,
+                                    "race_datetime": "2018-05-29T19:20:00+01:00"
+                                },
+                                {
+                                    "horse_uid": 820579,
+                                    "horse_name": "Roy Rocket",
+                                    "race_instance_uid": 701345,
+                                    "race_datetime": "2018-05-29T19:50:00+01:00"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "3yo hcp",
+                            "trainer_uid": 15108,
+                            "trainer_name": "Jim Boyle",
+                            "current_season": null,
+                            "last_5_season": {
+                                "wins": 2,
+                                "runs": 6,
+                                "percent": 33,
+                                "profit": 28
+                            },
+                            "runners": [
+                                {
+                                    "horse_uid": 1460443,
+                                    "horse_name": "Following Breeze",
+                                    "race_instance_uid": 701347,
+                                    "race_datetime": "2018-05-29T17:50:00+01:00"
+                                },
+                                {
+                                    "horse_uid": 1536529,
+                                    "horse_name": "Quick Recovery",
+                                    "race_instance_uid": 701347,
+                                    "race_datetime": "2018-05-29T17:50:00+01:00"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "3yo+ hcp",
+                            "trainer_uid": 27394,
+                            "trainer_name": "Philip Hide",
+                            "current_season": {
+                                "wins": 2,
+                                "runs": 7,
+                                "percent": 29,
+                                "profit": 3.5
+                            },
+                            "last_5_season": null,
+                            "runners": [
+                                {
+                                    "horse_uid": 831259,
+                                    "horse_name": "Black Caesar",
+                                    "race_instance_uid": 701341,
+                                    "race_datetime": "2018-05-29T18:20:00+01:00"
+                                },
+                                {
+                                    "horse_uid": 900797,
+                                    "horse_name": "Archimento",
+                                    "race_instance_uid": 701342,
+                                    "race_datetime": "2018-05-29T19:20:00+01:00"
+                                },
+                                {
+                                    "horse_uid": 1335039,
+                                    "horse_name": "Rocksette",
+                                    "race_instance_uid": 701345,
+                                    "race_datetime": "2018-05-29T19:50:00+01:00"
+                                },
+                                {
+                                    "horse_uid": 1596672,
+                                    "horse_name": "Fintech",
+                                    "race_instance_uid": 701346,
+                                    "race_datetime": "2018-05-29T20:20:00+01:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "course_uid": 30,
+                    "course_name": "LEICESTER",
+                    "course_specialists": [
+                        {
+                            "description": "3yo hcp",
+                            "trainer_uid": 542,
+                            "trainer_name": "David Barron",
+                            "current_season": null,
+                            "last_5_season": {
+                                "wins": 2,
+                                "runs": 7,
+                                "percent": 29,
+                                "profit": 5.5
+                            },
+                            "runners": [
+                                {
+                                    "horse_uid": 1648935,
+                                    "horse_name": "Montana Dawn",
+                                    "race_instance_uid": 701324,
+                                    "race_datetime": "2018-05-29T16:50:00+01:00"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "3yo hcp",
+                            "trainer_uid": 865,
+                            "trainer_name": "Nigel Tinkler",
+                            "current_season": null,
+                            "last_5_season": {
+                                "wins": 2,
+                                "runs": 5,
+                                "percent": 40,
+                                "profit": 6.5
+                            },
+                            "runners": [
+                                {
+                                    "horse_uid": 1529247,
+                                    "horse_name": "She's Different",
+                                    "race_instance_uid": 701324,
+                                    "race_datetime": "2018-05-29T16:50:00+01:00"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "claim",
+                            "trainer_uid": 3846,
+                            "trainer_name": "David Evans",
+                            "current_season": null,
+                            "last_5_season": {
+                                "wins": 3,
+                                "runs": 10,
+                                "percent": 30,
+                                "profit": 6.5
+                            },
+                            "runners": [
+                                {
+                                    "horse_uid": 1413768,
+                                    "horse_name": "Shovel It On",
+                                    "race_instance_uid": 701326,
+                                    "race_datetime": "2018-05-29T14:50:00+01:00"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "3yo hcp",
+                            "trainer_uid": 8010,
+                            "trainer_name": "Richard Fahey",
+                            "current_season": {
+                                "wins": 2,
+                                "runs": 2,
+                                "percent": 100,
+                                "profit": 9
+                            },
+                            "last_5_season": null,
+                            "runners": [
+                                {
+                                    "horse_uid": 1371745,
+                                    "horse_name": "Queen Penn",
+                                    "race_instance_uid": 701320,
+                                    "race_datetime": "2018-05-29T15:20:00+01:00"
+                                },
+                                {
+                                    "horse_uid": 1529264,
+                                    "horse_name": "Delph Crescent",
+                                    "race_instance_uid": 701325,
+                                    "race_datetime": "2018-05-29T16:20:00+01:00"
+                                },
+                                {
+                                    "horse_uid": 1483343,
+                                    "horse_name": "Sosian",
+                                    "race_instance_uid": 701324,
+                                    "race_datetime": "2018-05-29T16:50:00+01:00"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "3yo hcp",
+                            "trainer_uid": 17966,
+                            "trainer_name": "William Knight",
+                            "current_season": null,
+                            "last_5_season": {
+                                "wins": 2,
+                                "runs": 4,
+                                "percent": 50,
+                                "profit": 16.5
+                            },
+                            "runners": [
+                                {
+                                    "horse_uid": 1643739,
+                                    "horse_name": "Fanfare Lady",
+                                    "race_instance_uid": 701324,
+                                    "race_datetime": "2018-05-29T16:50:00+01:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "course_uid": 47,
+                    "course_name": "REDCAR",
+                    "course_specialists": [
+                        {
+                            "description": "3yo hcp",
+                            "trainer_uid": 16143,
+                            "trainer_name": "David Simcock",
+                            "current_season": null,
+                            "last_5_season": {
+                                "wins": 2,
+                                "runs": 3,
+                                "percent": 67,
+                                "profit": 5.25
+                            },
+                            "runners": [
+                                {
+                                    "horse_uid": 1576289,
+                                    "horse_name": "Highland Sky",
+                                    "race_instance_uid": 701340,
+                                    "race_datetime": "2018-05-29T14:30:00+01:00"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "3yo+ hcp",
+                            "trainer_uid": 31461,
+                            "trainer_name": "George Scott",
+                            "current_season": null,
+                            "last_5_season": {
+                                "wins": 2,
+                                "runs": 4,
+                                "percent": 50,
+                                "profit": 6.75
+                            },
+                            "runners": [
+                                {
+                                    "horse_uid": 964498,
+                                    "horse_name": "Keir Hardie",
+                                    "race_instance_uid": 701335,
+                                    "race_datetime": "2018-05-29T15:00:00+01:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "course_uid": 393,
+                    "course_name": "LINGFIELD (AW)",
+                    "course_specialists": [
+                        {
+                            "description": "3yo hcp",
+                            "trainer_uid": 67,
+                            "trainer_name": "Sir Mark Prescott Bt",
+                            "current_season": null,
+                            "last_5_season": {
+                                "wins": 8,
+                                "runs": 28,
+                                "percent": 29,
+                                "profit": 2.68
+                            },
+                            "runners": [
+                                {
+                                    "horse_uid": 1444161,
+                                    "horse_name": "Fleeting Steps",
+                                    "race_instance_uid": 701456,
+                                    "race_datetime": "2018-05-29T13:40:00+01:00"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "3yo hcp",
+                            "trainer_uid": 619,
+                            "trainer_name": "Sir Michael Stoute",
+                            "current_season": null,
+                            "last_5_season": {
+                                "wins": 3,
+                                "runs": 10,
+                                "percent": 30,
+                                "profit": 1.5
+                            },
+                            "runners": [
+                                {
+                                    "horse_uid": 1601872,
+                                    "horse_name": "Beachwalk",
+                                    "race_instance_uid": 701456,
+                                    "race_datetime": "2018-05-29T13:40:00+01:00"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "3yo hcp",
+                            "trainer_uid": 10663,
+                            "trainer_name": "Amanda Perrett",
+                            "current_season": {
+                                "wins": 2,
+                                "runs": 2,
+                                "percent": 100,
+                                "profit": 4.25
+                            },
+                            "last_5_season": {
+                                "wins": 6,
+                                "runs": 23,
+                                "percent": 26,
+                                "profit": 18
+                            },
+                            "runners": [
+                                {
+                                    "horse_uid": 1592894,
+                                    "horse_name": "Port Of Call",
+                                    "race_instance_uid": 701456,
+                                    "race_datetime": "2018-05-29T13:40:00+01:00"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "3yo hcp",
+                            "trainer_uid": 15107,
+                            "trainer_name": "Dean Ivory",
+                            "current_season": {
+                                "wins": 2,
+                                "runs": 2,
+                                "percent": 100,
+                                "profit": 9
+                            },
+                            "last_5_season": null,
+                            "runners": [
+                                {
+                                    "horse_uid": 1451547,
+                                    "horse_name": "Spring Romance",
+                                    "race_instance_uid": 701457,
+                                    "race_datetime": "2018-05-29T14:40:00+01:00"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "2yo non-hcp",
+                            "trainer_uid": 32276,
+                            "trainer_name": "Archie Watson",
+                            "current_season": null,
+                            "last_5_season": {
+                                "wins": 2,
+                                "runs": 6,
+                                "percent": 33,
+                                "profit": 10.5
+                            },
+                            "runners": [
+                                {
+                                    "horse_uid": 1796364,
+                                    "horse_name": "Nina Petrovna",
+                                    "race_instance_uid": 701458,
+                                    "race_datetime": "2018-05-29T14:10:00+01:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "course_uid": 513,
+                    "course_name": "WOLVERHAMPTON (AW)",
+                    "course_specialists": [
+                        {
+                            "description": "3yo+ hcp",
+                            "trainer_uid": 5837,
+                            "trainer_name": "Derek Shaw",
+                            "current_season": {
+                                "wins": 4,
+                                "runs": 14,
+                                "percent": 29,
+                                "profit": 22.5
+                            },
+                            "last_5_season": null,
+                            "runners": [
+                                {
+                                    "horse_uid": 860779,
+                                    "horse_name": "Savannah Beau",
+                                    "race_instance_uid": 701466,
+                                    "race_datetime": "2018-05-29T18:10:00+01:00"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "3yo+ hcp",
+                            "trainer_uid": 20451,
+                            "trainer_name": "Neil Mulholland",
+                            "current_season": {
+                                "wins": 5,
+                                "runs": 19,
+                                "percent": 26,
+                                "profit": 6.63
+                            },
+                            "last_5_season": null,
+                            "runners": [
+                                {
+                                    "horse_uid": 850990,
+                                    "horse_name": "Moayadd",
+                                    "race_instance_uid": 701460,
+                                    "race_datetime": "2018-05-29T19:10:00+01:00"
+                                },
+                                {
+                                    "horse_uid": 852981,
+                                    "horse_name": "Kristal Hart",
+                                    "race_instance_uid": 701464,
+                                    "race_datetime": "2018-05-29T20:10:00+01:00"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "3yo+ hcp",
+                            "trainer_uid": 22525,
+                            "trainer_name": "Kevin Ryan",
+                            "current_season": {
+                                "wins": 3,
+                                "runs": 12,
+                                "percent": 25,
+                                "profit": 64.5
+                            },
+                            "last_5_season": null,
+                            "runners": [
+                                {
+                                    "horse_uid": 1185809,
+                                    "horse_name": "Tewafeedj",
+                                    "race_instance_uid": 701464,
+                                    "race_datetime": "2018-05-29T20:10:00+01:00"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "3yo+ hcp",
+                            "trainer_uid": 28338,
+                            "trainer_name": "Charlie Appleby",
+                            "current_season": null,
+                            "last_5_season": {
+                                "wins": 18,
+                                "runs": 38,
+                                "percent": 47,
+                                "profit": 11.21
+                            },
+                            "runners": [
+                                {
+                                    "horse_uid": 906341,
+                                    "horse_name": "White Desert",
+                                    "race_instance_uid": 701460,
+                                    "race_datetime": "2018-05-29T19:10:00+01:00"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "3yo hcp",
+                            "trainer_uid": 29599,
+                            "trainer_name": "Jose Santos",
+                            "current_season": null,
+                            "last_5_season": {
+                                "wins": 2,
+                                "runs": 5,
+                                "percent": 40,
+                                "profit": 5.75
+                            },
+                            "runners": [
+                                {
+                                    "horse_uid": 1536552,
+                                    "horse_name": "Formiga",
+                                    "race_instance_uid": 701465,
+                                    "race_datetime": "2018-05-29T21:10:00+01:00"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "status": 200
+}

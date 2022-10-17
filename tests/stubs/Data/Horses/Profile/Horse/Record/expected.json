@@ -1,0 +1,502 @@
+{
+    "data": {
+        "lifetime_records": {
+            "Flat Turf": {
+                "starts": 19,
+                "wins": 1,
+                "2nds": 6,
+                "3rds": 5,
+                "winnigs": 2587.6,
+                "earnings": 9943.92,
+                "total_prize": 9943.92,
+                "win_prize": 2587.6,
+                "net_total_prize": 9943.92,
+                "net_win_prize": 2587.6,
+                "euro_win_prize": 0,
+                "euro_total_prize": 0,
+                "usd_win_prize": 4036.66,
+                "usd_total_prize": 15330.9,
+                "best_ts": 77,
+                "best_rpr": 79,
+                "or+": 61,
+                "stake": -15,
+                "latest_bhb": 61
+            },
+            "Rules Races": {
+                "starts": 57,
+                "wins": 7,
+                "2nds": 10,
+                "3rds": 8,
+                "winnigs": 17929.11,
+                "earnings": 31375.11,
+                "total_prize": 31375.11,
+                "win_prize": 17929.11,
+                "net_total_prize": 31375.11,
+                "net_win_prize": 17929.11,
+                "euro_win_prize": 0,
+                "euro_total_prize": 0,
+                "usd_win_prize": 27495.23,
+                "usd_total_prize": 47630.44,
+                "best_ts": 0,
+                "best_rpr": 0,
+                "or+": 0,
+                "stake": -22.65,
+                "latest_bhb": 0
+            },
+            "All-weather": {
+                "starts": 35,
+                "wins": 6,
+                "2nds": 4,
+                "3rds": 2,
+                "winnigs": 15341.51,
+                "earnings": 20693.69,
+                "total_prize": 20693.69,
+                "win_prize": 15341.51,
+                "net_total_prize": 20693.69,
+                "net_win_prize": 15341.51,
+                "euro_win_prize": 0,
+                "euro_total_prize": 0,
+                "usd_win_prize": 23458.58,
+                "usd_total_prize": 31215.41,
+                "best_ts": 67,
+                "best_rpr": 75,
+                "or+": 61,
+                "stake": -4.65,
+                "latest_bhb": 61
+            },
+            "Hurdle": {
+                "starts": 3,
+                "wins": 0,
+                "2nds": 0,
+                "3rds": 1,
+                "winnigs": 0,
+                "earnings": 737.5,
+                "total_prize": 737.5,
+                "win_prize": 0,
+                "net_total_prize": 737.5,
+                "net_win_prize": 0,
+                "euro_win_prize": 0,
+                "euro_total_prize": 0,
+                "usd_win_prize": 0,
+                "usd_total_prize": 1084.13,
+                "best_ts": 36,
+                "best_rpr": 111,
+                "or+": 113,
+                "stake": -3,
+                "latest_bhb": 113
+            }
+        },
+        "flat_placings": {
+            "2010": [
+                0,
+                3,
+                2,
+                2,
+                3
+            ],
+            "2011": [
+                1,
+                5,
+                7,
+                2,
+                5,
+                4,
+                3
+            ],
+            "2012": [
+                3,
+                9,
+                4,
+                8,
+                8,
+                0,
+                3,
+                0
+            ],
+            "2013": [
+                0,
+                4
+            ],
+            "2014": [
+                0,
+                5,
+                7,
+                2,
+                1,
+                4,
+                7
+            ],
+            "2015": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                3,
+                0,
+                5,
+                1,
+                4
+            ],
+            "2016": [
+                4,
+                2,
+                4,
+                5
+            ],
+            "2017": [
+                8,
+                2,
+                3,
+                2,
+                4,
+                0,
+                7,
+                9
+            ],
+            "2018": [
+                0,
+                1,
+                2
+            ]
+        },
+        "jumps_placings": {
+            "2013": [
+                "P"
+            ],
+            "2016": [
+                4,
+                3
+            ]
+        },
+        "flat_figures_calculated": [
+            {
+                "form_figure": "0",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "1",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "2",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "-",
+                "race_type_code": null
+            },
+            {
+                "form_figure": "8",
+                "race_type_code": "F"
+            },
+            {
+                "form_figure": "2",
+                "race_type_code": "F"
+            },
+            {
+                "form_figure": "3",
+                "race_type_code": "F"
+            },
+            {
+                "form_figure": "2",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "4",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "0",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "7",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "9",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "/",
+                "race_type_code": null
+            },
+            {
+                "form_figure": "4",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "2",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "4",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "5",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "/",
+                "race_type_code": null
+            },
+            {
+                "form_figure": "1",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "1",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "2",
+                "race_type_code": "F"
+            },
+            {
+                "form_figure": "1",
+                "race_type_code": "F"
+            },
+            {
+                "form_figure": "2",
+                "race_type_code": "F"
+            },
+            {
+                "form_figure": "3",
+                "race_type_code": "F"
+            },
+            {
+                "form_figure": "0",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "5",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "1",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "4",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "/",
+                "race_type_code": null
+            },
+            {
+                "form_figure": "0",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "5",
+                "race_type_code": "F"
+            },
+            {
+                "form_figure": "7",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "2",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "1",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "4",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "7",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "/",
+                "race_type_code": null
+            },
+            {
+                "form_figure": "0",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "4",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "/",
+                "race_type_code": null
+            },
+            {
+                "form_figure": "3",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "9",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "4",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "8",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "8",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "0",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "3",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "0",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "/",
+                "race_type_code": null
+            },
+            {
+                "form_figure": "1",
+                "race_type_code": "X"
+            },
+            {
+                "form_figure": "5",
+                "race_type_code": "F"
+            },
+            {
+                "form_figure": "7",
+                "race_type_code": "F"
+            },
+            {
+                "form_figure": "2",
+                "race_type_code": "F"
+            },
+            {
+                "form_figure": "5",
+                "race_type_code": "F"
+            },
+            {
+                "form_figure": "4",
+                "race_type_code": "F"
+            },
+            {
+                "form_figure": "3",
+                "race_type_code": "F"
+            },
+            {
+                "form_figure": "/",
+                "race_type_code": null
+            },
+            {
+                "form_figure": "0",
+                "race_type_code": "F"
+            },
+            {
+                "form_figure": "3",
+                "race_type_code": "F"
+            },
+            {
+                "form_figure": "2",
+                "race_type_code": "F"
+            },
+            {
+                "form_figure": "2",
+                "race_type_code": "F"
+            },
+            {
+                "form_figure": "3",
+                "race_type_code": "F"
+            }
+        ],
+        "jumps_figures_calculated": [
+            {
+                "form_figure": "-",
+                "race_type_code": null
+            },
+            {
+                "form_figure": "4",
+                "race_type_code": "H"
+            },
+            {
+                "form_figure": "3",
+                "race_type_code": "H"
+            },
+            {
+                "form_figure": "/",
+                "race_type_code": null
+            },
+            {
+                "form_figure": "P",
+                "race_type_code": "H"
+            }
+        ],
+        "surface_record": [
+            {
+                "surface_code": "B",
+                "surface_desc": "Beach",
+                "wins": null,
+                "runs": null
+            },
+            {
+                "surface_code": "D",
+                "surface_desc": "Dirt",
+                "wins": null,
+                "runs": null
+            },
+            {
+                "surface_code": "E",
+                "surface_desc": "Equitrack",
+                "wins": null,
+                "runs": null
+            },
+            {
+                "surface_code": "F",
+                "surface_desc": "Fibresand",
+                "wins": null,
+                "runs": null
+            },
+            {
+                "surface_code": "P",
+                "surface_desc": "Polytrack",
+                "wins": null,
+                "runs": null
+            },
+            {
+                "surface_code": "T",
+                "surface_desc": "Turf",
+                "wins": null,
+                "runs": null
+            },
+            {
+                "surface_code": "R",
+                "surface_desc": "Pro-Ride",
+                "wins": null,
+                "runs": null
+            },
+            {
+                "surface_code": "S",
+                "surface_desc": "Sand",
+                "wins": null,
+                "runs": null
+            },
+            {
+                "surface_code": "A",
+                "surface_desc": "Tapeta",
+                "wins": null,
+                "runs": null
+            }
+        ]
+    },
+    "status": 200
+}

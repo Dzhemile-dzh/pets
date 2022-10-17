@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<root>
+    <data>
+        <raceTitle>Sky Bet Racing Cash Out "Confined" Novice Stakes (Run No More Than Four Times)</raceTitle>
+        <raceDate>2018-06-18</raceDate>
+        <raceTime>9:00</raceTime>
+        <meetingName>Windsor (AUS)</meetingName>
+        <hasCompetitorDetails>1</hasCompetitorDetails>
+        <type>F</type>
+        <distance>1m2f</distance>
+        <distanceRounded>1m2f</distanceRounded>
+        <distanceRoundedFurlong>10f</distanceRoundedFurlong>
+        <group></group>
+        <going>Good To Firm</going>
+        <agesAllowed>3yo+</agesAllowed>
+        <class>5</class>
+        <adsChangeDelay>10</adsChangeDelay>
+        <winnerTime>2m 9.61s</winnerTime>
+        <diffStdTimeSec>slow by 5.11s</diffStdTimeSec>
+        <actualRunners>7</actualRunners>
+        <prizePos1>
+            <prizeGbp>3752.02</prizeGbp>
+            <prizeEur></prizeEur>
+        </prizePos1>
+        <prizePos2>
+            <prizeGbp>1116.50</prizeGbp>
+            <prizeEur></prizeEur>
+        </prizePos2>
+        <prizePos3>
+            <prizeGbp>557.96</prizeGbp>
+            <prizeEur></prizeEur>
+        </prizePos3>
+        <prizePos4>
+            <prizeGbp>278.98</prizeGbp>
+            <prizeEur></prizeEur>
+        </prizePos4>
+        <tote><![CDATA[WIN &pound;1.10, PL &pound;1.10, &pound;5.70<br />Ex &pound;13.90<br />CSF &pound;12.41<br />PLACEPOT &pound;33.30 to a &pound;1 stake. Pool: &pound;88,142.02 - 1,927.03 winning units<br />QUADPOT &euro;9.90 to a &euro;1 stake. Pool: &euro;7,290.98 - 542.27 winning units]]></tote>
+        <runner id="1938006">
+            <name>Rock Eagle</name>
+            <rate>1/4F</rate>
+            <rpDstDesc></rpDstDesc>
+            <silk>b/3/2/16523b.png</silk>
+            <rpCloseUpCmnt>Led at moderate pace, headed 4f out and immediately pushed along when pace lifted, closed again over 2f out, driven ahead over 1f out, kept on</rpCloseUpCmnt>
+            <rpBettingMoves>op 2/5</rpBettingMoves>
+            <position>1</position>
+            <trainer>Ralph Beckett</trainer>
+            <jockey>Harry Bentley</jockey>
+            <draw>8</draw>
+            <age>3</age>
+            <weight>9-9</weight>
+        </runner>
+        <runner id="1266649">
+            <name>Hidden Depths</name>
+            <rate>20/1</rate>
+            <rpDstDesc>2&amp;frac34;</rpDstDesc>
+            <silk>b/2/9/263692b.png</silk>
+            <rpCloseUpCmnt>Took keen hold, held up in 4th, swift move to lead 4f out, injected pace and stretched field, headed and no extra over 1f out</rpCloseUpCmnt>
+            <rpBettingMoves>op 33/1</rpBettingMoves>
+            <position>2</position>
+            <trainer>Sir Michael Stoute</trainer>
+            <jockey>Jimmy Quinn</jockey>
+            <draw>7</draw>
+            <age>3</age>
+            <weight>9-2</weight>
+        </runner>
+        <runner id="1609717">
+            <name>Department Of War</name>
+            <trainer>Richard Hannon</trainer>
+            <jockey>-</jockey>
+            <age>3</age>
+            <weight>9-9</weight>
+            <nonRunner>1</nonRunner>
+        </runner>
+    </data>
+    <status>200</status>
+</root>

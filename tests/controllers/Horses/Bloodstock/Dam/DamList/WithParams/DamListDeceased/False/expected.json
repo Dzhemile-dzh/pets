@@ -1,0 +1,63 @@
+{
+    "data": {
+        "list": [
+            {
+                "dam_uid": 1942035,
+                "dam_name": "Carrie's Vision",
+                "country_code": "GB",
+                "date_of_birth": "2016-03-27T00:00:00+00:00",
+                "date_of_death": null
+            },
+            {
+                "dam_uid": 2205902,
+                "dam_name": "Designated",
+                "country_code": "GB",
+                "date_of_birth": "2016-04-08T00:00:00+01:00",
+                "date_of_death": null
+            },
+            {
+                "dam_uid": 2320797,
+                "dam_name": "Fanveil",
+                "country_code": "GB",
+                "date_of_birth": "2016-03-05T00:00:00+00:00",
+                "date_of_death": null
+            },
+            {
+                "dam_uid": 2001137,
+                "dam_name": "Kodelight",
+                "country_code": "GB",
+                "date_of_birth": "2016-05-13T00:00:00+01:00",
+                "date_of_death": null
+            },
+            {
+                "dam_uid": 1956427,
+                "dam_name": "Little Kim",
+                "country_code": "GB",
+                "date_of_birth": "2016-02-19T00:00:00+00:00",
+                "date_of_death": null
+            },
+            {
+                "dam_uid": 1870985,
+                "dam_name": "On The Stage",
+                "country_code": "GB",
+                "date_of_birth": "2016-04-06T00:00:00+01:00",
+                "date_of_death": null
+            },
+            {
+                "dam_uid": 2245145,
+                "dam_name": "Red Fedora",
+                "country_code": "GB",
+                "date_of_birth": "2016-03-22T00:00:00+00:00",
+                "date_of_death": null
+            },
+            {
+                "dam_uid": 1969835,
+                "dam_name": "Requirement",
+                "country_code": "GB",
+                "date_of_birth": "2016-02-04T00:00:00+00:00",
+                "date_of_death": null
+            }
+        ]
+    },
+    "status": 200
+}

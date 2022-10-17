@@ -1,0 +1,52 @@
+{
+  "data": {
+    "entries": [
+      {
+        "race_instance_uid": 705667,
+        "race_instance_title": "Dr. Tom Connors Handicap",
+        "race_datetime": "2018-07-19T15:20:00+01:00",
+        "local_meeting_race_datetime": "2018-07-19T15:20:00+01:00",
+        "race_group_code": "H",
+        "race_group_desc": "Handicap",
+        "race_type_code": "F",
+        "race_surface": "Turf",
+        "race_class": "4",
+        "race_status_code": "O",
+        "course_uid": 30,
+        "course_name": "Leicester",
+        "diffusion_course_name": "DIFFUSION NAME",
+        "country_code": "GB",
+        "god_live_stream_URL": "some url I guess",
+        "distance_yard": 1813,
+        "distance_furlong_rounded": 8,
+        "runners": [
+          {
+            "horse_uid": 895090,
+            "horse_name": "Kharbetation",
+            "horse_country_origin_code": "IRE",
+            "sire_uid": 761072,
+            "sire_name": "Dream Ahead",
+            "sire_country": "USA",
+            "dam_uid": 659811,
+            "dam_name": "Anna's Rock",
+            "dam_country": "IRE",
+            "owner_uid": 189171,
+            "owner_name": "Hamad Rashed Bin Ghedayer",
+            "trainer_uid": 22839,
+            "trainer_name": "David O'Meara",
+            "trainer_country_code": "GB",
+            "trainer_country_desc": "Great Britain",
+            "jockey_uid": 14332,
+            "jockey_name": "David Nolan",
+            "forecast_odds_desc": null,
+            "non_runner": false,
+            "black_type": false,
+            "sales_info": null
+          }
+        ],
+        "course_region": "GB & IRE"
+      }
+    ]
+  },
+  "status": 200
+}

@@ -1,0 +1,44 @@
+<root>
+    <data>
+        <diffusion_name>BALLINROBE</diffusion_name>
+        <predictor>
+            <horse id="1451540" name="Descendant">
+                <trap>1</trap>
+                <points>77.272727272727</points>
+                <trainer_1st_time>0</trainer_1st_time>
+                <sliderless_points>-0.25</sliderless_points>
+            </horse>
+            <horse id="1605435" name="Eadbhard">
+                <trap>2</trap>
+                <points>86.363636363636</points>
+                <trainer_1st_time>0</trainer_1st_time>
+                <sliderless_points>-0.25</sliderless_points>
+            </horse>
+            <horse id="1633902" name="Viscount Wilson">
+                <trap>3</trap>
+                <points>100</points>
+                <trainer_1st_time>0</trainer_1st_time>
+                <sliderless_points>-0.25</sliderless_points>
+            </horse>
+            <horse id="1622120" name="Time Queen">
+                <trap>4</trap>
+                <points>63.636363636364</points>
+                <trainer_1st_time>0</trainer_1st_time>
+                <sliderless_points>-0.25</sliderless_points>
+            </horse>
+            <horse id="1589397" name="Sea The Spray">
+                <trap>6</trap>
+                <points>9.0909090909091</points>
+                <trainer_1st_time>0</trainer_1st_time>
+                <sliderless_points>-0.25</sliderless_points>
+            </horse>
+            <horse id="1659601" name="Maricruz">
+                <trap>7</trap>
+                <points>90</points>
+                <trainer_1st_time>0</trainer_1st_time>
+                <sliderless_points>-0.25</sliderless_points>
+            </horse>
+        </predictor>
+    </data>
+    <status>200</status>
+</root>

@@ -1,0 +1,81 @@
+@startuml
+
+'left to right direction
+
+class EventsManager {
+    +__construct(ICacheComponentFactory $factory)
+    +initEventsDispatcher(Dispatcher $service)
+    +initEventsView(View $service)
+    #retrieveEventsManager(EventsAwareInterface $service) : Manager
+    #isCacheDisabled() : boolean
+}
+
+class CacheService {
+    +__construct(ICacheComponentFactory $cacheComponentFactory)
+    +read() : String
+    +save($output)
+    #buildCacheName() : String
+    #getLifeTimeSeconds() : int
+    #getLifeTimeMilliseconds() : int
+    #createLifeTimeService(BackendInterface $cacheAdapter) : LifeTimeService
+}
+
+class LifeTimeService {
+    +__construct(BackendInterface $cacheAdapter)
+    {static}readPredefinedLifeTime($lifetime) : int | boolean
+    +getCacheLifeTimeSeconds() : int | boolean
+    +getCacheLifeTimeMilliseconds() : null | int
+}
+
+class DispatcherHandler {
+    +__construct(CacheService $cacheService)
+    +beforeDispatchLoop() : boolean
+    +afterDispatchLoop() : boolean
+}
+
+class ViewHandler {
+    +__construct(CacheService $cacheService)
+    +afterDispatchLoop() : boolean
+}
+
+interface ICacheComponentFactory {
+    +createCacheAdapter() : BackendInterface
+    +createUniqueIdentifierStrategy() : IUniqueIdentifier
+}
+
+interface BackendInterface {
+    +start($keyName, $lifetime = null) : mixed
+    +stop($stopBuffer = null)
+    +getFrontend() : mixed
+    +getOptions() : array
+    +isFresh() : boolean
+    +isStarted() : boolean
+    +setLastKey($lastKey)
+    +getLastKey() : String
+    +get($keyName, $lifetime = null) : mixed
+    +save($keyName = null, $content = null, $lifetime = null, $stopBuffer = null)
+    +delete($keyName) : boolean
+    +queryKeys($prefix = null) : array
+    +exists($keyName = null, $lifetime = null) : boolean
+    +flush() : boolean
+}
+
+interface IUniqueIdentifier {
+    +buildUniqueIdentifier() : Mixed
+}
+
+EventsManager .left.> CacheService : "  1) create CacheService"
+
+CacheService .left.> LifeTimeService : create
+
+EventsManager .down.> DispatcherHandler : "  2) create and subscribe for Phalcon framework events\n  like <b>beforeDispatchLoop</b> and <b>afterDispatchLoop</b>"
+DispatcherHandler .down.> CacheService : "  use"
+
+EventsManager .up.> ViewHandler : "  3) create and subscribe for Phalcon framework event\n  <b>afterDispatchLoop</b>"
+ViewHandler .down.> CacheService : "  use"
+
+EventsManager .> ICacheComponentFactory : use
+ICacheComponentFactory .up.> IUniqueIdentifier : use
+ICacheComponentFactory .down.> BackendInterface : use
+
+@enduml

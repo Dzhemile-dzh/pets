@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<root>
+    <data>
+        <diffusion_name>NEWMARKET</diffusion_name>
+        <competitor id="1748791">
+            <courseDist>bf</courseDist>
+            <daysSinceRun>21</daysSinceRun>
+            <number>1</number>
+            <name>Circus Maximus</name>
+            <silk>5/7/7/243775.png</silk>
+            <country>IRE</country>
+            <owner>&lt;b&gt;Flaxman Stables/Mrs Magnier/Tabor/Smith&lt;/b&gt;</owner>
+            <tipsQuantity>1</tipsQuantity>
+            <reserve></reserve>
+            <jockey>&lt;b&gt;jack&lt;/b&gt; (Last 14 days: &lt;b&gt;0-0,&lt;/b&gt; 0%)</jockey>
+            <trainer>&lt;b&gt;A P &amp;acute;Brien&lt;/b&gt; (Last 14 days: &lt;b&gt;16-70,&lt;/b&gt; 23%)</trainer>
+            <age>2-y-o</age>
+            <sex>c</sex>
+            <color>b</color>
+            <rpr>&amp;mdash;</rpr>
+            <breeder>Flaxman Stables Ireland Ltd</breeder>
+            <breederComment>First foal; dam 1m winner (inc AW/Group 2; RPR 115), out of 1m4f AW winner closely related to US 1m1f Grade 1 winners La Gueriere and Honor In War</breederComment>
+            <pedigree>&lt;b&gt;Galileo (IRE)&lt;/b&gt; (11.2f) &amp;mdash; &lt;b&gt;Duntle (IRE)&lt;/b&gt;   (&lt;b&gt;Danehill Dancer (IRE)&lt;/b&gt; (8.4f))</pedigree>
+            <comment></comment>
+            <raceRecord>
+                <record>
+                    <lifetimeName>Flat Turf</lifetimeName>
+                    <starts>3</starts>
+                    <wins>1</wins>
+                    <winPrize>&amp;pound;1.2K</winPrize>
+                    <bestTs>80</bestTs>
+                    <bestRpr>81</bestRpr>
+                    <latestBhb>50</latestBhb>
+                </record>
+                <record>
+                    <lifetimeName>Stakes</lifetimeName>
+                    <starts>3</starts>
+                    <wins>1</wins>
+                    <winPrize>&amp;pound;1.2K</winPrize>
+                    <bestTs>&amp;mdash;</bestTs>
+                    <bestRpr>&amp;mdash;</bestRpr>
+                    <latestBhb>&amp;mdash;</latestBhb>
+                </record>
+                <record>
+                    <lifetimeName>Rules Races</lifetimeName>
+                    <starts>3</starts>
+                    <wins>1</wins>
+                    <winPrize>&amp;pound;1.2K</winPrize>
+                    <bestTs>&amp;mdash;</bestTs>
+                    <bestRpr>&amp;mdash;</bestRpr>
+                    <latestBhb>&amp;mdash;</latestBhb>
+                </record>
+            </raceRecord>
+            <results>
+                <result>
+                    <raceId>712187</raceId>
+                    <raceDate>22 Sep 18</raceDate>
+                    <raceType>Turf</raceType>
+                    <weight>9-5</weight>
+                    <courseAbbrev>GOW</courseAbbrev>
+                    <distanceGoing>8Hy</distanceGoing>
+                    <or>&amp;mdash;</or>
+                    <class>&amp;mdash;</class>
+                    <pos>1/16</pos>
+                    <sp>8/13F</sp>
+                    <rpr>81</rpr>
+                </result>
+                <result>
+                    <raceId>710138</raceId>
+                    <raceDate>26 Aug 18</raceDate>
+                    <raceType>Turf</raceType>
+                    <weight>9-5</weight>
+                    <courseAbbrev>CUR</courseAbbrev>
+                    <distanceGoing>7Y</distanceGoing>
+                    <or>&amp;mdash;</or>
+                    <class>&amp;mdash;</class>
+                    <pos>d/23</pos>
+                    <sp>5/1F</sp>
+                    <rpr>72</rpr>
+                </result>
+                <result>
+                    <raceId>123456</raceId>
+                    <raceDate>26 Aug 18</raceDate>
+                    <raceType>Turf</raceType>
+                    <weight>9-5</weight>
+                    <courseAbbrev>CUR</courseAbbrev>
+                    <distanceGoing>7Y</distanceGoing>
+                    <or>&amp;mdash;</or>
+                    <class>&amp;mdash;</class>
+                    <pos>5/23</pos>
+                    <sp>5/1F</sp>
+                    <rpr>&amp;mdash;</rpr>
+                </result>
+            </results>
+        </competitor>
+    </data>
+    <status>200</status>
+</root>

@@ -1,0 +1,21 @@
+{
+    "data": {
+        "global_comments": [
+            {
+                "horse_uid": 708201,
+                "horse_name": "Little Arrows",
+                "comments": [
+                    {
+                        "comment_language": "FRA",
+                        "comment_text": "L'entraîneur pourrait gagner avec un âne en ce moment, assez pour nous convaincre"
+                    },
+                    {
+                        "comment_language": "GER",
+                        "comment_text": "Könnte im Finish ganz Vorne dabei sein, findet etwas Anklang"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": 200
+}

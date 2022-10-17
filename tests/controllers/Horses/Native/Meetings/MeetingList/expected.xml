@@ -1,0 +1,16 @@
+<root>
+    <data>
+        <meetings>
+            <meeting name="Ascot" id="2"/>
+            <meeting name="Ayr" id="3"/>
+            <meeting name="Down Royal" id="180"/>
+            <meeting name="Gowran Park" id="184"/>
+            <meeting name="Haydock" id="23"/>
+            <meeting name="Lingfield" id="31"/>
+            <meeting name="Newmarket (July)" id="174"/>
+            <meeting name="Perth" id="41"/>
+            <meeting name="Redcar" id="47"/>
+        </meetings>
+    </data>
+    <status>200</status>
+</root>

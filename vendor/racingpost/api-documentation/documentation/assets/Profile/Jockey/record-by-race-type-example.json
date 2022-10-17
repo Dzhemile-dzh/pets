@@ -1,0 +1,72 @@
+{
+    "data": {
+        "record_by_race_type": {
+            "NHF": {
+                "group_name": "NHF",
+                "races_number": 0,
+                "place_1st_number": 0,
+                "place_2nd_number": 0,
+                "place_3rd_number": 0,
+                "place_4th_number": 0,
+                "win_prize": 0,
+                "total_prize": 0,
+                "euro_win_prize": 0,
+                "euro_total_prize": 0,
+                "stake": 0,
+                "win_percent": null,
+                "horses": 0,
+                "placed": 0,
+                "horse_uid": null,
+                "horse_name": "",
+                "best_rp_postmark": 0
+            },
+            "HURDLE": {
+                "group_name": "HURDLE",
+                "races_number": 202,
+                "place_1st_number": 71,
+                "place_2nd_number": 30,
+                "place_3rd_number": 28,
+                "place_4th_number": 20,
+                "win_prize": 798474.81,
+                "total_prize": 965807.09,
+                "euro_win_prize": 1072812.5,
+                "euro_total_prize": 1293775,
+                "stake": -6.02,
+                "win_percent": 35,
+                "horses": 128,
+                "placed": 54,
+                "horse_uid": 817184,
+                "horse_name": "Nichols Canyon",
+                "best_rp_postmark": 166
+            },
+            "CHASE": {
+                "group_name": "CHASE",
+                "races_number": 88,
+                "place_1st_number": 35,
+                "place_2nd_number": 16,
+                "place_3rd_number": 10,
+                "place_4th_number": 6,
+                "win_prize": 526323.29,
+                "total_prize": 667158.2,
+                "euro_win_prize": 705812.5,
+                "euro_total_prize": 892362.5,
+                "stake": 1.32,
+                "win_percent": 40,
+                "horses": 53,
+                "placed": 22,
+                "horse_uid": 872784,
+                "horse_name": "Douvan",
+                "best_rp_postmark": 178
+            }
+        },
+        "season_info": {
+            "season_year_begin": 2016,
+            "season_year_end": 2017,
+            "season_date_begin": "2016-05-01T00:00:00+01:00",
+            "season_date_end": "2017-04-29T23:59:00+01:00",
+            "race_type": "jumps",
+            "country_code": "IRE"
+        }
+    },
+    "status": 200
+}

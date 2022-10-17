@@ -1,0 +1,16 @@
+{
+    "data": {
+        "table": [
+            {
+                "course_uid": 111,
+                "course_name": "Albuquerque",
+                "country_code": "USA",
+                "course_code": "ALB",
+                "course_type_code": "A",
+                "rp_abbrev_3": "COI",
+                "course_region": "North America"
+            }
+        ]
+    },
+    "status": 200
+}

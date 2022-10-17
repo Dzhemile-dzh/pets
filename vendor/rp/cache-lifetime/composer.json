@@ -1,0 +1,38 @@
+{
+  "name": "rp/cache-lifetime",
+  "description": "RacingPost cache lifetime component",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Denys Solyanyk",
+      "email": "denys.solyanyk@racingpost.com"
+    },
+    {
+      "name": "Serhii Atiahin",
+      "email": "serhii.atiahin@racingpost.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "vendor-dir": "vendor/composer",
+    "secure-http": false
+  },
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "RP\\Cache\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=6.4"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "RP\\Test\\": "test/php"
+    }
+  },
+  "version": "2.0.1"
+}

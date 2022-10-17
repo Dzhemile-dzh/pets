@@ -1,0 +1,125 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "required": [
+        "data",
+        "status"
+    ],
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "integer"
+        },
+        "data": {
+            "required": [
+                "statistical_summary",
+                "season_info"
+            ],
+            "type": "object",
+            "properties": {
+                "statistical_summary": {
+                    "items": [
+                        {
+                            "required": [
+                                "place_1st_number",
+                                "place_2nd_number",
+                                "place_3rd_number",
+                                "place_4th_number",
+                                "races_number",
+                                "season_end_date",
+                                "season_start_date",
+                                "stake",
+                                "total_prize",
+                                "euro_win_prize",
+                                "euro_total_prize",
+                                "win_percent",
+                                "win_prize"
+                            ],
+                            "type": "object",
+                            "properties": {
+                                "place_2nd_number": {
+                                    "type": "integer"
+                                },
+                                "total_prize": {
+                                    "type": [
+                                        "null",
+                                        "number"
+                                    ]
+                                },
+                                "euro_win_prize":{
+                                    "type":"number"
+                                },
+                                "euro_total_prize":{
+                                    "type":"number"
+                                },
+                                "win_prize": {
+                                    "type": "number"
+                                },
+                                "stake": {
+                                    "type": "number"
+                                },
+                                "place_4th_number": {
+                                    "type": "integer"
+                                },
+                                "races_number": {
+                                    "type": "integer"
+                                },
+                                "season_start_date": {
+                                    "type": ["null", "string"],
+                                    "maxLength": 25,
+                                    "minLength": 25
+                                },
+                                "place_3rd_number": {
+                                    "type": "integer"
+                                },
+                                "place_1st_number": {
+                                    "type": "integer"
+                                },
+                                "win_percent": {
+                                    "type": "integer"
+                                },
+                                "season_end_date": {
+                                    "type": ["null", "string"],
+                                    "maxLength": 25,
+                                    "minLength": 25
+                                }
+                            }
+                        }
+                    ],
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "season_info": {
+                    "required": [
+                        "race_type",
+                        "country_code",
+                        "season_start_date",
+                        "season_end_date"
+                    ],
+                    "type": "object",
+                    "properties": {
+                        "race_type": {
+                            "type": "string",
+                            "maxLength": 5
+                        },
+                        "country_code": {
+                            "type": "string",
+                            "maxLength": 3
+                        },
+                        "season_start_date": {
+                            "type": ["null", "string"],
+                            "minLength": 25,
+                            "maxLength": 25
+                        },
+                        "season_end_date": {
+                            "type": ["null", "string"],
+                            "minLength": 25,
+                            "maxLength": 25
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

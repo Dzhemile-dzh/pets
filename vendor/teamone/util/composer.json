@@ -1,0 +1,40 @@
+{
+  "name": "teamone/util",
+  "description": "extends classes of phalcon framework",
+  "version": "0.2.4",
+  "license": "proprietary",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://php.fury.io/NGPnkxj6bcyuaMExdSfb/racing-post/"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor/composer",
+    "secure-http": false
+  },
+  "require": {
+    "php": ">=5.4",
+    "ext-phalcon": ">=1.3"
+  },
+  "require-dev": {
+    "racingpost/code-style": "v0.05",
+    "phpunit/phpunit": "4.8.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "RP\\": "library/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\": "tests/"
+    }
+  },
+  "scripts": {
+    "post-install-cmd": "phpunit -c ./tests/phpunit.xml",
+    "test": "phpunit -c ./tests/phpunit.xml"
+  }
+}

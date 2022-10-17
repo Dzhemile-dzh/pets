@@ -1,0 +1,104 @@
+{
+    "data": {
+        "races": [
+            {
+                "raceId": 695416,
+                "runners": [
+                    {
+                        "uid": 1018540,
+                        "saddleClothNumber": 3,
+                        "draw": 14,
+                        "silkURL": "9/7/2/184279",
+                        "trainer": {
+                            "uid": 15674,
+                            "name": "Donald McCain"
+                        },
+                        "jockey": {
+                            "uid": 81409,
+                            "name": "Brian Hughes",
+                            "weightAllowance": {
+                                "lbs": 0,
+                                "kg": null
+                            }
+                        },
+                        "position": {
+                            "official": 1,
+                            "original": 1,
+                            "deadheat": false,
+                            "didNotFinish": false,
+                            "didNotFinishStatus": "",
+                            "disqualified": null,
+                            "disqualifiedStatus": ""
+                        },
+                        "startingPrice": {
+                            "fractional": "5/2",
+                            "favourite": false,
+                            "favoriteType": null
+                        },
+                        "distanceFromHorseInFront": {
+                            "lengths": 0
+                        },
+                        "distanceFromWinner": {
+                            "lengths": 0
+                        },
+                        "horse": {
+                            "uid": 1018540,
+                            "name": {
+                                "full": "SWASHBUCKLE",
+                                "style": "Swashbuckle"
+                            },
+                            "originCountyCode": "GB"
+                        }
+                    },
+                    {
+                        "uid": 1488100,
+                        "saddleClothNumber": 7,
+                        "draw": 1,
+                        "silkURL": "5/8/3/251385",
+                        "trainer": {
+                            "uid": 18875,
+                            "name": "Philip Kirby"
+                        },
+                        "jockey": {
+                            "uid": 85680,
+                            "name": "Adam Nicol",
+                            "weightAllowance": {
+                                "lbs": 0,
+                                "kg": null
+                            }
+                        },
+                        "position": {
+                            "official": 2,
+                            "original": 2,
+                            "deadheat": false,
+                            "didNotFinish": false,
+                            "didNotFinishStatus": "",
+                            "disqualified": null,
+                            "disqualifiedStatus": ""
+                        },
+                        "startingPrice": {
+                            "fractional": "6/5F",
+                            "favourite": true,
+                            "favoriteType": "F"
+                        },
+                        "distanceFromHorseInFront": {
+                            "lengths": 1
+                        },
+                        "distanceFromWinner": {
+                            "lengths": 1
+                        },
+                        "horse": {
+                            "uid": 1488100,
+                            "name": {
+                                "full": "SHINE BABY SHINE",
+                                "style": "Shine Baby Shine"
+                            },
+                            "originCountyCode": "GB"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "status": 200
+}

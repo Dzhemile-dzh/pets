@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<root>
+    <data>
+        <cards next_race_available="1">
+            <meeting name="Thirsk" id="80" diffusion_course_name="THIRSK">
+                <rp_meeting_order>1</rp_meeting_order>
+                <race id="703327" perform_race_id="" perform_race_id_atr="" details_available="1"
+                      race_status_code="R">
+                    <time>1:40</time>
+                    <date>2018-06-19</date>
+                    <ampm>pm</ampm>
+                    <title>EBF Fillies' Novice Stakes (Plus 10 Race) (Div I)</title>
+                    <type>F</type>
+                    <distance>7f213y</distance>
+                    <distanceRounded>1m</distanceRounded>
+                    <distanceRoundedFurlong>8f</distanceRoundedFurlong>
+                    <group>Unknown</group>
+                    <tipsAllowed>1</tipsAllowed>
+                    <predictorAllowed></predictorAllowed>
+                    <bettingLink>1</bettingLink>
+                    <resulted>1</resulted>
+                    <betToView>0</betToView>
+                    <declaredRunners>9</declaredRunners>
+                    <liveCommentary>1</liveCommentary>
+                    <liveTab>0</liveTab>
+                    <raceDescription>Class 5</raceDescription>
+                    <tvChannels>
+                        <tvText>RUK</tvText>
+                    </tvChannels>
+                    <betOffers>
+                        <betOffer>WH</betOffer>
+                        <betOffer>Bet365</betOffer>
+                    </betOffers>
+                </race>
+            </meeting>
+            <meeting name="Stratford (AW)" id="67" diffusion_course_name="STRATFORD">
+                <rp_meeting_order>2</rp_meeting_order>
+                <race id="703237" perform_race_id="1401319" perform_race_id_atr="" details_available="1"
+                      race_status_code="O">
+                    <time>1:50</time>
+                    <date>2018-06-19</date>
+                    <ampm>pm</ampm>
+                    <title>racinguk.com/freetrial Mares' Novices' Hurdle (Div I)</title>
+                    <type>H</type>
+                    <distance>7f213y</distance>
+                    <distanceRounded>1m</distanceRounded>
+                    <distanceRoundedFurlong>8f</distanceRoundedFurlong>
+                    <group>Unknown</group>
+                    <tipsAllowed>1</tipsAllowed>
+                    <predictorAllowed></predictorAllowed>
+                    <bettingLink>1</bettingLink>
+                    <resulted>0</resulted>
+                    <betToView>0</betToView>
+                    <declaredRunners>10</declaredRunners>
+                    <liveCommentary>1</liveCommentary>
+                    <liveTab>0</liveTab>
+                    <raceDescription>Class 4</raceDescription>
+                    <tvChannels>
+                        <tvText>RUK</tvText>
+                    </tvChannels>
+                    <betOffers></betOffers>
+                </race>
+            </meeting>
+        </cards>
+    </data>
+    <status>200</status>
+</root>

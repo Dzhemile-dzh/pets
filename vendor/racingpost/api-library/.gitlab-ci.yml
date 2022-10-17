@@ -1,0 +1,33 @@
+.functions: &functions |
+  #!/bin/bash
+  add_version_to_composer_json () {
+    jq ". + {version: \"${CI_COMMIT_TAG}\"}" < composer.json > _tmp.json
+    mv _tmp.json composer.json
+  }
+stages:
+  - test
+  - publish
+image: phpdockerio/php72-fpm:latest
+test:
+  stage: test
+  script:
+    - curl -s https://packagecloud.io/install/repositories/phalcon/stable/script.deb.sh | bash 
+    - apt-get install -y php7.2-phalcon php7.2-gmp php7.2-xdebug git
+    - apt-get clean; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/doc/*
+    - composer install
+    - cd tests
+    - ../vendor/composer/bin/phpunit --testdox --coverage-text --colors=never .
+  except:
+    - tags
+
+publish:
+  stage: publish
+  script:
+    - *functions
+    - apt-get update
+    - apt-get -y install jq
+    - add_version_to_composer_json
+    - composer archive --format=zip --file=upload
+    - curl --fail -F package=@upload.zip $FURY_URL
+  only:
+   - tags

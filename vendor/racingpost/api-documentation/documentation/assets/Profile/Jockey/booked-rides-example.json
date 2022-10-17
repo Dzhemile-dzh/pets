@@ -1,0 +1,87 @@
+{
+    "data": {
+        "booked_rides": [
+            {
+                "race_uid": 657599,
+                "race_instance_uid": 657599,
+                "race_datetime": "2016-09-14T14:05:00+01:00",
+                "course_name": "SANDOWN",
+                "course_style_name": "Sandown",
+                "course_type_code": "B",
+                "course_uid": 54,
+                "diffusion_course_name": "SANDOWN",
+                "course_key": "sandown",
+                "race_instance_title": "gg.co.uk Supports The Racehorse Sanctuary Handicap (JC Grassroots Flat Sprint Series Qualifier)",
+                "race_status_code": "O",
+                "horse_name": "Billyoakes",
+                "horse_uid": 855770,
+                "running_conditions": null
+            },
+            {
+                "race_uid": 657652,
+                "race_instance_uid": 657652,
+                "race_datetime": "2016-09-17T14:40:00+01:00",
+                "course_name": "NEWMARKET",
+                "course_style_name": "Newmarket",
+                "course_type_code": "F",
+                "course_uid": 38,
+                "diffusion_course_name": "NEWMARKET",
+                "course_key": "newmarket",
+                "race_instance_title": "newmarketracecourses.co.uk Handicap",
+                "race_status_code": "4",
+                "horse_name": "Chetan",
+                "horse_uid": 859955,
+                "running_conditions": null
+            },
+            {
+                "race_uid": 657652,
+                "race_instance_uid": 657652,
+                "race_datetime": "2016-09-17T14:40:00+01:00",
+                "course_name": "NEWMARKET",
+                "course_style_name": "Newmarket",
+                "course_type_code": "F",
+                "course_uid": 38,
+                "diffusion_course_name": "NEWMARKET",
+                "course_key": "newmarket",
+                "race_instance_title": "newmarketracecourses.co.uk Handicap",
+                "race_status_code": "4",
+                "horse_name": "Red Tea",
+                "horse_uid": 899912,
+                "running_conditions": null
+            },
+            {
+                "race_uid": 657721,
+                "race_instance_uid": 657721,
+                "race_datetime": "2016-09-17T18:10:00+01:00",
+                "course_name": "WOLVERHAMPTON (A.W)",
+                "course_style_name": "Wolverhampton (AW)",
+                "course_type_code": "X",
+                "course_uid": 513,
+                "diffusion_course_name": "WOLVERHAMPTON",
+                "course_key": "wolverhampton-aw",
+                "race_instance_title": "Cash Out At bet365 Handicap",
+                "race_status_code": "4",
+                "horse_name": "Give Us A Belle",
+                "horse_uid": 806733,
+                "running_conditions": null
+            },
+            {
+                "race_uid": 657722,
+                "race_instance_uid": 657722,
+                "race_datetime": "2016-09-17T18:40:00+01:00",
+                "course_name": "WOLVERHAMPTON (A.W)",
+                "course_style_name": "Wolverhampton (AW)",
+                "course_type_code": "X",
+                "course_uid": 513,
+                "diffusion_course_name": "WOLVERHAMPTON",
+                "course_key": "wolverhampton-aw",
+                "race_instance_title": "bet365 Selling Stakes",
+                "race_status_code": "4",
+                "horse_name": "She's Rosanna",
+                "horse_uid": 989977,
+                "running_conditions": null
+            }
+        ]
+    },
+    "status": 200
+}

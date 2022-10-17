@@ -1,0 +1,269 @@
+{
+    "data": {
+        "race": {
+            "uid": "98765",
+            "raceTitle": "PitchSupplies.ie Apprentice Handicap",
+            "venue": {
+                "uid": 185,
+                "name": "Killarney",
+                "diffusionName": "KILLARNEY",
+                "courseKey": "killarney"
+            },
+            "startScheduledDatetimeUtc": "2030-08-21T16:10:00+01:00",
+            "startScheduledDatetimeLocal": "2030-08-21T20:10:00+05:00",
+            "verdict": "some verdict text goes here",
+            "currentRaceStatus": "declared",
+            "raceType": "Flat",
+            "raceClass": "5",
+            "surfaceType": "Cheese",
+            "ageRestriction": "3yo+",
+            "category": [
+                "Category Desc"
+            ],
+            "numberOfRunners": 1,
+            "going": "Good",
+            "weather": "Showers",
+            "distance": {
+                "miles": null,
+                "yards": 3902,
+                "meters": null,
+                "furlongs": null
+            },
+            "replayDetails": {
+                "videoId": null,
+                "videoProvider": null,
+                "completeRaceUid": null,
+                "completeRaceStart": null,
+                "completeRaceEnd": null,
+                "finishRaceUid": null,
+                "finishRaceStart": null,
+                "finishRaceEnd": null
+            },
+            "ratingBand": "0-100",
+            "maxNumberOfRunners": 16,
+            "raceOffTime": null,
+            "tvDetails": [
+                "ATR"
+            ],
+            "performRaceUidATR": 328345,
+            "performRaceUidRUK": null,
+            "winnersTimeSecs": null,
+            "diffToStandardTime": null,
+            "winnersTimeSecsFurlongs": null,
+            "diffToStandardTimeFurlongs": null,
+            "prizeTotal": {
+                "GBP": 98765
+            },
+            "prize": [
+                {
+                    "positionNo": 1,
+                    "GBP": 3119.04,
+                    "Euro": null
+                },
+                {
+                    "positionNo": 2,
+                    "GBP": 915.84,
+                    "Euro": null
+                },
+                {
+                    "positionNo": 3,
+                    "GBP": 457.92,
+                    "Euro": null
+                },
+                {
+                    "positionNo": 4,
+                    "GBP": 350,
+                    "Euro": null
+                }
+            ],
+            "eachWayTerms": "Win Only",
+            "totalStartingPrice": null,
+            "bettingReturns": {
+                "currency": null,
+                "toteWin": null,
+                "place1": null,
+                "place2": null,
+                "place3": null,
+                "place4": null,
+                "straightForecast": null,
+                "exacta": null,
+                "tricast": null,
+                "trifecta": null,
+                "jackpot": null,
+                "placepot": null,
+                "quadpot": null,
+                "rule4Value": null,
+                "rule4Text": null
+            },
+            "countryCode": "GB",
+            "description": "race_condition_desc goes here as a long string",
+            "postRaceAnalysis": null,
+            "runners": [
+                {
+                    "uid": "12345",
+                    "saddleClothNumber": "1",
+                    "daysSinceLastRun": "18",
+                    "daysSinceLastRunFlat": null,
+                    "daysSinceLastRunJumps": null,
+                    "daysSinceLastRunPTP": null,
+                    "draw": 2,
+                    "silkURL": "7/9/4/252497",
+                    "isReserve": false,
+                    "formFiguresString": null,
+                    "formFigures": [
+                        {
+                            "formFigure": "1",
+                            "raceTypeCode": "F"
+                        },
+                        {
+                            "formFigure": "2",
+                            "raceTypeCode": "X"
+                        },
+                        {
+                            "formFigure": "3",
+                            "raceTypeCode": "F"
+                        },
+                        {
+                            "formFigure": "1",
+                            "raceTypeCode": "F"
+                        },
+                        {
+                            "formFigure": "2",
+                            "raceTypeCode": "X"
+                        },
+                        {
+                            "formFigure": "3",
+                            "raceTypeCode": "F"
+                        }
+                    ],
+                    "topspeedRating": {
+                        "preRace": null,
+                        "postRace": null
+                    },
+                    "racingPostRating": {
+                        "preRace": null,
+                        "postRace": null
+                    },
+                    "rating": {
+                        "official": 131,
+                        "officialRanOff": 132
+                    },
+                    "startingPrice": {
+                        "fractional": "9/2",
+                        "favourite": null,
+                        "favouriteType": null
+                    },
+                    "position": {
+                        "official": null,
+                        "original": null,
+                        "deadheat": false,
+                        "didNotFinish": false,
+                        "didNotFinishStatus": null,
+                        "disqualified": false,
+                        "disqualifiedStatus": null
+                    },
+                    "weightCarried": {
+                        "lbs": null,
+                        "kg": null
+                    },
+                    "distanceFromWinner": {
+                        "lengths": null
+                    },
+                    "distanceFromHorseInFront": {
+                        "lengths": null
+                    },
+                    "expectedWeightCarried": {
+                        "lbs": 126,
+                        "kg": null
+                    },
+                    "weightOver": {
+                        "lbs": null,
+                        "kg": null
+                    },
+                    "weightExtra": {
+                        "lbs": null,
+                        "kg": null
+                    },
+                    "isNonRunner": false,
+                    "trainer": {
+                        "uid": "98765",
+                        "name": "Charlie Appleby",
+                        "runnersToForm": "100",
+                        "newTrainerRacesCount": null
+                    },
+                    "jockey": {
+                        "uid": "6901",
+                        "name": "James Doyle",
+                        "weightAllowance": {
+                            "lbs": 0,
+                            "kg": null
+                        }
+                    },
+                    "horse": {
+                        "uid": "12345",
+                        "name": {
+                            "full": "GLORIOUS JOURNEY",
+                            "style": "Glorious Journey"
+                        },
+                        "age": 3,
+                        "sex": "Filly",
+                        "firstTimeGelding": true,
+                        "originCountryCode": "GB",
+                        "colour": "Brown",
+                        "dam": {
+                            "uid": "789750",
+                            "name": "Fallen For You",
+                            "originCountryCode": "GB"
+                        },
+                        "sire": {
+                            "uid": "589690",
+                            "name": "Dubawi",
+                            "originCountryCode": "IRE"
+                        },
+                        "owner": {
+                            "uid": "252497",
+                            "name": "HH Sheikha Al Jalila Racing"
+                        }
+                    },
+                    "headgear": {
+                        "description": "blinkers, tongue strap",
+                        "firstTime": true
+                    },
+                    "windOp": {
+                        "firstTimeWindOp": false,
+                        "secondTimeWindOp": false
+                    },
+                    "comments": {
+                        "longSpotlight": "Very well bred colt who won a 6f maiden on the July course on debut last June before making all to take 7f Group 3 at Saint-Cloud in September in only other start; needs another step up form-wise but has done all that's been asked of him so far and is totally unexposed; cheekpieces on now.",
+                        "spotlight": null,
+                        "closeUp": null
+                    },
+                    "numberTips": 3,
+                    "tippedBy": [
+                        {
+                            "tipsterName": "Daily Mail",
+                            "tipType": "*"
+                        },
+                        {
+                            "tipsterName": "Daily Trouble",
+                            "tipType": "(nb)"
+                        },
+                        {
+                            "tipsterName": "Maily Daily",
+                            "tipType": "*"
+                        }
+                    ],
+                    "premiumTips": [
+                    ],
+                    "labels": {
+                        "beatenFavourite": false,
+                        "courseWinner": true,
+                        "distanceWinner": false,
+                        "courseDistanceWinner": false
+                    }
+                }
+            ]
+        }
+    },
+    "status": 200
+}

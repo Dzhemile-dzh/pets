@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<root>
+    <data>
+        <races>
+            <race id="705405">
+                <title>ICON Meld Stakes (Group 3)</title>
+                <date>2018-07-19</date>
+                <time>8:00</time>
+                <ampm>pm</ampm>
+                <meeting id="187" name="Leopardstown" diffusion_course_name="LEOPARDSTOWN"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="694643">
+                <title>Weatherbys Super Sprint Stakes</title>
+                <date>2018-07-21</date>
+                <time>3:35</time>
+                <ampm>pm</ampm>
+                <meeting id="36" name="Newbury" diffusion_course_name="NEWBURY"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="705406">
+                <title>Friarstown Stud Minstrel Stakes (Group 2)</title>
+                <date>2018-07-21</date>
+                <time>3:45</time>
+                <ampm>pm</ampm>
+                <meeting id="178" name="Curragh" diffusion_course_name="CURRAGH"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="688761">
+                <title>Darley Irish Oaks (Group 1) (Fillies)</title>
+                <date>2018-07-21</date>
+                <time>5:30</time>
+                <ampm>pm</ampm>
+                <meeting id="178" name="Curragh" diffusion_course_name="CURRAGH"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="705408">
+                <title>Kilboy Estate Stakes (Group 2) (Fillies &amp; Mares)</title>
+                <date>2018-07-22</date>
+                <time>3:10</time>
+                <ampm>pm</ampm>
+                <meeting id="178" name="Curragh" diffusion_course_name="CURRAGH"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="705407">
+                <title>Sapphire Stakes (Group 2)</title>
+                <date>2018-07-22</date>
+                <time>5:20</time>
+                <ampm>pm</ampm>
+                <meeting id="178" name="Curragh" diffusion_course_name="CURRAGH"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="704697">
+                <title>Gigaset International Stakes (Heritage Handicap)</title>
+                <date>2018-07-28</date>
+                <time>3:00</time>
+                <ampm>pm</ampm>
+                <meeting id="2" name="Ascot" diffusion_course_name="ASCOT"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="703435">
+                <title>King George VI And Queen Elizabeth Stakes (Sponsored By Qipco) (Group 1) (British Champions Series)</title>
+                <date>2018-07-28</date>
+                <time>3:40</time>
+                <ampm>pm</ampm>
+                <meeting id="2" name="Ascot" diffusion_course_name="ASCOT"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="704699">
+                <title>Qatar Lennox Stakes (Group 2)</title>
+                <date>2018-07-31</date>
+                <time>3:00</time>
+                <ampm>pm</ampm>
+                <meeting id="21" name="Goodwood" diffusion_course_name="GOODWOOD"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="704698">
+                <title>Qatar Goodwood Cup Stakes (Group 1) (British Champions Series)</title>
+                <date>2018-07-31</date>
+                <time>3:35</time>
+                <ampm>pm</ampm>
+                <meeting id="21" name="Goodwood" diffusion_course_name="GOODWOOD"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="702166">
+                <title>Qatar Sussex Stakes (Group 1) (British Champions Series)</title>
+                <date>2018-08-01</date>
+                <time>3:35</time>
+                <ampm>pm</ampm>
+                <meeting id="21" name="Goodwood" diffusion_course_name="GOODWOOD"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="704701">
+                <title>Qatar Lillie Langtry Stakes (Group 2) (Fillies &amp; Mares)</title>
+                <date>2018-08-02</date>
+                <time>2:25</time>
+                <ampm>pm</ampm>
+                <meeting id="21" name="Goodwood" diffusion_course_name="GOODWOOD"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="704700">
+                <title>Qatar Nassau Stakes (Group 1) (British Champions Series) (Fillies &amp; Mares)</title>
+                <date>2018-08-02</date>
+                <time>3:35</time>
+                <ampm>pm</ampm>
+                <meeting id="21" name="Goodwood" diffusion_course_name="GOODWOOD"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="704703">
+                <title>Unibet Golden Mile Handicap</title>
+                <date>2018-08-03</date>
+                <time>3:00</time>
+                <ampm>pm</ampm>
+                <meeting id="21" name="Goodwood" diffusion_course_name="GOODWOOD"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="704702">
+                <title>King George Qatar Stakes (Group 2)</title>
+                <date>2018-08-03</date>
+                <time>3:35</time>
+                <ampm>pm</ampm>
+                <meeting id="21" name="Goodwood" diffusion_course_name="GOODWOOD"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="704704">
+                <title>Unibet Stewards' Cup Handicap (Heritage Handicap)</title>
+                <date>2018-08-04</date>
+                <time>3:40</time>
+                <ampm>pm</ampm>
+                <meeting id="21" name="Goodwood" diffusion_course_name="GOODWOOD"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="706891">
+                <title>GRENKE Finance Ballyroan Stakes (Group 3)</title>
+                <date>2018-08-09</date>
+                <time>7:20</time>
+                <ampm>pm</ampm>
+                <meeting id="187" name="Leopardstown" diffusion_course_name="LEOPARDSTOWN"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="706892">
+                <title>Irish Stallion Farms EBF Give Thanks Stakes (Group 3) (Fillies &amp; Mares)</title>
+                <date>2018-08-11</date>
+                <time>7:30</time>
+                <ampm>pm</ampm>
+                <meeting id="596" name="Cork" diffusion_course_name="CORK"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="705409">
+                <title>Keeneland Phoenix Stakes (Group 1) (Entire Colts &amp; Fillies)</title>
+                <date>2018-08-12</date>
+                <time>3:35</time>
+                <ampm>pm</ampm>
+                <meeting id="178" name="Curragh" diffusion_course_name="CURRAGH"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="706894">
+                <title>Phoenix Sprint Stakes (Group 3)</title>
+                <date>2018-08-12</date>
+                <time>4:10</time>
+                <ampm>pm</ampm>
+                <meeting id="178" name="Curragh" diffusion_course_name="CURRAGH"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="705259">
+                <title>Sky Bet Great Voltigeur Stakes (Group 2) (Colts &amp; Geldings)</title>
+                <date>2018-08-22</date>
+                <time>3:00</time>
+                <ampm>pm</ampm>
+                <meeting id="107" name="York" diffusion_course_name="YORK"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="704705">
+                <title>Juddmonte International Stakes (British Champions Series) (Group 1)</title>
+                <date>2018-08-22</date>
+                <time>3:35</time>
+                <ampm>pm</ampm>
+                <meeting id="107" name="York" diffusion_course_name="YORK"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="691648">
+                <title>Goffs UK Premier Yearling Stakes</title>
+                <date>2018-08-23</date>
+                <time>1:55</time>
+                <ampm>pm</ampm>
+                <meeting id="107" name="York" diffusion_course_name="YORK"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="704706">
+                <title>Darley Yorkshire Oaks (Group 1) (British Champions Series) (Fillies &amp; Mares)</title>
+                <date>2018-08-23</date>
+                <time>3:35</time>
+                <ampm>pm</ampm>
+                <meeting id="107" name="York" diffusion_course_name="YORK"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="704707">
+                <title>Coolmore Nunthorpe Stakes (Group 1) (British Champions Series)</title>
+                <date>2018-08-24</date>
+                <time>3:35</time>
+                <ampm>pm</ampm>
+                <meeting id="107" name="York" diffusion_course_name="YORK"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="694184">
+                <title>Weatherbys Racing Bank &#xFFFD;300,000 2-Y-O Stakes</title>
+                <date>2018-09-13</date>
+                <time>3:35</time>
+                <ampm>pm</ampm>
+                <meeting id="15" name="Doncaster" diffusion_course_name="DONCASTER"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="706476">
+                <title>Coolmore Fastnet Rock Matron Stakes (Group 1) (Fillies &amp; Mares)</title>
+                <date>2018-09-15</date>
+                <time>6:00</time>
+                <ampm>pm</ampm>
+                <meeting id="187" name="Leopardstown" diffusion_course_name="LEOPARDSTOWN"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="704511">
+                <title>QIPCO Irish Champion Stakes (Group 1)</title>
+                <date>2018-09-15</date>
+                <time>6:45</time>
+                <ampm>pm</ampm>
+                <meeting id="187" name="Leopardstown" diffusion_course_name="LEOPARDSTOWN"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="706479">
+                <title>Goffs Vincent O'Brien National Stakes (Group 1) (Entire Colts &amp; Fillies)</title>
+                <date>2018-09-16</date>
+                <time>2:30</time>
+                <ampm>pm</ampm>
+                <meeting id="178" name="Curragh" diffusion_course_name="CURRAGH"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="706477">
+                <title>Derrinstown Stud Flying Five Stakes (Group 1)</title>
+                <date>2018-09-16</date>
+                <time>3:05</time>
+                <ampm>pm</ampm>
+                <meeting id="178" name="Curragh" diffusion_course_name="CURRAGH"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="706478">
+                <title>Moyglare Stud Stakes (Group 1) (Fillies)</title>
+                <date>2018-09-16</date>
+                <time>3:40</time>
+                <ampm>pm</ampm>
+                <meeting id="178" name="Curragh" diffusion_course_name="CURRAGH"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="704512">
+                <title>Comer Group International Irish St. Leger (Group 1)</title>
+                <date>2018-09-16</date>
+                <time>4:50</time>
+                <ampm>pm</ampm>
+                <meeting id="178" name="Curragh" diffusion_course_name="CURRAGH"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="698679">
+                <title>Redcar Two Year Old Trophy (Listed Race)</title>
+                <date>2018-10-06</date>
+                <time>3:20</time>
+                <ampm>pm</ampm>
+                <meeting id="47" name="Redcar" diffusion_course_name="REDCAR"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="691649">
+                <title>&#xFFFD;150,000 Tattersalls October Auction Stakes</title>
+                <date>2018-10-06</date>
+                <time>3:50</time>
+                <ampm>pm</ampm>
+                <meeting id="38" name="Newmarket" diffusion_course_name="NEWMARKET"/>
+                <bettingLink>1</bettingLink>
+            </race>
+            <race id="690380">
+                <title>Investec Derby (Group 1) (Entire Colts &amp; Fillies)</title>
+                <date>2019-06-01</date>
+                <time>4:30</time>
+                <ampm>pm</ampm>
+                <meeting id="17" name="Epsom" diffusion_course_name="EPSOM"/>
+                <bettingLink>1</bettingLink>
+            </race>
+        </races>
+    </data>
+    <status>200</status>
+</root>

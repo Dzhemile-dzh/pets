@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<root>
+    <data>
+        <id>703330</id>
+        <diffusion_name>ASCOT</diffusion_name>
+        <title>Coventry Stakes (Group 2)</title>
+        <type>Turf</type>
+        <class>1</class>
+        <agesAllowed>2yo</agesAllowed>
+        <going>Good To Firm</going>
+        <group>Group 2</group>
+        <tvText>ITV</tvText>
+        <distance>6f</distance>
+        <distanceRounded>6f</distanceRounded>
+        <distanceRoundedFurlong>6f</distanceRoundedFurlong>
+        <bookmaker>William Hill</bookmaker>
+        <adsChangeDelay>10</adsChangeDelay>
+        <bettingLink>1</bettingLink>
+        <raceDescription>Class 1 Group 2</raceDescription>
+        <prizePos1>
+            <prizeGbp>85065.00</prizeGbp>
+            <prizeEur>0.00</prizeEur>
+        </prizePos1>
+        <prizePos2>
+            <prizeGbp>32250.00</prizeGbp>
+            <prizeEur>0.00</prizeEur>
+        </prizePos2>
+        <prizePos3>
+            <prizeGbp>16140.00</prizeGbp>
+            <prizeEur>0.00</prizeEur>
+        </prizePos3>
+        <prizePos4>
+            <prizeGbp>8040.00</prizeGbp>
+            <prizeEur>0.00</prizeEur>
+        </prizePos4>
+        <prizePos5>
+            <prizeGbp>4035.00</prizeGbp>
+            <prizeEur>0.00</prizeEur>
+        </prizePos5>
+        <prizePos6>
+            <prizeGbp>2025.00</prizeGbp>
+            <prizeEur>0.00</prizeEur>
+        </prizePos6>
+        <betOffers>
+            <coralHeader>Coral offer: Money back if beaten by a length</coralHeader>
+            <coralDescription><![CDATA[asd]]></coralDescription>
+        </betOffers>
+        <betToView>0</betToView>
+        <runner id="1969796">
+            <number>1</number>
+            <draw>1</draw>
+            <courseDist>d bf</courseDist>
+            <daysSinceRun>23</daysSinceRun>
+            <name>Advertise</name>
+            <silk>6/0/1/264106.png</silk>
+            <trainer>Martyn Meade</trainer>
+            <officialRating>&amp;mdash;</officialRating>
+            <doubtfulRunner>0</doubtfulRunner>
+            <jockey>Oisin Murphy</jockey>
+            <age>2</age>
+            <jockeyAllowance/>
+            <headGear/>
+            <reserve>N</reserve>
+            <weight>9-1</weight>
+            <sex>colt</sex>
+            <comment>Beat a few of today&amp;acute;s rivals in Newbury maiden on debut; open to progress</comment>
+            <spotlight>Beat a few of today&amp;acute;s rivals in Newbury maiden (6f, good to firm) on debut, running on to lead well inside the final furlong; one of several once-raced winners who are open to any amount of improvement.</spotlight>
+            <rpr>&amp;mdash;</rpr>
+            <topSpeed>&amp;mdash;</topSpeed>
+            <form>1</form>
+            <tipsQuantity>2</tipsQuantity>
+        </runner>
+        <runner id="7654321">
+            <number>3</number>
+            <draw>2</draw>
+            <courseDist>d bf</courseDist>
+            <daysSinceRun>(23J)</daysSinceRun>
+            <name>Jack Jones</name>
+            <silk>0/0/3/264300.png</silk>
+            <trainer>Zavkushti</trainer>
+            <officialRating>&amp;mdash;</officialRating>
+            <doubtfulRunner>0</doubtfulRunner>
+            <jockey>Elizabeth Taylor</jockey>
+            <age>2</age>
+            <jockeyAllowance/>
+            <headGear/>
+            <reserve>N</reserve>
+            <weight>9-1</weight>
+            <sex>colt</sex>
+            <comment>Beat a few of today&amp;acute;s rivals in Newbury maiden on debut; open to progress</comment>
+            <spotlight>Beat a few of today&amp;acute;s rivals in Newbury maiden (6f, good to firm) on debut, running on to lead well inside the final furlong; one of several once-raced winners who are open to any amount of improvement.</spotlight>
+            <rpr>&amp;mdash;</rpr>
+            <topSpeed>81</topSpeed>
+            <form>456789</form>
+            <tipsQuantity>1</tipsQuantity>
+        </runner>
+        <runner id="1111111">
+            <number>13</number>
+            <draw>3</draw>
+            <courseDist>d bf</courseDist>
+            <daysSinceRun>44 (13J)</daysSinceRun>
+            <name>James Brown</name>
+            <silk>0/0/3/264300.png</silk>
+            <trainer>Za tuka</trainer>
+            <officialRating>&amp;mdash;</officialRating>
+            <doubtfulRunner>0</doubtfulRunner>
+            <jockey>Lissy Swift</jockey>
+            <age>2</age>
+            <jockeyAllowance/>
+            <headGear/>
+            <reserve>N</reserve>
+            <weight>9-1</weight>
+            <sex>colt</sex>
+            <comment>Beat a few of today&amp;acute;s rivals in Newbury maiden on debut; open to progress</comment>
+            <spotlight>Beat a few of today&amp;acute;s rivals in Newbury maiden (6f, good to firm) on debut, running on to lead well inside the final furlong; one of several once-raced winners who are open to any amount of improvement.</spotlight>
+            <rpr>&amp;mdash;</rpr>
+            <topSpeed>81</topSpeed>
+        </runner>
+    </data>
+    <status>200</status>
+</root>

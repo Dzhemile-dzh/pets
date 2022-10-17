@@ -1,0 +1,50 @@
+{
+    "data": {
+        "progeny_horses": [
+            {
+                "horse_uid": 657246,
+                "horse_name": "Inchmahome",
+                "country_origin_code": "GB",
+                "horse_sex_code": "M",
+                "horse_date_of_birth": "2006-02-12T00:00:00+00:00",
+                "horse_age": 16,
+                "runs": 6,
+                "wins": 1,
+                "places": 0,
+                "total_prize_money": 2590.8,
+                "dam_sire_uid": 301383,
+                "dam_sire_style_name": "Lomond",
+                "dam_sire_country_origin_code": "USA",
+                "rp_postmark": 67,
+                "win_percent": 17,
+                "best_or": 66
+            },
+            {
+                "horse_uid": 646234,
+                "horse_name": "Starship",
+                "country_origin_code": "IRE",
+                "horse_sex_code": "M",
+                "horse_date_of_birth": "2006-02-12T00:00:00+00:00",
+                "horse_age": 16,
+                "runs": 7,
+                "wins": 3,
+                "places": 1,
+                "total_prize_money": 12837.74,
+                "dam_sire_uid": 300903,
+                "dam_sire_style_name": "General Assembly",
+                "dam_sire_country_origin_code": "USA",
+                "rp_postmark": 85,
+                "win_percent": 43,
+                "best_or": 82
+            }
+        ],
+        "season_info": {
+            "race_type": "flat",
+            "season_year_begin": 2005,
+            "season_year_end": 2019,
+            "more_progeny_available": false,
+            "number": 50
+        }
+    },
+    "status": 200
+}

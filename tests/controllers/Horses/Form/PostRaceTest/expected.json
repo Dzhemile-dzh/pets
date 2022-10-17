@@ -1,0 +1,389 @@
+{
+  "data": {
+    "results": [
+      {
+        "horseId": "1234567",
+        "racingHistory": [
+          {
+            "raceId": "123456789",
+            "raceTitle": "bet365 Handicap",
+            "startScheduledDatetime": {
+              "utc": "2018-12-05T14:55:00+00:00",
+              "local": "2018-12-05T19:55:00+05:00"
+            },
+            "currentRaceStatus": "result",
+            "raceType": "Flat",
+            "raceClass": "4",
+            "surfaceType": "Cheese",
+            "ageRestriction": "2yo",
+            "category": [
+              "Category Desc"
+            ],
+            "numberOfRunners": 9,
+            "going": "Very Good",
+            "distance": {
+              "miles": null,
+              "yards": 1210,
+              "meters": null,
+              "furlongs": null
+            },
+            "replayDetails": [
+              {
+                "videoId": null,
+                "videoProvider": null,
+                "completeRaceUid": null,
+                "completeRaceStart": null,
+                "completeRaceEnd": null,
+                "finishRaceUid": null,
+                "finishRaceStart": null,
+                "finishRaceEnd": null
+              }
+            ],
+            "runner": {
+              "uid": "1234567",
+              "saddleClothNumber": "1",
+              "topspeedRating": null,
+              "racingPostRating": 80,
+              "rating": {
+                "official": 0,
+                "officialRanOff": 82
+              },
+              "closeUpComment": "chased leaders, ridden over 2f out, went 2nd inside final furlong, kept on but not reach winner",
+              "startingPrice": {
+                "fractional": "100/30",
+                "favourite": false,
+                "favouriteType": null
+              },
+              "position": {
+                "official": 2,
+                "original": 3,
+                "deadheat": false,
+                "didNotFinish": false,
+                "didNotFinishStatus": null,
+                "disqualified": false,
+                "disqualifiedStatus": null
+              },
+              "weightCarried": {
+                "lbs": 134,
+                "kg": null
+              },
+              "distanceFromWinner": {
+                "lengths": 2.8
+              },
+              "distanceFromNextHorse": {
+                "lengths": 13.6
+              },
+              "jockey": {
+                "uid": "78935",
+                "name": "Tom Queally",
+                "weightAllowance": {
+                  "lbs": 0,
+                  "kg": null
+                }
+              },
+              "otherRunner": {
+                "name": null,
+                "uid": null,
+                "weightCarried": {
+                  "lbs": null,
+                  "kg": null
+                },
+                "winningDistance": {
+                  "lengths": null
+                }
+              }
+            },
+            "meeting": {
+              "id": null,
+              "name": "Ripon"
+            }
+          },
+          {
+            "raceId": "963963963",
+            "raceTitle": "bet365 Handicap",
+            "startScheduledDatetime": {
+              "utc": "2018-10-05T14:55:00+01:00",
+              "local": "2018-10-05T19:55:00+06:00"
+            },
+            "currentRaceStatus": "result",
+            "raceType": "Flat",
+            "raceClass": "4",
+            "surfaceType": "Cheese",
+            "ageRestriction": "2yo",
+            "category": [
+              "Flat Turf"
+            ],
+            "numberOfRunners": 9,
+            "going": "Very Good",
+            "distance": {
+              "miles": null,
+              "yards": 1210,
+              "meters": null,
+              "furlongs": null
+            },
+            "replayDetails": [
+              {
+                "videoId": null,
+                "videoProvider": null,
+                "completeRaceUid": null,
+                "completeRaceStart": null,
+                "completeRaceEnd": null,
+                "finishRaceUid": null,
+                "finishRaceStart": null,
+                "finishRaceEnd": null
+              }
+            ],
+            "runner": {
+              "uid": "1234567",
+              "saddleClothNumber": "1",
+              "topspeedRating": 65,
+              "racingPostRating": 80,
+              "rating": {
+                "official": 0,
+                "officialRanOff": 82
+              },
+              "closeUpComment": "chased leaders, ridden over 2f out, went 2nd inside final furlong, kept on but not reach winner",
+              "startingPrice": {
+                "fractional": "100/30",
+                "favourite": true,
+                "favouriteType": "Y"
+              },
+              "position": {
+                "official": 2,
+                "original": 2,
+                "deadheat": true,
+                "didNotFinish": false,
+                "didNotFinishStatus": null,
+                "disqualified": false,
+                "disqualifiedStatus": null
+              },
+              "weightCarried": {
+                "lbs": 134,
+                "kg": null
+              },
+              "distanceFromWinner": {
+                "lengths": 5
+              },
+              "distanceFromNextHorse": {
+                "lengths": 13.6
+              },
+              "jockey": {
+                "uid": "78935",
+                "name": "Tom Queally",
+                "weightAllowance": {
+                  "lbs": 0,
+                  "kg": null
+                }
+              },
+              "otherRunner": {
+                "name": "Rambo",
+                "uid": "54321",
+                "weightCarried": {
+                  "lbs": 1,
+                  "kg": null
+                },
+                "winningDistance": {
+                  "lengths": null
+                }
+              }
+            },
+            "meeting": {
+              "id": null,
+              "name": "Ripon"
+            }
+          },
+          {
+            "raceId": "963741852",
+            "raceTitle": "bet365 Handicap",
+            "startScheduledDatetime": {
+              "utc": "2019-10-05T14:55:00+01:00",
+              "local": "2019-10-05T19:55:00+06:00"
+            },
+            "currentRaceStatus": "result",
+            "raceType": "Flat",
+            "raceClass": "4",
+            "surfaceType": null,
+            "ageRestriction": "2yo",
+            "category": [],
+            "numberOfRunners": 9,
+            "going": "Very Good",
+            "distance": {
+              "miles": null,
+              "yards": 1210,
+              "meters": null,
+              "furlongs": null
+            },
+            "replayDetails": [
+              {
+                "videoId": null,
+                "videoProvider": null,
+                "completeRaceUid": null,
+                "completeRaceStart": null,
+                "completeRaceEnd": null,
+                "finishRaceUid": null,
+                "finishRaceStart": null,
+                "finishRaceEnd": null
+              }
+            ],
+            "runner": {
+              "uid": "1234567",
+              "saddleClothNumber": "1",
+              "topspeedRating": 65,
+              "racingPostRating": 80,
+              "rating": {
+                "official": 0,
+                "officialRanOff": 82
+              },
+              "closeUpComment": "chased leaders, ridden over 2f out, went 2nd inside final furlong, kept on but not reach winner",
+              "startingPrice": {
+                "fractional": "100/30",
+                "favourite": true,
+                "favouriteType": "Y"
+              },
+              "position": {
+                "official": null,
+                "original": null,
+                "deadheat": false,
+                "didNotFinish": true,
+                "didNotFinishStatus": "Void",
+                "disqualified": false,
+                "disqualifiedStatus": null
+              },
+              "weightCarried": {
+                "lbs": 134,
+                "kg": null
+              },
+              "distanceFromWinner": {
+                "lengths": 5
+              },
+              "distanceFromNextHorse": {
+                "lengths": 13.6
+              },
+              "jockey": {
+                "uid": "78935",
+                "name": "Tom Queally",
+                "weightAllowance": {
+                  "lbs": 0,
+                  "kg": null
+                }
+              },
+              "otherRunner": {
+                "name": null,
+                "uid": null,
+                "weightCarried": {
+                  "lbs": null,
+                  "kg": null
+                },
+                "winningDistance": {
+                  "lengths": null
+                }
+              }
+            },
+            "meeting": {
+              "id": null,
+              "name": "Ripon"
+            }
+          },
+          {
+            "raceId": "55855585",
+            "raceTitle": "bet365 Handicap",
+            "startScheduledDatetime": {
+              "utc": "2019-10-05T14:55:00+01:00",
+              "local": "2019-10-05T19:55:00+06:00"
+            },
+            "currentRaceStatus": "result",
+            "raceType": "Flat",
+            "raceClass": "4",
+            "surfaceType": null,
+            "ageRestriction": "2yo",
+            "category": [],
+            "numberOfRunners": 9,
+            "going": "Very Good",
+            "distance": {
+              "miles": null,
+              "yards": 1210,
+              "meters": null,
+              "furlongs": null
+            },
+            "replayDetails": [
+              {
+                "videoId": null,
+                "videoProvider": null,
+                "completeRaceUid": null,
+                "completeRaceStart": null,
+                "completeRaceEnd": null,
+                "finishRaceUid": null,
+                "finishRaceStart": null,
+                "finishRaceEnd": null
+              }
+            ],
+            "runner": {
+              "uid": "1234567",
+              "saddleClothNumber": "1",
+              "topspeedRating": 65,
+              "racingPostRating": 80,
+              "rating": {
+                "official": 0,
+                "officialRanOff": 82
+              },
+              "closeUpComment": "chased leaders, ridden over 2f out, went 2nd inside final furlong, kept on but not reach winner",
+              "startingPrice": {
+                "fractional": "100/30",
+                "favourite": true,
+                "favouriteType": "Y"
+              },
+              "position": {
+                "official": 1,
+                "original": 1,
+                "deadheat": false,
+                "didNotFinish": false,
+                "didNotFinishStatus": null,
+                "disqualified": false,
+                "disqualifiedStatus": null
+              },
+              "weightCarried": {
+                "lbs": 134,
+                "kg": null
+              },
+              "distanceFromWinner": {
+                "lengths": null
+              },
+              "distanceFromNextHorse": {
+                "lengths": 13.6
+              },
+              "jockey": {
+                "uid": "78935",
+                "name": "Tom Queally",
+                "weightAllowance": {
+                  "lbs": 0,
+                  "kg": null
+                }
+              },
+
+              "otherRunner": {
+                "name": "Jack",
+                "uid": 654321,
+                "weightCarried": {
+                  "lbs": 1,
+                  "kg": null
+                },
+                "winningDistance": {
+                  "lengths": 5
+                }
+              }
+            },
+            "meeting": {
+              "id": null,
+              "name": "Ripon"
+            }
+          }
+        ]
+      },
+      {
+        "horseId": "123123",
+        "racingHistory": []
+      }
+    ]
+  },
+  "status": 200
+}

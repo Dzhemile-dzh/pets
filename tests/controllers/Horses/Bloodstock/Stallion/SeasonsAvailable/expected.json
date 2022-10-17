@@ -1,0 +1,35 @@
+{
+    "data": {
+        "seasons_available": {
+            "FLAT": [
+                {
+                    "season_type": "FLAT",
+                    "season_start_date": "2018-01-01T00:00:00+00:00",
+                    "season_end_date": "2018-12-31T23:59:00+00:00",
+                    "season_desc": "Flat 2018"
+                },
+                {
+                    "season_type": "FLAT",
+                    "season_start_date": "2017-01-01T00:00:00+00:00",
+                    "season_end_date": "2017-12-31T23:59:00+00:00",
+                    "season_desc": "Flat 2017"
+                },
+                {
+                    "season_type": "FLAT",
+                    "season_start_date": "2016-01-01T00:00:00+00:00",
+                    "season_end_date": "2016-12-31T23:59:00+00:00",
+                    "season_desc": "Flat 2016"
+                }
+            ],
+            "JUMPS": [
+                {
+                    "season_type": "JUMPS",
+                    "season_start_date": "2017-04-30T00:00:00+01:00",
+                    "season_end_date": "2018-04-29T23:59:00+01:00",
+                    "season_desc": "NH 2017-2018"
+                }
+            ]
+        }
+    },
+    "status": 200
+}

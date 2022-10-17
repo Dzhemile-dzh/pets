@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<root>
+   <data>
+   <race_details>
+      <race_instance_uid>703346</race_instance_uid>
+      <race_datetime>2018-06-20T14:45:00+01:00</race_datetime>
+      <course_uid>22</course_uid>
+      <course_style_name>Hamilton</course_style_name>
+    </race_details>
+    <most_tipped>
+      <item0>
+        <horse_uid>1860071</horse_uid>
+        <horse_name>Sense Of Belonging</horse_name>
+        <silk_image_url_png>4/7/6/259674.png</silk_image_url_png>
+      </item0>
+    </most_tipped>
+    <spotlight_selection>
+      <horse_uid>1860071</horse_uid>
+      <horse_name>Sense Of Belonging</horse_name>
+      <silk_image_url_png>4/7/6/259674.png</silk_image_url_png>
+      <spotlight_text>Newcomers \bBaronial Pride\p and \bConstant\p should be considered if strong in the market but they will need to be useful to get the better of Group 1 entry \bSENSE OF BELONGING\p, who makes plenty of appeal on what he showed on his debut at York.[Andrew Cooper]</spotlight_text>
+    </spotlight_selection>
+      <key-stat>
+         <item0>
+            <horse_uid>1996391</horse_uid>
+            <horse_name>Yellow Fire</horse_name>
+            <silk_image_url_png>2/7/4/59472.png</silk_image_url_png>
+            <key_stat_text>Owner Sheikh Hamdan bin Mohammed Al Maktoum has had 5 winners from 16 runners in the last fortnight (&lt;b&gt;Yellow Fire&lt;/b&gt;)</key_stat_text>
+         </item0>
+      </key-stat>
+      <latest_results>
+         <race_instance_uid>703346</race_instance_uid>
+         <fast_race_instance_uid>229006</fast_race_instance_uid>
+         <race_datetime>2018-06-20T14:10:00+01:00</race_datetime>
+         <course_name>HAMILTON</course_name>
+         <diffusion_course_name>HAMILTON</diffusion_course_name>
+         <course_key>hamilton</course_key>
+         <tote_win_money>4.9</tote_win_money>
+         <dual_forecast>27.4</dual_forecast>
+         <csf>40.39</csf>
+         <tricast/>
+         <placepot/>
+         <favourite/>
+         <no_of_runners>6</no_of_runners>
+         <non_runners>Lewis Slack</non_runners>
+         <miscellaneous>| PL: #3.80, #4.60;Trifecta: #67.80; Weighed In</miscellaneous>
+         <horses>
+            <item0>
+               <horse_name>Baronial Pride</horse_name>
+               <saddle_cloth_number>5</saddle_cloth_number>
+               <jockey_name>T Hamilton</jockey_name>
+               <odds_desc>4/1</odds_desc>
+               <race_outcome_position>1</race_outcome_position>
+            </item0>
+            <item1>
+               <horse_name>Howzer Black</horse_name>
+               <saddle_cloth_number>1</saddle_cloth_number>
+               <jockey_name>P Makin</jockey_name>
+               <odds_desc>11/1</odds_desc>
+               <race_outcome_position>2</race_outcome_position>
+            </item1>
+         </horses>
+      </latest_results>
+   </data>
+   <status>200</status>
+</root>

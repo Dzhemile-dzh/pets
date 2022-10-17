@@ -1,0 +1,34 @@
+{
+    "DEV": {
+        "AUTH_DB_NAME_API_STATUS": "db",
+        "AUTH_DB_ADAPTER_API_STATUS": "sybase",
+        "AUTH_DB_SERVERNAME_API_STATUS": "RPCDB4",
+        "AUTH_DB_USERNAME_API_STATUS": "anonymous",
+        "AUTH_DB_PASSWORD_API_STATUS": "****",
+        "CTRL_APPLICATION_ENVMODE_API_STATUS": "DEV"
+    },
+    "STG": {
+        "AUTH_DB_USERNAME_API_STATUS": "anonymous",
+        "AUTH_DB_ADAPTER_API_STATUS": "sybase",
+        "AUTH_DB_SERVERNAME_API_STATUS": "RPCDB4",
+        "AUTH_DB_PASSWORD_API_STATUS": "****",
+        "AUTH_DB_NAME_API_STATUS": "db",
+        "CTRL_APPLICATION_ENVMODE_API_STATUS": "STG"
+    },
+    "PR": {
+        "AUTH_DB_SERVERNAME_API_STATUS": "RPCDB4",
+        "AUTH_DB_USERNAME_API_STATUS": "anonymous",
+        "AUTH_DB_PASSWORD_API_STATUS": "****",
+        "AUTH_DB_NAME_API_STATUS": "db",
+        "AUTH_DB_ADAPTER_API_STATUS": "sybase",
+        "CTRL_APPLICATION_ENVMODE_API_STATUS": "PR"
+    },
+    "LIVE": {
+        "AUTH_DB_ADAPTER_API_STATUS": "sybase",
+        "AUTH_DB_SERVERNAME_API_STATUS": "RPCDB4",
+        "AUTH_DB_PASSWORD_API_STATUS": "****",
+        "AUTH_DB_USERNAME_API_STATUS": "anonymous",
+        "AUTH_DB_NAME_API_STATUS": "db",
+        "CTRL_APPLICATION_ENVMODE_API_STATUS": "LIVE"
+    }
+}

@@ -1,0 +1,48 @@
+@startuml
+
+!include skinparam.iuml
+
+header
+Usage of ContentAttributes in EMS
+endheader
+
+title
+Hardcode surrogate key prefixes
+end title
+
+left to right direction
+
+node "EMS server" {
+    node "EMS Apache server" #LightSteelBlue {
+        package EMS #ffffff {
+            interface "HTTPS" as HTTPS_EMS
+            HTTPS_EMS -- [EMS*]
+
+        }
+    }
+
+    node "File system" #Gainsboro {
+        [EMS configuration file]
+    }
+
+}
+
+node "Public server" {
+    node "Public Apache server" #Khaki {
+        package Homepage #ffffff {
+            interface "HTTPS" as HTTPS_HOMEPAGE
+            [ContentAttributes] as CONTENTATTRIBUTES_HOMEPAGE
+            HTTPS_HOMEPAGE -- [Homepage]
+            Homepage ..> CONTENTATTRIBUTES_HOMEPAGE : use
+        }
+    }
+}
+
+note bottom of [EMS*] #ffffff : Unlike Homepage, EMS will not use use Content Attributes component.\nAll surrogate key prefixes (like h for horses, j for jockeys and etc.)\nwill be hardcoded inside EMS. All changes of Content Attributes\ncomponent must be reported to EMS team.
+note bottom of [EMS configuration file] #ffffff : This configuration file\nwill contain information\nabout surrogate key prefixes
+
+[EMS*] .down.> [EMS configuration file] : &#32;read\n&#32;configuration
+
+[EMS configuration file] .[#red,bold]. CONTENTATTRIBUTES_HOMEPAGE : \n\n\n\n\n\n<b>MUST CONTAINS</b>  the same surrogate\nkey prefixes of component for both products
+
+@enduml

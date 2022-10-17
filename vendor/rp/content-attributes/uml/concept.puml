@@ -1,0 +1,128 @@
+@startuml
+
+!include skinparam.iuml
+
+package "Content attributes" #SkyBlue {
+
+    interface Element {
+        + accept(visitor : CDN)&#32;
+    }
+
+    class "ContentAttributes&#32;" {
+        # tags : Tags
+        # status : Status
+        __
+        + tags() : Tags
+        + status() : Status
+        ..
+        + accept(visitor : CDN)
+    }
+
+    class Tags {
+        __
+        .. Group Entity section ..
+        + addHorseGroup() : ContentTag
+        + add<<Entity>>Group() : ContentTag
+        .. Entity section ..
+        + addHorse(id : int) : ContentTag
+        + add<<Entity>>(id : int) : ContentTag&#32;&#32;
+        ..
+        + accept(visitor : CDN)
+    }
+
+    class Status {
+        __
+        + setUserGenerated(isPrivate : bool) : ContentStatus
+        + setIncomplete(isIncomplete : bool) : ContentStatus&#32;&#32;
+        .. 404 section ..
+        + throwNotFoundError()
+        + throwNotFoundError<<TTL>>()
+        ..
+        + accept(visitor : CDN)
+    }
+
+    class EventsManager {
+        __
+        + __construct(logger : AdapterInterface, contentAttributes : ContentAttributes, visitor : CDN)&#32;&#32;&#32;
+        + afterDispatchLoop(event : Event, dispatcher : Dispatcher)
+        + beforeException(event : Event, dispatcher : Dispatcher, exception : Exception)
+    }
+
+    interface CDN {
+        + visit(element : Element)&#32;
+    }
+
+    class Fastly {
+        __
+        + visit(element : Element)
+        # visitTags(tags : Tags)
+        # visitStatus(status : Status)
+        ..
+        + apply(response : Response)&#32;
+    }
+
+    class Incomplete {
+        + build(response : Response, surrogateKeys : Array)
+    }
+
+    class Normal {
+        + build(response : Response, surrogateKeys : Array)
+    }
+
+    class NotFound {
+        + build(response : Response, surrogateKeys : Array)
+    }
+
+    class UserGeneratedContent {
+        + build(response : Response, surrogateKeys : Array)
+    }
+}
+
+package Phalcon  {
+
+    class Phalcon\Mvc\User\Plugin&#32; {
+    }
+
+    class "Phalcon\Http\Response&#32;" {
+    }
+
+    class Phalcon\Events\Manager&#32; {
+    }
+}
+
+note right of "ContentAttributes&#32;" #FFFFFF : Facade object for <b>Tags</b>\nand <b>Status</b> objects
+note right of EventsManager #FFFFFF : Attache <b>afterDispatchLoop</b>()\nand <b>beforeException</b>() events\nwith Phalcon EventManager
+
+note right of Tags #FFFFFF : Collects and processes information\nabout content tags (surrogate keys)
+note right of Status #FFFFFF : Collects and processes information about\ncontent statuses (404, 503, private content)
+
+Element <|. "ContentAttributes&#32;"
+Element <|.. Tags
+Element <|.. Status
+
+CDN <|.down. Fastly
+
+"ContentAttributes&#32;" " 1" o-- Tags
+"ContentAttributes&#32;" "1" o-- Status
+
+EventsManager -up-|> "Phalcon\Mvc\User\Plugin&#32;"
+EventsManager ..> "ContentAttributes&#32;" : &#32;&#32;use
+EventsManager .down.> Fastly : &#32;&#32;use
+Fastly ..> "Phalcon\Http\Response&#32;" : &#32;&#32;used for setting\n&#32;&#32;information
+EventsManager .up.> "Phalcon\Events\Manager&#32;" : &#32;&#32;used for binding\n&#32;&#32;events
+
+'Fastly ..> Incomplete : &#32;&#32;use
+'Fastly ..> Normal : &#32;&#32;use
+'Fastly ..> NotFound : &#32;&#32;use
+'Fastly ..> UserGeneratedContent : &#32;&#32;use
+
+hide Incomplete
+hide Normal
+hide NotFound
+hide UserGeneratedContent
+
+'hide Element
+'hide CDN
+
+
+@enduml

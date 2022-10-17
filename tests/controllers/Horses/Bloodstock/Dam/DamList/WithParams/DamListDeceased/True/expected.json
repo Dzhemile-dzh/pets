@@ -1,0 +1,49 @@
+{
+    "data": {
+        "list": [
+            {
+                "dam_uid": 845402,
+                "dam_name": "Childesplay",
+                "country_code": "GB",
+                "date_of_birth": "2011-03-16T00:00:00+00:00",
+                "date_of_death": "2019-02-04T00:00:00+00:00"
+            },
+            {
+                "dam_uid": 407102,
+                "dam_name": "Clever Miss",
+                "country_code": "GB",
+                "date_of_birth": "2011-03-03T00:00:00+00:00",
+                "date_of_death": "2018-01-24T00:00:00+00:00"
+            },
+            {
+                "dam_uid": 835590,
+                "dam_name": "Excel's Beauty",
+                "country_code": "GB",
+                "date_of_birth": "2011-01-30T00:00:00+00:00",
+                "date_of_death": "2016-07-06T00:00:00+01:00"
+            },
+            {
+                "dam_uid": 845326,
+                "dam_name": "Gold Approach",
+                "country_code": "GB",
+                "date_of_birth": "2011-03-18T00:00:00+00:00",
+                "date_of_death": "2018-12-11T00:00:00+00:00"
+            },
+            {
+                "dam_uid": 831482,
+                "dam_name": "Joyful Friend",
+                "country_code": "GB",
+                "date_of_birth": "2011-02-12T00:00:00+00:00",
+                "date_of_death": "2018-07-31T00:00:00+01:00"
+            },
+            {
+                "dam_uid": 836804,
+                "dam_name": "Oxsana",
+                "country_code": "GB",
+                "date_of_birth": "2011-03-16T00:00:00+00:00",
+                "date_of_death": "2016-05-10T00:00:00+01:00"
+            }
+        ]
+    },
+    "status": 200
+}

@@ -1,0 +1,157 @@
+{
+    "data": {
+        "meetings": [
+            {
+                "meetingId": null,
+                "rpMeetingOrder": 1,
+                "venueName": "LINGFIELD (A.W)",
+                "venueUid": 375,
+                "mixedVenueUid": null,
+                "diffusionVenueName": "Lingfield",
+                "courseKey": "lingfield-aw",
+                "venueCountryCode": "USA",
+                "meetingStartDateTime": {
+                    "utc": "2020-07-24T18:51:00+01:00",
+                    "local": "2020-07-24T20:51:00+01:00"
+                },
+                "numberOfRaces": 3,
+                "meetingType": "mixed",
+                "numberNonRunners": 0,
+                "races": [
+                    {
+                        "currentRaceStatus": "result",
+                        "raceId": "763476",
+                        "fastRaceId": null,
+                        "raceTitle": "Maiden Special Weight (2yo Fillies) (Main Track) (Dirt)",
+                        "raceType": "NH Flat",
+                        "isHandicap": false,
+                        "going": "Fast",
+                        "surfaceType": "Dirt",
+                        "category": [
+                            "Group 1"
+                        ],
+                        "raceClass": null,
+                        "ageRestriction": "2yo",
+                        "numberOfRunners": 7,
+                        "ratingBand": "some-text",
+                        "startScheduledDatetime": {
+                            "utc": "2020-07-24T18:51:00+01:00",
+                            "local": "2020-07-24T20:51:00+01:00"
+                        },
+                        "distance": {
+                            "miles": null,
+                            "yards": 1100,
+                            "meters": null,
+                            "furlongs": null
+                        },
+                        "bettingReturns": {
+                            "currency": "GBP",
+                            "toteWin": "15.7",
+                            "place1": "3.8",
+                            "place2": "1.6",
+                            "place3": "1.4",
+                            "place4": null,
+                            "straightForecast": "57.03",
+                            "exacta": "57.03",
+                            "tricast": "359.89",
+                            "trifecta": "915.7",
+                            "jackpot": " ",
+                            "placepot": "£64.90 to a £1 stake. Pool: £64,672.95 - 726.63 winning units",
+                            "quadpot": "£12.40 to a £1 stake. Pool: £9,528.88 - 565.65 winning units",
+                            "rule4Value": null,
+                            "rule4Text": null
+                        },
+                        "replayDetails": null,
+                        "tvDetails": ["SKY"],
+                        "performRaceUidATR": null,
+                        "performRaceUidRUK": null
+                    },
+                    {
+                        "currentRaceStatus": "result",
+                        "raceId": "7654321",
+                        "fastRaceId": "123",
+                        "raceTitle": "Best Race Every",
+                        "raceType": "NH Flat",
+                        "isHandicap": false,
+                        "going": "Fast",
+                        "surfaceType": "Dirt",
+                        "category": [
+                            "Group 1"
+                        ],
+                        "raceClass": null,
+                        "ageRestriction": "2yo",
+                        "numberOfRunners": 7,
+                        "ratingBand": "some-text",
+                        "startScheduledDatetime": {
+                            "utc": "2020-07-24T20:51:00+01:00",
+                            "local": "2020-07-24T22:51:00+01:00"
+                        },
+                        "distance": {
+                            "miles": null,
+                            "yards": 1100,
+                            "meters": null,
+                            "furlongs": null
+                        },
+                        "bettingReturns": {
+                            "currency": "GBP",
+                            "toteWin": "15.7",
+                            "place1": "3.8",
+                            "place2": "1.6",
+                            "place3": "1.4",
+                            "place4": null,
+                            "straightForecast": "57.03",
+                            "exacta": "57.03",
+                            "tricast": "359.89",
+                            "trifecta": "915.7",
+                            "jackpot": " ",
+                            "placepot": "£64.90 to a £1 stake. Pool: £64,672.95 - 726.63 winning units",
+                            "quadpot": "£12.40 to a £1 stake. Pool: £9,528.88 - 565.65 winning units",
+                            "rule4Value": null,
+                            "rule4Text": null
+                        },
+                        "replayDetails": null,
+                        "tvDetails": ["SKY"],
+                        "performRaceUidATR": null,
+                        "performRaceUidRUK": null
+                    },
+                    {
+                        "currentRaceStatus": "calendar",
+                        "raceId": "987654321",
+                        "fastRaceId": null,
+                        "raceTitle": "Peaky Blinders Race Title",
+                        "raceType": "Flat",
+                        "isHandicap": true,
+                        "going": "Fast",
+                        "surfaceType": "Dirt",
+                        "category": [
+                            "Listed Handicap",
+                            "Grade 1"
+                        ],
+                        "raceClass": null,
+                        "ageRestriction": "2yo",
+                        "numberOfRunners": 5,
+                        "ratingBand": "some-text",
+                        "startScheduledDatetime": {
+                            "utc": "2030-01-01T18:51:00+01:00",
+                            "local": "2030-01-01T23:51:00+01:00"
+                        },
+                        "distance": {
+                            "miles": null,
+                            "yards": 1100,
+                            "meters": null,
+                            "furlongs": null
+                        },
+                        "bettingReturns": null,
+                        "replayDetails": null,
+                        "tvDetails": ["SKY"],
+                        "performRaceUidATR": 123,
+                        "performRaceUidRUK": null
+                    }
+                ],
+                "weather": null,
+                "going": "Good"
+            }
+        ]
+    },
+    "status": 200
+}

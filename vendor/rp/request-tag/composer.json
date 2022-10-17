@@ -1,0 +1,37 @@
+{
+  "name": "rp/request-tag",
+  "description": "Request tag component",
+  "type": "library",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Denys Solyanyk",
+      "email": "denys.solyanyk@racingpost.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://library.rp-digital.com/packages/"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^4.7"
+  },
+  "require": {
+    "php": ">=5.5"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "RP\\Test\\": "test/"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "RP\\": "src/"
+    }
+  },
+  "version": "2.0.0"
+}

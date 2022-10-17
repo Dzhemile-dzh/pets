@@ -1,0 +1,49 @@
+ @startuml
+
+'skinparam componentStyle uml2
+
+' funny
+'skinparam handwritten true
+
+skinparam headerFontSize 10
+skinparam titleFontSize 30
+skinparam footerFontSize 10
+skinparam noteFontSize 16
+
+skinparam class{
+    FontSize 20
+    StereotypeFontSize 16
+    AttributeFontSize 16
+}
+
+skinparam packageFontSize 20
+
+skinparam component {
+    FontSize 18
+    StereotypeFontSize 18
+    ArrowFontSize 14
+}
+
+skinparam activity {
+    FontSize 18
+    ArrowFontSize 14
+}
+
+skinparam sequence {
+    ActorFontSize 18
+    ParticipantFontSize 18
+
+    DividerFontSize 13
+    ArrowFontSize 14
+    GroupingFontSize 18
+    GroupingHeaderFontSize 18
+    BoxFontSize 18
+    'BoxFontName Aapex
+
+    TitleFontSize 18
+}
+
+
+
+
+@enduml

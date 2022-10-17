@@ -1,0 +1,58 @@
+{
+    "data": {
+        "race": {
+            "id": 703924,
+            "time": "D",
+            "surface": "turf",
+            "time_before_update": 0,
+            "diffusion_competition_name": "CARLISLE",
+            "diffusion_race_date": "2018-06-27",
+            "diffusion_event_name": "14:00"
+        },
+        "runners": {
+            "1796359": {
+                "id": 1796359,
+                "name": "Kalissi",
+                "diffusion_name": "Kalissi",
+                "saddle_cloth_number": 6,
+                "score": 30
+            },
+            "1797824": {
+                "id": 1797824,
+                "name": "Lorton",
+                "diffusion_name": "Lorton",
+                "saddle_cloth_number": 7,
+                "score": 100
+            },
+            "2023601": {
+                "id": 2023601,
+                "name": "Princes Des Sables",
+                "diffusion_name": "Princes Des Sables",
+                "saddle_cloth_number": 8,
+                "score": 80
+            },
+            "2025065": {
+                "id": 2025065,
+                "name": "Baby Steps",
+                "diffusion_name": "Baby Steps",
+                "saddle_cloth_number": 1,
+                "score": 85
+            },
+            "2036943": {
+                "id": 2036943,
+                "name": "Micronize",
+                "diffusion_name": "Micronize",
+                "saddle_cloth_number": 3,
+                "score": 10
+            },
+            "2064007": {
+                "id": 2064007,
+                "name": "Forcetoreckon",
+                "diffusion_name": "Forcetoreckon",
+                "saddle_cloth_number": 5,
+                "score": 90
+            }
+        }
+    },
+    "status": 200
+}

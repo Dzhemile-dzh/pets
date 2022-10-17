@@ -1,0 +1,46 @@
+{
+  "name": "racingpost/api-library",
+  "description": "shared classes of Tesla Api",
+  "authors": [
+    {
+      "name": "Team Tesla",
+      "email": "tesla@racingpost.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor/composer",
+    "secure-http": false
+  },
+  "minimum-stability": "beta",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://php.fury.io/NGPnkxj6bcyuaMExdSfb/racing-post/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Api\\": "library/"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "ext-phalcon": ">=1.3",
+    "racingpost/phalcon-ext": ">=2.3.0",
+    "teamone/util": "^0.2.0",
+    "datadog/dd-trace": "^0.10.0"
+  },
+  "require-dev": {
+    "racingpost/code-style": "v0.05",
+    "phpunit/phpunit": "^6.4.0"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/library"
+    }
+  },
+  "scripts": {
+    "post-autoload-dump": "sh -c 'test ! -f ./vendor/bin/setup-git-hooks.sh' || sh -c 'test -f ./vendor/bin/setup-git-hooks.sh && sh ./vendor/bin/setup-git-hooks.sh'"
+  },
+  "version": "0.5.17"
+}

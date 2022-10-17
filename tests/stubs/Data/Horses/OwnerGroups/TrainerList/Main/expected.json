@@ -1,0 +1,46 @@
+{
+  "data": {
+    "trainer_list": [
+      {
+        "trainer_uid": 1093,
+        "trainer_name": "A Fabre",
+        "trainer_country": [
+          {
+            "code": "FR",
+            "desc": "France"
+          }
+        ],
+        "trainer_owners": [
+          {
+            "owner_uid": 7,
+            "owner_name": "Sheikh Juma Dalmook Al Maktoum",
+            "owner_group_uid": 5
+          },
+          {
+            "owner_uid": 12,
+            "owner_name": "Sheikh Juma Dalmook Al Maktoum",
+            "owner_group_uid": 5
+          }
+        ]
+      },
+      {
+        "trainer_uid": 14643,
+        "trainer_name": "A R Al Rayhi",
+        "trainer_country": [
+          {
+            "code": "UAE",
+            "desc": "United Arab Emirates"
+          }
+        ],
+        "trainer_owners": [
+          {
+            "owner_uid": 7,
+            "owner_name": "Sheikh Juma Dalmook Al Maktoum",
+            "owner_group_uid": 100
+          }
+        ]
+      }
+    ]
+  },
+  "status": 200
+}

@@ -1,0 +1,198 @@
+{
+  "data": {
+    "results": [
+      {
+        "horseId": "1234567",
+        "racingHistory": [
+          {
+            "raceId": "123456789",
+            "raceTitle": "bet365 Handicap",
+            "startScheduledDatetime": {
+              "utc": "2100-01-23T19:40:00+00:00",
+              "local": "2100-01-24T00:40:00+05:00"
+            },
+            "currentRaceStatus": "result",
+            "raceType": "Flat",
+            "raceClass": "4",
+            "surfaceType": "Cheese",
+            "ageRestriction": "2yo",
+            "category": [
+              "Category Desc"
+            ],
+            "numberOfRunners": 13,
+            "going": "Very Good",
+            "distance": {
+              "miles": null,
+              "yards": 1210,
+              "meters": null,
+              "furlongs": null
+            },
+            "replayDetails": [
+              {
+                "videoId": null,
+                "videoProvider": null,
+                "completeRaceUid": null,
+                "completeRaceStart": null,
+                "completeRaceEnd": null,
+                "finishRaceUid": null,
+                "finishRaceStart": null,
+                "finishRaceEnd": null
+              }
+            ],
+            "runner": {
+              "uid": "1234567",
+              "saddleClothNumber": "1",
+              "topspeedRating": null,
+              "racingPostRating": 80,
+              "rating": {
+                "official": 0,
+                "officialRanOff": 82
+              },
+              "closeUpComment": "chased leaders, ridden over 2f out, went 2nd inside final furlong, kept on but not reach winner",
+              "startingPrice": {
+                "fractional": "100/30",
+                "favourite": false,
+                "favouriteType": null
+              },
+              "position": {
+                "official": 2,
+                "original": 2,
+                "deadheat": true,
+                "didNotFinish": false,
+                "didNotFinishStatus": null,
+                "disqualified": false,
+                "disqualifiedStatus": null
+              },
+              "weightCarried": {
+                "lbs": 134,
+                "kg": null
+              },
+              "distanceFromWinner": {
+                "lengths": 1
+              },
+              "distanceFromNextHorse": {
+                "lengths": 13.6
+              },
+              "jockey": {
+                "uid": "78935",
+                "name": "Tom Queally",
+                "weightAllowance": {
+                  "lbs": 0,
+                  "kg": null
+                }
+              },
+              "otherRunner": {
+                "name": "Rambo",
+                "uid": "54321",
+                "weightCarried": {
+                  "lbs": 1,
+                  "kg": null
+                },
+                "winningDistance": {
+                  "lengths": null
+                }
+              }
+            },
+            "meeting": {
+              "id": null,
+              "name": "Ripon"
+            }
+          },
+          {
+            "raceId": "987654321",
+            "raceTitle": "Ladbrokes Handicap",
+            "startScheduledDatetime": {
+              "utc": "2100-02-23T19:40:00+00:00",
+              "local": "2100-02-24T00:40:00+05:00"
+            },
+            "currentRaceStatus": "result",
+            "raceType": "Flat",
+            "raceClass": "4",
+            "surfaceType": null,
+            "ageRestriction": "2yo",
+            "category": [],
+            "numberOfRunners": 13,
+            "going": "Very Good",
+            "distance": {
+              "miles": null,
+              "yards": 1210,
+              "meters": null,
+              "furlongs": null
+            },
+            "replayDetails": [
+              {
+                "videoId": null,
+                "videoProvider": null,
+                "completeRaceUid": null,
+                "completeRaceStart": null,
+                "completeRaceEnd": null,
+                "finishRaceUid": null,
+                "finishRaceStart": null,
+                "finishRaceEnd": null
+              }
+            ],
+            "runner": {
+              "uid": "1234567",
+              "saddleClothNumber": "1",
+              "topspeedRating": null,
+              "racingPostRating": 80,
+              "rating": {
+                "official": 0,
+                "officialRanOff": 82
+              },
+              "closeUpComment": "chased leaders, ridden over 2f out, went 2nd inside final furlong, kept on but not reach winner",
+              "startingPrice": {
+                "fractional": "100/30",
+                "favourite": false,
+                "favouriteType": null
+              },
+              "position": {
+                "official": null,
+                "original": null,
+                "deadheat": false,
+                "didNotFinish": true,
+                "didNotFinishStatus": "Void",
+                "disqualified": false,
+                "disqualifiedStatus": null
+              },
+              "weightCarried": {
+                "lbs": 134,
+                "kg": null
+              },
+              "distanceFromWinner": {
+                "lengths": null
+              },
+              "distanceFromNextHorse": {
+                "lengths": null
+              },
+              "jockey": {
+                "uid": "78935",
+                "name": "Tom Queally",
+                "weightAllowance": {
+                  "lbs": 0,
+                  "kg": null
+                }
+              },
+              "otherRunner": {
+                "name": null,
+                "uid": null,
+                "weightCarried": {
+                  "lbs": null,
+                  "kg": null
+                },
+                "winningDistance": {
+                  "lengths": null
+                }
+              }
+            },
+            "meeting": {
+              "id": null,
+              "name": "Ripon"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "status": 200
+}

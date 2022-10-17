@@ -1,0 +1,30 @@
+{
+    'DEV': {
+        'AUTH_DB_ADAPTER_API_STATUS': 'sybase',
+        'AUTH_DB_SERVERNAME_API_STATUS': 'RPCDB4',
+        'AUTH_DB_USERNAME_API_STATUS': 'anonymous',
+        'AUTH_DB_PASSWORD_API_STATUS': '****',
+        'AUTH_DB_NAME_API_STATUS': 'db'
+    },
+    'STG': {
+        'AUTH_DB_ADAPTER_API_STATUS': 'sybase',
+        'AUTH_DB_SERVERNAME_API_STATUS': 'RPCDB4',
+        'AUTH_DB_USERNAME_API_STATUS': 'anonymous',
+        'AUTH_DB_PASSWORD_API_STATUS': '****',
+        'AUTH_DB_NAME_API_STATUS': 'db'
+    },
+    'PR': {
+        'AUTH_DB_ADAPTER_API_STATUS': 'sybase',
+        'AUTH_DB_SERVERNAME_API_STATUS': 'RPCDB4',
+        'AUTH_DB_USERNAME_API_STATUS': 'anonymous',
+        'AUTH_DB_PASSWORD_API_STATUS': '****',
+        'AUTH_DB_NAME_API_STATUS': 'db'
+    },
+    'LIVE': {
+        'AUTH_DB_ADAPTER_API_STATUS': 'sybase',
+        'AUTH_DB_SERVERNAME_API_STATUS': 'RPCDB4',
+        'AUTH_DB_USERNAME_API_STATUS': 'anonymous',
+        'AUTH_DB_PASSWORD_API_STATUS': '****',
+        'AUTH_DB_NAME_API_STATUS': 'db'
+    }
+}

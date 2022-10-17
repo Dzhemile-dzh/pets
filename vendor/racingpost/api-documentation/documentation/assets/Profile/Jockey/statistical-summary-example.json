@@ -1,0 +1,74 @@
+{
+    "data": {
+        "statistical_summary": [
+            {
+                "season_start_date": "1994-06-04T00:00:00+01:00",
+                "season_end_date": "1995-06-02T23:59:00+01:00",
+                "races_number": 3,
+                "place_1st_number": 0,
+                "place_2nd_number": 1,
+                "place_3rd_number": 0,
+                "place_4th_number": 0,
+                "win_prize": 0,
+                "total_prize": 0,
+                "euro_win_prize": 0,
+                "euro_total_prize": 0,
+                "stake": -3,
+                "win_percent": 0
+            },
+            {
+                "season_start_date": "1995-06-03T00:00:00+01:00",
+                "season_end_date": "1996-05-31T23:59:00+01:00",
+                "races_number": 79,
+                "place_1st_number": 8,
+                "place_2nd_number": 13,
+                "place_3rd_number": 12,
+                "place_4th_number": 5,
+                "win_prize": 0,
+                "total_prize": 0,
+                "euro_win_prize": 0,
+                "euro_total_prize": 0,
+                "stake": -24,
+                "win_percent": 10
+            },
+            {
+                "season_start_date": "2014-05-04T00:00:00+01:00",
+                "season_end_date": "2015-05-02T23:59:00+01:00",
+                "races_number": 253,
+                "place_1st_number": 79,
+                "place_2nd_number": 42,
+                "place_3rd_number": 32,
+                "place_4th_number": 22,
+                "win_prize": 1289406.98,
+                "total_prize": 1654398.35,
+                "euro_win_prize": 1627935,
+                "euro_total_prize": 2087840,
+                "stake": -44.4,
+                "win_percent": 31
+            },
+
+            {
+                "season_start_date": "2016-05-01T00:00:00+01:00",
+                "season_end_date": "2017-04-29T23:59:00+01:00",
+                "races_number": 290,
+                "place_1st_number": 106,
+                "place_2nd_number": 46,
+                "place_3rd_number": 38,
+                "place_4th_number": 26,
+                "win_prize": 1324798.11,
+                "total_prize": 1632965.29,
+                "euro_win_prize": 1778625,
+                "euro_total_prize": 2186137.5,
+                "stake": -4.7,
+                "win_percent": 37
+            }
+        ],
+        "season_info": {
+            "race_type": "jumps",
+            "country_code": "IRE",
+            "season_start_date": "1994-06-04T00:00:00+01:00",
+            "season_end_date": "2017-04-29T23:59:00+01:00"
+        }
+    },
+    "status": 200
+}

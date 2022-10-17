@@ -1,0 +1,61 @@
+{
+    "data": {
+        "seasonal_sire_statistics": [
+            {
+                "sire_uid": 660597,
+                "sire_style_name": "Mahler",
+                "wins": 0,
+                "runs": 8,
+                "second_place": 0,
+                "third_place": 0,
+                "fourth_place": 0,
+                "win_prize_money_euro": 0,
+                "win_prize_money": 0,
+                "total_prize_money_euro": 0,
+                "total_prize_money": 3600,
+                "overall_win_prizemoney": 0,
+                "overall_total_prizemoney": 3600,
+                "net_win_prize_money": 0,
+                "net_total_prize_money": 10112.4,
+                "winners": 0,
+                "runners": 1,
+                "weatherbys_uid": "001234",
+                "weatherbys_api_uid": 1234,
+                "stakes_wins": 0,
+                "stakes_winner": 0,
+                "stakes_runner": 0,
+                "stakes_winner_percent": null,
+                "progeny_performers": [
+                    {
+                        "horse_uid": 890709,
+                        "horse_name": "Grow Nasa Grow",
+                        "dam_sire_uid": 301308,
+                        "dam_sire_name": "Lancastrian",
+                        "rp_postmark": 50
+                    }
+                ]
+            }
+        ],
+        "season": [
+            {
+                "season_uid": 549,
+                "season_start_date": "2018-04-29T00:00:00+01:00",
+                "season_end_date": "2019-04-27T23:59:00+01:00",
+                "season_type_code": "J",
+                "season_race_type": "jumps",
+                "season_country_code": "GB",
+                "season_desc": "NH 2018-2019"
+            },
+            {
+                "season_uid": 550,
+                "season_start_date": "2018-04-29T00:00:00+01:00",
+                "season_end_date": "2019-04-27T23:59:00+01:00",
+                "season_type_code": "I",
+                "season_race_type": "jumps",
+                "season_country_code": "IRE",
+                "season_desc": "Irish Jumps 2018-2019"
+            }
+        ]
+    },
+    "status": 200
+}
